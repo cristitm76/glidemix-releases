@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>GlideMix</title>
+    <link>https://github.com/cristitm76/glidemix-releases</link>
+    <description>GlideMix updates</description>
+    <language>en</language>
+    <item>
+      <title>GlideMix 1.0.3</title>
+      <pubDate>Sun, 11 Oct 2026 20:00:34 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.3</link>
+      <sparkle:version>1.0.3</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.3 Early Preview</h3>
+<h3>Keyboard shortcuts</h3>
+<ul>
+<li>New: <b>Help → Keyboard shortcuts</b> lists every shortcut, A to Z, with what it does and a search box.</li>
+<li><b>Edit shortcuts…</b> opens the shortcut editor (<b>Preferences → Shortcuts</b>): change any key, clear it, import or export a whole set. Picking a key that is already in use tells you which action has it before anything changes.</li>
+</ul>
+<h3>Building a mix with many songs</h3>
+<ul>
+<li>Add as many songs as you like: dragging a song under the last lane works every time, and the last lane always keeps room below it for the next one.</li>
+<li>No more blink after a drop: the lanes no longer rebuild, so adding the 10th song is as quick as the 2nd.</li>
+<li>The zoom stays where you set it, as in Ableton or Logic. The view only scrolls when the new song lands off screen. <b>Cmd+F / Ctrl+F</b> fits the whole mix.</li>
+<li>Double-click a song in the library to add it at the end of the mix, linked to the last song.</li>
+<li>Windows: the music library docks full width under the timeline, as on the Mac.</li>
+</ul>
+<h3>Automation</h3>
+<ul>
+<li>Plugin knobs draw and play as smooth ramps. Only switches and short choice lists (like an effect selector) step.</li>
+</ul>
+<h3>Look</h3>
+<ul>
+<li>Mac: no empty band above the toolbar on MacBooks with a notch; full screen no longer hides the top row.</li>
+<li>Windows: the GlideMix icon on every window and plugin window, and in the installer.</li>
+<li>The turntable artwork moved from the Home page to the start-up screen.</li>
+<li>Folder pickers open in your Music folder.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.3/GlideMix-Alpha-v1.0.3-Early-Preview.dmg" length="437994431" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>GlideMix 1.0.2</title>
+      <pubDate>Sun, 11 Oct 2026 12:40:37 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.2</link>
+      <sparkle:version>1.0.2</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.2 Early Preview</h3>
+<h3>Faster analysis</h3>
+<ul>
+<li>Tracks you already analysed in <b>rekordbox</b> or <b>Lexicon</b> take their beat grid from there (and Lexicon&#x27;s key): a few seconds per batch instead of seconds per track.</li>
+<li>Other tracks use a faster beat detector by default, about 1.7× quicker. For the most exact grids, turn on <b>Preferences → Music library → Accurate beat analysis</b>.</li>
+<li>The progress bar no longer sits at 95% while a track is being analysed.</li>
+</ul>
+<h3>Building a mix</h3>
+<ul>
+<li>Dragging songs from the library one after another works every time (every other song used to get lost on the Mac).</li>
+<li>After a drop the view zooms and scrolls to the new song, together with the song before it and the one after it.</li>
+<li>New lanes scroll into view instead of appearing below the visible area.</li>
+</ul>
+<h3>Updates</h3>
+<ul>
+<li>Windows: updates install by themselves and GlideMix reopens.</li>
+<li>The update window names the version it found.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.2/GlideMix-Alpha-v1.0.2-Early-Preview.dmg" length="437009235" type="application/octet-stream"/>
+    </item>
+    <item>
+      <title>GlideMix 1.0.1</title>
+      <pubDate>Sun, 11 Oct 2026 07:45:25 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.1</link>
+      <sparkle:version>1.0.1</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Alpha v1.0.1 Early Preview** — the first build that updates itself.</p>
+<h3>New</h3>
+<ul>
+<li>GlideMix now checks for new versions when it starts and shows what changed. You can also check any time with <b>Help → Check for updates…</b></li>
+<li>Better phrase detection (Intro, Chorus, Down, Outro…), trained on 35,000 tracks. Re-analyse tracks to get the new phrases.</li>
+<li>Windows: library preview works, for every format.</li>
+<li>Windows: Preferences are also in <b>File</b> and in a new <b>Settings</b> menu.</li>
+</ul>
+<h3>Mixing</h3>
+<ul>
+<li>A track dropped near another track&#x27;s OUT snaps its IN onto it, at any zoom.</li>
+<li>Dragging a song moves only that song: no more songs jumping to the end of the mix, duplicated or moved by accident.</li>
+<li>A song dropped on a taken lane gets a new lane right there, named after the song; empty lanes are removed.</li>
+<li>New lanes have the same height as the others.</li>
+<li>A song far from the mix tempo (more than 8%) plays at its own tempo and the tempo line glides to it, with points you can drag.</li>
+</ul>
+<h3>Sound and speed</h3>
+<ul>
+<li>Playback uses far less CPU: no more crackles on small PCs (an old bug re-read the audio 200 times a second).</li>
+<li>A safety limiter stops loud overlaps from clipping.</li>
+<li>Windows: all audio formats are read (AAC, ALAC, AIFF, FLAC, OGG, Opus, WAV, WMA), also with special characters in file names.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>The faint line across empty lanes is gone, so the grid looks even.</li>
+<li>Zooming out stops at the length of the mix.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.1/GlideMix-Alpha-v1.0.1-Early-Preview.dmg" length="434014625" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
