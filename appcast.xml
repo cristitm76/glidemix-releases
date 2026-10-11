@@ -6,6 +6,34 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.0.4</title>
+      <pubDate>Sun, 11 Oct 2026 23:36:51 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.4</link>
+      <sparkle:version>1.0.4</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.4 Early Preview</h3>
+<h3>Updates</h3>
+<ul>
+<li>Mac: updates now install themselves. <b>Help → Check for update</b> shows what&#x27;s new; <b>Install Update</b> downloads it, and <b>Install and Relaunch</b> puts it in place and reopens GlideMix. No more dragging a DMG or clicking Open Anyway. (This update itself still comes the old way, one last time.)</li>
+<li>Mac updater apps (Updatest, Latest, MacUpdater) can now see GlideMix and its new versions.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Mac: no more crash when adding the 4th song or later to a mix.</li>
+</ul>
+<h3>Performing and stems</h3>
+<ul>
+<li>The performance&#x27;s <b>Stop</b> button sits right next to <b>PERFORM</b>.</li>
+<li>Stem lanes are named by the stem first: <b>Drums — &lt;song&gt;</b>, <b>Bass — &lt;song&gt;</b>, <b>Vocals — &lt;song&gt;</b>, <b>Other — &lt;song&gt;</b>.</li>
+</ul>
+<h3>Behind the scenes</h3>
+<ul>
+<li>Windows: GlideMix writes down every audio dropout during a performance, with the timings, to find the cause of crackles in transitions.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.4/GlideMix-Alpha-v1.0.4-Early-Preview.dmg" sparkle:edSignature="ntpAxL+I0fhhkbm4UW6BPADcovxlKqsJfCURHL2ZCDtJEq9XzAvlWpvnxc4/NV32B/HqulPDHFPUZoH0SgkRBA==" length="441250858" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.0.3</title>
       <pubDate>Sun, 11 Oct 2026 20:00:34 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.3</link>
@@ -37,7 +65,7 @@
 <li>The turntable artwork moved from the Home page to the start-up screen.</li>
 <li>Folder pickers open in your Music folder.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.3/GlideMix-Alpha-v1.0.3-Early-Preview.dmg" length="437994431" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.3/GlideMix-Alpha-v1.0.3-Early-Preview.dmg" sparkle:edSignature="BXmOKYDauatJxSOx6xbfknmrrSSFV4UlsKqqsyQuN0V8tYPWaQfwaBRjkZE6IkvjoUOw+Mlz3qtX+gfVizwBBA==" length="437994431" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.2</title>
@@ -64,7 +92,7 @@
 <li>Windows: updates install by themselves and GlideMix reopens.</li>
 <li>The update window names the version it found.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.2/GlideMix-Alpha-v1.0.2-Early-Preview.dmg" length="437009235" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.2/GlideMix-Alpha-v1.0.2-Early-Preview.dmg" sparkle:edSignature="90q1Kxl+nv2b5H2X8XvQey06Xd8zp36Y3eyGSX++PIAb2VB/YWqDUhMO2LpLP7F2LGqP4kub/OhKhlbyZHTjCA==" length="437009235" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.1</title>
@@ -100,7 +128,7 @@
 <li>The faint line across empty lanes is gone, so the grid looks even.</li>
 <li>Zooming out stops at the length of the mix.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.1/GlideMix-Alpha-v1.0.1-Early-Preview.dmg" length="434014625" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.1/GlideMix-Alpha-v1.0.1-Early-Preview.dmg" sparkle:edSignature="oGZAtCyu7zJMUjT6HfUxZ41VKlrK2tL3RsGLuxqbJfOckoshJ7B3CDl8WkVGhPMRakQTiSoQeT7L279q8mrVBg==" length="435334038" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
