@@ -6,6 +6,21 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.0.5</title>
+      <pubDate>Mon, 12 Oct 2026 02:34:54 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.5</link>
+      <sparkle:version>1.0.5</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.5 Early Preview</h3>
+<h3>More songs on screen</h3>
+<ul>
+<li>New: <b>Single wave</b>. In a track&#x27;s <b>⋯</b> menu → <b>Track visualization</b> → <b>Single wave</b>, a stereo track is drawn as one waveform and its lane takes about half the height, so more of the mix fits on screen. Choose it again to get both channels and the full height back. It&#x27;s saved with the project. The beat grid editor is unchanged.</li>
+</ul>
+<p>Mac: this is the first update you can install from inside GlideMix: **Help → Check for update → Install Update**, then **Install and Relaunch**.</p>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.5/GlideMix-Alpha-v1.0.5-Early-Preview.dmg" sparkle:edSignature="kctDx00kJXRcg2oNp22gXdBDZ9maeiupTKDCAnHaXO8KPR89+ZF0kX8nqFr2Fvh2Fj3iLSJ2EDMjEX6tMb8UBQ==" length="442073111" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.0.4</title>
       <pubDate>Sun, 11 Oct 2026 23:36:51 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.4</link>
