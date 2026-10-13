@@ -49,8 +49,26 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 
 **Effects and automation, the Ableton way**
 - Built-in DJ effects (filter, echo, reverb, risers, sweeps…) plus your **VST3** and **Audio Unit** plugins.
-- Draw automation for any knob on any plugin, with ramps and curves. Arm it and record your knob moves while the mix plays.
+- **Automation for any knob of any plugin**, drawn right on the song: click to add a point, drag it, hold **Option** to bend a ramp into a curve. Each knob has its own colour, and all of a song's lines show at once.
+- **Arm** and record: move a knob while the mix plays and GlideMix writes the move into the line.
+- Optional **own lane** per parameter under the track, as in Ableton.
 - **Stems**: split a song into drums, bass, vocals and other, each on its own lane.
+
+<p align="center">
+  <img src="assets/auto.jpg" alt="Automation in GlideMix: a low-pass filter line on a song, ramping down into the drop, snapping open, and curving down at the end" width="100%">
+  <br><i>Automation: a low-pass filter sweep drawn on a song. A ramp down into the drop, snapped open, then a curve into the outro.</i>
+</p>
+
+**Beat grid editor**
+- When a beat grid is off, fix it like in rekordbox: the whole song's colour waveform, a zoomed beat view with bar numbers, and the song's phrases underneath.
+- Move the grid beat by beat, set bar 1 (**1.1**), halve or double the tempo, **tap** it, or take rekordbox's grid (**RB**). **Lock** a grid once it's right.
+- Edit phrases (intro, chorus, drop, outro): cut, rename, fill, delete.
+- Play, cue, loop and a metronome click to check the grid by ear.
+
+<p align="center">
+  <img src="assets/grid.jpg" alt="The GlideMix beat grid editor: full-song colour waveform, zoomed beat view with bar markers, BPM, key, grid and phrase tools" width="100%">
+  <br><i>The beat grid editor: the whole song on top, the beats close up below, with grid, phrase and loop tools.</i>
+</p>
 
 **Play it, perform it, share it**
 - **Perform** plays the mix to the audience while you preview on headphones, like a DJ mixer's cue.
