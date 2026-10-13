@@ -39,6 +39,12 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - Tempo, beat grid, musical key (Camelot key wheel) and song phrases (intro, chorus, drop, outro), shown right on each song.
 - Uses the analysis you already have: songs analysed in **rekordbox** or **Lexicon** take their beat grids and keys from there, in seconds.
 - Reads your **rekordbox XML** and your **Lexicon** library, with their playlists.
+- **Key wheel**: click a key on the Camelot wheel and the library shows only the songs in that key; click more keys to add them. Perfect for harmonic mixing.
+
+<p align="center">
+  <img src="assets/keywheel.jpg" alt="The GlideMix key wheel: 8A selected, the library showing only songs in 8A" width="100%">
+  <br><i>Click 8A on the key wheel: only songs in 8A are left.</i>
+</p>
 
 **Mixing on a timeline**
 - Drag songs from the library onto the timeline, or double-click to add them at the end of the mix.
@@ -71,9 +77,9 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 </p>
 
 **Play it, perform it, share it**
-- **Perform** plays the mix to the audience while you preview on headphones, like a DJ mixer's cue.
+- **Two playheads, like a DJ mixer with cue**: **Perform** plays the mix to the audience (outputs 1–2, red playhead) while the white playhead previews any other part of the mix on your headphones (outputs 3–4). Check the next transition while the crowd hears the current one.
+- **Broadcast live** to your radio: **Shoutcast** (v1 and v2) and **Icecast** servers, straight from GlideMix, with the song titles sent to your listeners.
 - **Export** the finished mix (WAV, AIFF, MP3, FLAC…) exactly as it sounds, with a limiter, so it never clips.
-- **Broadcast** straight to your radio stream.
 
 <p align="center">
   <img src="assets/lib.jpg" alt="The GlideMix music library: key wheel, waveform overviews, keys and tempos, with rekordbox and Lexicon sources" width="100%">
