@@ -54,15 +54,29 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Mix Now** pulls the next song in at the next bar.
 
 **Effects and automation, the Ableton way**
-- Built-in DJ effects (filter, echo, reverb, risers, sweeps…) plus your **VST3** and **Audio Unit** plugins.
+- Built-in DJ effects: filter, echo, reverb, risers, sweeps and more.
 - **Automation for any knob of any plugin**, drawn right on the song: click to add a point, drag it, hold **Option** to bend a ramp into a curve. Each knob has its own colour, and all of a song's lines show at once.
 - **Arm** and record: move a knob while the mix plays and GlideMix writes the move into the line.
 - Optional **own lane** per parameter under the track, as in Ableton.
-- **Stems**: split a song into drums, bass, vocals and other, each on its own lane.
 
 <p align="center">
   <img src="assets/auto.jpg" alt="Automation in GlideMix: a low-pass filter line on a song, ramping down into the drop, snapping open, and curving down at the end" width="100%">
   <br><i>Automation: a low-pass filter sweep drawn on a song. A ramp down into the drop, snapped open, then a curve into the outro.</i>
+</p>
+
+**Your plugins: VST3 and Audio Unit**
+- Use the plugins you already own: **VST3** on macOS and Windows, **Audio Unit** on macOS.
+- Put them on a song, on a stem or on the whole mix, with as many in a row as you like.
+- Open the plugin's own window, or tweak its knobs inside GlideMix. Every knob can be automated and recorded like the built-in effects.
+
+**Stems**
+- **Separate stems** splits a song into **drums, bass, vocals and other**, each on its own lane under the song, named and coloured by stem.
+- Mute, fade, filter or automate each stem on its own: drop the vocals of one song over the beat of the next, or bring in the bass only on the drop.
+- Runs on your own computer: nothing is uploaded. The stems engine (Demucs) downloads once, the first time you use it. Choose standard or high quality in Preferences.
+
+<p align="center">
+  <img src="assets/stems.jpg" alt="Stems in GlideMix: a song split into drums, bass, vocals and other, each on its own coloured lane" width="100%">
+  <br><i>One song split into stems: drums, bass, vocals and other, each on its own lane.</i>
 </p>
 
 **Beat grid editor**
