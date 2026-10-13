@@ -6,6 +6,29 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.0.6</title>
+      <pubDate>Tue, 13 Oct 2026 16:40:56 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.6</link>
+      <sparkle:version>1.0.6</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Alpha v1.0.6 Early Preview** (Mac; the Windows installer follows)</p>
+<h3>Exports sound like playback</h3>
+<ul>
+<li>Exported mixes no longer clip: export now goes through the same engine as playback, with its limiter, the tempo line and all plugin automation. A 20-minute test mix: 0 clipped samples, peak −1 dBFS (before: over 1% of samples clipped).</li>
+</ul>
+<h3>Automation lanes</h3>
+<ul>
+<li>New, optional: in Automation mode, <b>Show in own lane</b> puts a plugin&#x27;s line in a lane of its own under the track, editable directly, with its name and a close button in the track header. Lanes are saved with the project. Working on the clip itself stays the default and takes no extra space.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Dragging songs from the library quickly no longer leaves a song stuck to the mouse.</li>
+<li>GlideMix&#x27;s own folder (new projects, exports) is now <b>Music → Glidemix</b> instead of Documents, and rekordbox.xml is read only once you pick it. GlideMix itself no longer asks for your Documents folder. (Some plugins keep their presets in Documents; macOS may still ask once when GlideMix first checks them, as it does for other music apps.)</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.6/GlideMix-Alpha-v1.0.6-Early-Preview.dmg" sparkle:edSignature="TolveUSb15U2qSypiQ53tXjce8Qo7Xtikc6OJHW5IyVGUYfmBGS231q27NOeKIZMlw+3tiUag25I/plIZIp4Dg==" length="433154155" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.0.5</title>
       <pubDate>Mon, 12 Oct 2026 02:34:54 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.5</link>
