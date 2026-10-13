@@ -1,13 +1,90 @@
-# GlideMix releases
+<p align="center">
+  <img src="assets/banner.jpg" alt="GlideMix" width="100%">
+</p>
 
-Installers and changelogs for **GlideMix Alpha** test builds.
+<h1 align="center">GlideMix</h1>
 
-Download the newest build from [Releases](../../releases/latest):
+<p align="center">
+  <b>Build DJ mixes on a timeline. Every transition perfect, every beat in place.</b><br>
+  For DJs who prepare mixtapes, radio shows and sets, on macOS and Windows.
+</p>
 
-- macOS (Apple Silicon): `GlideMix-Alpha-v….dmg`
-- Windows 10/11 (64-bit): `GlideMix-Alpha-v…-x64-setup.exe`
+<p align="center">
+  <a href="../../releases/latest"><b>⬇ Download the latest version</b></a>
+  &nbsp;·&nbsp; Alpha · Early Preview · free
+</p>
 
-GlideMix checks this page by itself at start and offers new versions with their changelog.
-You can also use **Help → Check for updates…**.
+---
 
-This repository holds no source code.
+## What is GlideMix?
+
+GlideMix is a DJ mixing studio. Instead of mixing live on two decks, you lay your songs
+out on a timeline, like in a DAW, and shape every transition at your own pace:
+when the next song comes in, how long the blend lasts, which effects ride on it.
+Then you play it back, perform it live, or export the finished mix.
+
+It knows your music the way DJ software does: tempo, beat grid, key and the song's
+structure (intro, chorus, drop, outro). Drop a song after another and GlideMix
+beatmatches it, locks it to the bar and lines up its **IN** with the previous song's
+**OUT**, so the mix is in time from the first drop.
+
+<p align="center">
+  <img src="assets/mix.jpg" alt="A mix of six songs in GlideMix: each song on its own lane, beatmatched and linked IN to OUT" width="100%">
+  <br><i>A mix of six songs: each song beatmatched, locked to the bar and linked IN → OUT.</i>
+</p>
+
+## What it does
+
+**Your music, analysed like a DJ app**
+- Tempo, beat grid, musical key (Camelot key wheel) and song phrases (intro, chorus, drop, outro), shown right on each song.
+- Uses the analysis you already have: songs analysed in **rekordbox** or **Lexicon** take their beat grids and keys from there, in seconds.
+- Reads your **rekordbox XML** and your **Lexicon** library, with their playlists.
+
+**Mixing on a timeline**
+- Drag songs from the library onto the timeline, or double-click to add them at the end of the mix.
+- **Sync**: every song stretched to the mix tempo and locked to the bar. **Keylock** keeps the pitch.
+- **IN / OUT** markers snap the next song into the previous one's outro.
+- A **tempo line** for tempo changes across the mix; songs follow it.
+- **Mix Now** pulls the next song in at the next bar.
+
+**Effects and automation, the Ableton way**
+- Built-in DJ effects (filter, echo, reverb, risers, sweeps…) plus your **VST3** and **Audio Unit** plugins.
+- Draw automation for any knob on any plugin, with ramps and curves. Arm it and record your knob moves while the mix plays.
+- **Stems**: split a song into drums, bass, vocals and other, each on its own lane.
+
+**Play it, perform it, share it**
+- **Perform** plays the mix to the audience while you preview on headphones, like a DJ mixer's cue.
+- **Export** the finished mix (WAV, AIFF, MP3, FLAC…) exactly as it sounds, with a limiter, so it never clips.
+- **Broadcast** straight to your radio stream.
+
+<p align="center">
+  <img src="assets/lib.jpg" alt="The GlideMix music library: key wheel, waveform overviews, keys and tempos, with rekordbox and Lexicon sources" width="100%">
+  <br><i>The library: key wheel, colour waveforms, key and tempo, with your rekordbox XML and Lexicon collections.</i>
+</p>
+
+## Download and install
+
+Get the newest version from **[Releases](../../releases/latest)**:
+
+| | File |
+|---|---|
+| **macOS** (Apple Silicon, macOS 13 or later) | `GlideMix-Alpha-v….dmg` |
+| **Windows** 10 / 11 (64-bit) | `GlideMix-Alpha-v…-x64-setup.exe` |
+
+**macOS:** open the DMG and drag GlideMix to Applications. GlideMix is not yet signed by Apple,
+so the first time: open it once, then go to **System Settings → Privacy & Security** and click **Open Anyway**.
+
+**Windows:** run the setup. If SmartScreen warns, click **More info → Run anyway**.
+
+### Updates
+
+GlideMix checks for new versions by itself and shows what's new.
+You can also use **Help → Check for update**. On the Mac, updates install with one click.
+
+## Alpha
+
+GlideMix is in early preview: it's being tested and improved every week, and things may still break.
+Every release lists its changes on the [Releases](../../releases) page.
+
+GlideMix is built on [Audacity](https://www.audacityteam.org/) (GPL v3).
+This repository holds the installers and release notes only.
