@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="../../releases/latest"><b>⬇ Download the latest version</b></a>
+  &nbsp;·&nbsp; <a href="https://discord.gg/EvWwBAvfuE"><b>💬 Join us on Discord</b></a>
   &nbsp;·&nbsp; Alpha · Early Preview · free
 </p>
 
@@ -124,10 +125,14 @@ so the first time: open it once, then go to **System Settings → Privacy & Secu
 GlideMix checks for new versions by itself and shows what's new.
 You can also use **Help → Check for update**. On the Mac, updates install with one click.
 
+## Community
+
+Questions, bug reports, ideas, or a mix you made with GlideMix? Join the **[GlideMix Discord](https://discord.gg/EvWwBAvfuE)**.
+
 ## Alpha
 
 GlideMix is in early preview: it's being tested and improved every week, and things may still break.
-Every release lists its changes on the [Releases](../../releases) page.
+Every release lists its changes on the [Releases](../../releases) page. Found a bug? Tell us in `#bug-reports` on [Discord](https://discord.gg/EvWwBAvfuE).
 
 GlideMix is built on [Audacity](https://www.audacityteam.org/) (GPL v3).
 This repository holds the installers and release notes only.
