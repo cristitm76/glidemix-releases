@@ -69,6 +69,11 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - Put them on a song, on a stem or on the whole mix, with as many in a row as you like.
 - Open the plugin's own window, or tweak its knobs inside GlideMix. Every knob can be automated and recorded like the built-in effects.
 
+<p align="center">
+  <img src="assets/plugins.jpg" alt="Plugins in GlideMix: the Add effect menu with DJ Effects, Audio Unit and VST3 plugins sorted by maker, and a FabFilter Pro-Q 4 window open on a song" width="100%">
+  <br><i>Your plugins sorted by maker, under Audio Unit and VST3. Right: FabFilter Pro-Q 4 open on a song.</i>
+</p>
+
 **Stems**
 - **Separate stems** splits a song into **drums, bass, vocals and other**, each on its own lane under the song, named and coloured by stem.
 - Mute, fade, filter or automate each stem on its own: drop the vocals of one song over the beat of the next, or bring in the bass only on the drop.
