@@ -6,6 +6,27 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.0.7</title>
+      <pubDate>Wed, 14 Oct 2026 20:30:22 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.7</link>
+      <sparkle:version>1.0.7</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Alpha v1.0.7 Early Preview** (Mac and Windows)</p>
+<h3>Fix</h3>
+<ul>
+<li>GlideMix could crash when you pressed <b>Perform</b> or <b>Stop</b> (the red Perform playhead), most often on Windows. Fixed.</li>
+</ul>
+<h3>Also in this version (from v1.0.6, now on Windows too)</h3>
+<ul>
+<li>Exported mixes no longer clip: export goes through the same engine as playback, with its limiter, the tempo line and all plugin automation.</li>
+<li>Automation lanes: in Automation mode, <b>Show in own lane</b> puts a plugin&#x27;s line in a lane of its own under the track. Optional; working on the clip itself stays the default.</li>
+<li>Dragging songs from the library quickly no longer leaves a song stuck to the mouse.</li>
+<li>GlideMix&#x27;s own folder (new projects, exports) is now <b>Music → Glidemix</b> instead of Documents.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.7/GlideMix-Alpha-v1.0.7-Early-Preview.dmg" sparkle:edSignature="oOwDe+2voGv9hPGDoeoJoq8dhBd6iyTyP7/oH7Lsygyytra+UT6h4RyVuyYJYCfY8BKVxiOm7Wr1bBBBV1GxDQ==" length="435130295" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.0.6</title>
       <pubDate>Tue, 13 Oct 2026 16:40:56 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.6</link>
