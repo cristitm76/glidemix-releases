@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.4 Beta · 18 Oct 2026
+- **Learn** page on Home: getting started, what's new, shortcuts, Discord, support, licence.
+- LATCH removed again: ARM records knob moves as before, simpler for DJs.
+- Meters start in the **gradient** style (green, yellow, red), like a DJ mixer.
+
 ### v1.1.3 Beta · 18 Oct 2026
 - **Loudness report** after every export: LUFS, true peak, peak, and what streaming sites do with it.
 - **True-peak limiter** on every output: mixes stay under -1 dBTP, so MP3s made from them don't distort.

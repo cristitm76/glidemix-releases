@@ -6,6 +6,28 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.4</title>
+      <pubDate>Sun, 18 Oct 2026 20:38:19 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.4</link>
+      <sparkle:version>1.1.4</sparkle:version>
+      <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.4** (Mac and Windows)</p>
+<h3>Learn, right on Home</h3>
+<ul>
+<li>Home has a new <b>Learn</b> page: getting started, what&#x27;s new, every keyboard shortcut, the Discord community, support by email, and your licence. All one click away.</li>
+</ul>
+<h3>Simpler automation recording</h3>
+<ul>
+<li>The LATCH button is gone. <b>ARM</b> works as always: while the mix plays, turn any knob of any plugin and the move is written into its line; let go and the line plays on as it was.</li>
+</ul>
+<h3>Meters like a DJ mixer</h3>
+<ul>
+<li>New installs start with <b>gradient meters</b> (green, yellow, red). Change the style any time in the meter settings.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.4/GlideMix-Beta-v1.1.4.dmg" sparkle:edSignature="xivn4OnFFTJLbAob6pLi0Aow4c+voQOT9XS+7k6j4LmmvPWe+ltPCJuH08eVAAy7Pe3oHG9ZVHbVcYWr2YHxBA==" length="442220700" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.3</title>
       <pubDate>Sun, 18 Oct 2026 18:09:23 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.3</link>

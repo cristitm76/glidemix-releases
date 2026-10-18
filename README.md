@@ -59,7 +59,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 **Effects and automation, the Ableton way**
 - Built-in DJ effects: filter, echo, reverb, risers, sweeps and more.
 - **Automation for any knob of any plugin**, drawn right on the song: click to add a point, drag it, hold **Option** to bend a ramp into a curve. Each knob has its own colour, and all of a song's lines show at once.
-- **Arm** and record: move a knob while the mix plays and GlideMix writes the move into the line. **Touch** (the line goes back when you let go) or **Latch** (your last value holds until you stop).
+- **Arm** and record: move a knob while the mix plays and GlideMix writes the move into the line. Let go, and the line plays on as it was.
 - Optional **own lane** per parameter under the track, as in Ableton.
 
 <p align="center">
