@@ -6,6 +6,36 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.3</title>
+      <pubDate>Sun, 18 Oct 2026 18:09:23 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.3</link>
+      <sparkle:version>1.1.3</sparkle:version>
+      <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.3** (Mac and Windows)</p>
+<h3>How loud is your mix?</h3>
+<ul>
+<li>After every export GlideMix tells you the <b>loudness (LUFS)</b>, the <b>true peak</b> and the peak, and what Spotify, YouTube and Apple Music will do with it (they play music at about -14 LUFS).</li>
+</ul>
+<h3>Never clips, not even as an MP3</h3>
+<ul>
+<li>The master limiter now watches the <b>true peak</b>, between the samples too, and looks 1.5 ms ahead so it glides down instead of jumping. Mixes stay under <b>-1 dBTP</b>, so an MP3 or AAC made from them doesn&#x27;t distort. It works on everything: speakers, headphones (CUE), export and broadcast, after the ROOM and CUE faders.</li>
+</ul>
+<h3>Smoother tempo changes</h3>
+<ul>
+<li>When two songs at different tempos overlap, the tempo now glides in an <b>S-curve</b>: it leaves the old tempo gently and settles gently into the new one, like a hand on the pitch fader. Right-click a point on the tempo line: <b>Glide: straight</b> or <b>Glide: S-curve</b>.</li>
+</ul>
+<h3>Fade shapes</h3>
+<ul>
+<li>Preferences → Transitions: crossfades and fades get a <b>Shape</b>: equal power (as before), linear, S-curve, early or late.</li>
+</ul>
+<h3>Touch or Latch</h3>
+<ul>
+<li>New <b>LATCH</b> button next to ARM. Off (Touch): when you let go of a knob, the line goes back to what it was. On: your last value keeps being written until you stop playback.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.3/GlideMix-Beta-v1.1.3.dmg" sparkle:edSignature="IgGEuzyLpcU4rFQcpW5TffADZJ7IaLWdFX4spDzzQxIBWcu8V2qX80ozgj/S3Ca9rizolePpHJdDTab4h1/ADw==" length="441916565" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.2</title>
       <pubDate>Sun, 18 Oct 2026 16:20:29 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.2</link>

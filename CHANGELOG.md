@@ -8,6 +8,13 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.3 Beta · 18 Oct 2026
+- **Loudness report** after every export: LUFS, true peak, peak, and what streaming sites do with it.
+- **True-peak limiter** on every output: mixes stay under -1 dBTP, so MP3s made from them don't distort.
+- **S-curve tempo glides** between songs at different tempos; right-click a tempo point to choose.
+- **Fade shapes** for transitions: equal power, linear, S-curve, early, late.
+- **LATCH** next to ARM: your last knob value keeps recording until you stop.
+
 ### v1.1.2 Beta · 18 Oct 2026
 - **One licence, everything included**: GlideMix – €49 (one-time, 3 computers, all 1.x updates).
 

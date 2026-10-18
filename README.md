@@ -52,13 +52,14 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - Drag songs from the library onto the timeline, or double-click to add them at the end of the mix.
 - **Sync**: every song stretched to the mix tempo and locked to the bar. **Keylock** keeps the pitch.
 - **IN / OUT** markers snap the next song into the previous one's outro.
-- A **tempo line** for tempo changes across the mix; songs follow it.
+- A **tempo line** for tempo changes across the mix; songs follow it. Tempo changes glide in an **S-curve**, smooth at both ends like a hand on the pitch fader (or straight, your choice per point).
 - **Mix Now** pulls the next song in at the next bar.
+- **Transitions** you build yourself: crossfade, fade, bass/mid/high swap, filter sweeps, risers, echo or reverb outs, each fade with its own shape (equal power, linear, S-curve, early, late).
 
 **Effects and automation, the Ableton way**
 - Built-in DJ effects: filter, echo, reverb, risers, sweeps and more.
 - **Automation for any knob of any plugin**, drawn right on the song: click to add a point, drag it, hold **Option** to bend a ramp into a curve. Each knob has its own colour, and all of a song's lines show at once.
-- **Arm** and record: move a knob while the mix plays and GlideMix writes the move into the line.
+- **Arm** and record: move a knob while the mix plays and GlideMix writes the move into the line. **Touch** (the line goes back when you let go) or **Latch** (your last value holds until you stop).
 - Optional **own lane** per parameter under the track, as in Ableton.
 
 <p align="center">
@@ -100,7 +101,8 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 **Play it, perform it, share it**
 - **Two playheads, like a DJ mixer with cue**: **Perform** plays the mix to the audience (outputs 1–2, red playhead) while the white playhead previews any other part of the mix on your headphones (outputs 3–4). Check the next transition while the crowd hears the current one.
 - **Broadcast live** to your radio: **Shoutcast** (v1 and v2) and **Icecast** servers, straight from GlideMix, with the song titles sent to your listeners.
-- **Export** the finished mix (WAV, AIFF, MP3, FLAC…) exactly as it sounds, with a limiter, so it never clips.
+- **Export** the finished mix (WAV, AIFF, MP3, FLAC…) exactly as it sounds, through a **true-peak limiter** (-1 dBTP), so it never clips, not even as an MP3.
+- **Loudness report** after every export: LUFS, true peak and peak, and what Spotify, YouTube and Apple Music will do with your mix.
 
 <p align="center">
   <img src="assets/lib.jpg" alt="The GlideMix music library: key wheel, waveform overviews, keys and tempos, with rekordbox and Lexicon sources" width="100%">
