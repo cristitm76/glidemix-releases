@@ -72,8 +72,8 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - Open the plugin's own window, or tweak its knobs inside GlideMix. Every knob can be automated and recorded like the built-in effects.
 
 <p align="center">
-  <img src="assets/plugins.jpg" alt="Plugins in GlideMix: the Add effect menu with DJ Effects, Audio Unit and VST3 plugins sorted by maker, and a FabFilter Pro-Q 4 window open on a song" width="100%">
-  <br><i>Your plugins sorted by maker, under Audio Unit and VST3. Right: FabFilter Pro-Q 4 open on a song.</i>
+  <img src="assets/plugins.jpg" alt="Plugins in GlideMix: Hyperlift and Serato Hex FX open on a song, with the plugin line drawn on the clip" width="100%">
+  <br><i>Hyperlift and Serato Hex FX open on a song, each knob ready to automate on the clip.</i>
 </p>
 
 **Stems**
