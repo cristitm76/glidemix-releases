@@ -40,6 +40,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - Tempo, beat grid, musical key (Camelot key wheel) and song phrases (intro, chorus, drop, outro), shown right on each song.
 - Uses the analysis you already have: songs analysed in **rekordbox** or **Lexicon** take their beat grids and keys from there, in seconds.
 - Reads your **rekordbox XML** and your **Lexicon** library, with their playlists.
+- **Ratings, colors and Edit Tags** like in rekordbox: stars, rekordbox's 8 track colors, and right-click → **Edit Tags…** for one song or many. Tags are saved into the music files, so rekordbox and Lexicon see them after re-reading the tags.
 - **Key wheel**: click a key on the Camelot wheel and the library shows only the songs in that key; click more keys to add them. Perfect for harmonic mixing.
 
 <p align="center">
@@ -135,4 +136,5 @@ GlideMix is in early preview: it's being tested and improved every week, and thi
 Every release lists its changes on the [Releases](../../releases) page, and the whole story since the first build (13 September 2026) is in the **[development history](CHANGELOG.md)**. Found a bug? Tell us in `#bug-reports` on [Discord](https://discord.gg/EvWwBAvfuE).
 
 GlideMix is built on [Audacity](https://www.audacityteam.org/) (GPL v3).
+It works with **rekordbox** and **Lexicon** libraries (read-only). rekordbox is a trademark of AlphaTheta Corporation; Lexicon is a product of Lexicon DJ. GlideMix is not affiliated with or endorsed by them.
 This repository holds the installers and release notes only.

@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions (Alpha · Early Preview)
 
+### v1.0.9 · 18 Oct 2026
+- **Edit Tags**: right-click a song (or several) → Edit Tags…: title, artist, album, genre, year, comment and more.
+- Tags are **saved into the music files**, so rekordbox and Lexicon pick them up after re-reading the tags.
+- Edits on Lexicon and rekordbox songs show in GlideMix right away; their own databases stay untouched.
+- About → credits: a **Works with** section for rekordbox and Lexicon.
+
 ### v1.0.8 · 18 Oct 2026
 - **Ratings and colors work again** in the library: stars and colors show up the moment you set them.
 - Rate and color **Lexicon and rekordbox songs** too (stored in GlideMix; their own databases stay untouched).

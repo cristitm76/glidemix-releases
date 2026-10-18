@@ -6,6 +6,27 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.0.9</title>
+      <pubDate>Sun, 18 Oct 2026 10:34:14 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.9</link>
+      <sparkle:version>1.0.9</sparkle:version>
+      <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Alpha v1.0.9 Early Preview** (Mac and Windows)</p>
+<h3>Edit Tags</h3>
+<ul>
+<li>Right-click a song, or several selected songs, → <b>Edit Tags…</b>: Title, Artist, Album, Album Artist, Genre, Year, Track #, Composer, Grouping, Comment.</li>
+<li>With several songs, a field they don&#x27;t share shows <b>Mixed</b> and stays as it is unless you type in it.</li>
+<li>Saved into the <b>music files</b> too (you can switch this off), so <b>rekordbox</b> and <b>Lexicon</b> see the change after re-reading the tags (rekordbox: right-click → Reload Tag; Lexicon: sync from file tags). Their own databases are never changed by GlideMix.</li>
+<li>Edits on Lexicon and rekordbox songs show in GlideMix right away.</li>
+</ul>
+<h3>Also</h3>
+<ul>
+<li>About → credits: a <b>Works with</b> section for rekordbox and Lexicon.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.9/GlideMix-Alpha-v1.0.9-Early-Preview.dmg" sparkle:edSignature="Zs9wM6dNFoViTo6fcySYZwXUVURR3ohFFAW1NimwP6VlpGLVOJpzHque+rkwWReGXXeYnlky89+emrV3Uq0eCA==" length="442108374" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.0.8</title>
       <pubDate>Sun, 18 Oct 2026 06:36:25 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.8</link>
