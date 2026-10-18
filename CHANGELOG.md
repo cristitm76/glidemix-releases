@@ -8,6 +8,9 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.1 Beta · 18 Oct 2026
+- **Better sound on 2-core PCs**: a high-quality sample-rate converter replaces a cheap one that dulled hi-hats and cymbals (playback and export).
+
 ### v1.1.0 Beta · 18 Oct 2026
 - **GlideMix is in Beta.** Free demo download; a licence (GlideMix €29, Pro €49, one-time) removes the demo limits.
 - **Help → Licence…**: buy, enter your key, or free this computer for another one.

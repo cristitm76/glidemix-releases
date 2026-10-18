@@ -6,6 +6,21 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.1</title>
+      <pubDate>Sun, 18 Oct 2026 15:34:48 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.1</link>
+      <sparkle:version>1.1.1</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.1** (Mac and Windows)</p>
+<h3>Better sound on smaller PCs</h3>
+<ul>
+<li>On computers with 2 cores (4 threads), GlideMix used a cheap sample-rate converter to avoid crackles. It dulled the highs: hi-hats and cymbals came out softer and gritty, in playback and in exports. It now uses a proper high-quality converter (windowed sinc), clean far below hearing, and still light enough for small PCs.</li>
+<li>Faster computers, and every Mac with more than 4 threads, were not affected.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.1/GlideMix-Beta-v1.1.1.dmg" sparkle:edSignature="s8QfMBTGVuJw3XrlUKyZcBWN/xIohpU/LXMbfcdNdyXBP/ISyPCGXNiXJ0WcyXrbBa9/dv4XSgnNW8ei+GtGAw==" length="441369226" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.0</title>
       <pubDate>Sun, 18 Oct 2026 12:00:30 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.0</link>
