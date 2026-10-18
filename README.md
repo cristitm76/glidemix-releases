@@ -12,7 +12,7 @@
 <p align="center">
   <a href="../../releases/latest"><b>⬇ Download the latest version</b></a>
   &nbsp;·&nbsp; <a href="https://discord.gg/EvWwBAvfuE"><b>💬 Join us on Discord</b></a>
-  &nbsp;·&nbsp; Beta · free demo · from €29
+  &nbsp;·&nbsp; Beta · free demo · €49 one-time
 </p>
 
 ---
@@ -122,14 +122,9 @@ Just download and run GlideMix on your Mac or PC, from **[Releases](../../releas
 
 Every download starts as the **free demo**: everything works, but every 2 minutes the sound goes quiet for a few seconds,
 exported mixes get a short noise in those gaps, and an export stops after 20 minutes.
-A licence removes the limits for good — one-time payment, 3 computers, all 1.x updates:
+A licence removes the limits for good — **[GlideMix – €49](https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ)**: everything unlocked, stems included. One-time payment, 3 computers, all 1.x updates.
 
-| | |
-|---|---|
-| **[GlideMix – €29](https://buy.polar.sh/polar_cl_TDU3Z0o0w98m8mkhaIMHA9gKkNpOMlv3VPZEr0sWq9G)** | The full app, without the demo limits. |
-| **[GlideMix Pro – €49](https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ)** | Everything in GlideMix, plus the Pro add-ons as they come out (stems, AI analysis). |
-
-Early Beta prices. After buying, open **Access purchase** in the order email to see your key, then enter it in GlideMix under **Help → Licence…**.
+Early Beta price. After buying, open **Access purchase** in the order email to see your key, then enter it in GlideMix under **Help → Licence…**.
 
 **macOS:** open the DMG and drag GlideMix to Applications. GlideMix is not yet signed by Apple,
 so the first time: open it once, then go to **System Settings → Privacy & Security** and click **Open Anyway**.

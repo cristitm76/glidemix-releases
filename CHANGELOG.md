@@ -8,6 +8,9 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.2 Beta · 18 Oct 2026
+- **One licence, everything included**: GlideMix – €49 (one-time, 3 computers, all 1.x updates).
+
 ### v1.1.1 Beta · 18 Oct 2026
 - **Better sound on 2-core PCs**: a high-quality sample-rate converter replaces a cheap one that dulled hi-hats and cymbals (playback and export).
 

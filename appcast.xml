@@ -6,6 +6,21 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.2</title>
+      <pubDate>Sun, 18 Oct 2026 16:20:29 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.2</link>
+      <sparkle:version>1.1.2</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.2** (Mac and Windows)</p>
+<h3>One licence, everything included</h3>
+<ul>
+<li><b>GlideMix – €49</b> unlocks everything, stems included. One-time payment, 3 computers, all 1.x updates: https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ</li>
+<li>Help → Licence… shows the one Buy button; keys bought earlier keep working.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.2/GlideMix-Beta-v1.1.2.dmg" sparkle:edSignature="SuvMidFbY/Eq5j9ddzNaFgsyQWjTm/SMEEVFfnEr09Lt3XftCgIhTWz8lxHkZPZrjvVfQ6ABvFBkX7PJG5pXDw==" length="440282174" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.1</title>
       <pubDate>Sun, 18 Oct 2026 15:34:48 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.1</link>
