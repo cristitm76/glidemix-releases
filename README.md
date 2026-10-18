@@ -12,7 +12,7 @@
 <p align="center">
   <a href="../../releases/latest"><b>⬇ Download the latest version</b></a>
   &nbsp;·&nbsp; <a href="https://discord.gg/EvWwBAvfuE"><b>💬 Join us on Discord</b></a>
-  &nbsp;·&nbsp; Alpha · Early Preview · free
+  &nbsp;·&nbsp; Beta · free demo · from €29
 </p>
 
 ---
@@ -109,17 +109,38 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 
 ## Download and install
 
-Get the newest version from **[Releases](../../releases/latest)**:
+Would you like the **ready-to-run program** or the **source code**?
+
+### Ready-to-Run Program
+
+Just download and run GlideMix on your Mac or PC, from **[Releases](../../releases/latest)**:
 
 | | File |
 |---|---|
-| **macOS** (Apple Silicon, macOS 13 or later) | `GlideMix-Alpha-v….dmg` |
-| **Windows** 10 / 11 (64-bit) | `GlideMix-Alpha-v…-x64-setup.exe` |
+| **macOS** (Apple Silicon, macOS 13 or later) | `GlideMix-Beta-v….dmg` |
+| **Windows** 10 / 11 (64-bit) | `GlideMix-Beta-v…-x64-setup.exe` |
+
+Every download starts as the **free demo**: everything works, but every 2 minutes the sound goes quiet for a few seconds,
+exported mixes get a short noise in those gaps, and an export stops after 20 minutes.
+A licence removes the limits for good — one-time payment, 3 computers, all 1.x updates:
+
+| | |
+|---|---|
+| **[GlideMix – €29](https://buy.polar.sh/polar_cl_TDU3Z0o0w98m8mkhaIMHA9gKkNpOMlv3VPZEr0sWq9G)** | The full app, without the demo limits. |
+| **[GlideMix Pro – €49](https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ)** | Everything in GlideMix, plus the Pro add-ons as they come out (stems, AI analysis). |
+
+Early Beta prices. After buying, open **Access purchase** in the order email to see your key, then enter it in GlideMix under **Help → Licence…**.
 
 **macOS:** open the DMG and drag GlideMix to Applications. GlideMix is not yet signed by Apple,
 so the first time: open it once, then go to **System Settings → Privacy & Security** and click **Open Anyway**.
 
 **Windows:** run the setup. If SmartScreen warns, click **More info → Run anyway**.
+
+### Source Code
+
+Every release also has the complete source code (`GlideMix-…-source.tar.xz`, GNU GPL).
+You'll need to build it yourself. That can be a challenging and complex process, especially on macOS and Windows.
+We don't provide help for this process and can't support the end result. If you just want to use GlideMix, choose the ready-to-run program.
 
 ### Updates
 
@@ -130,11 +151,11 @@ You can also use **Help → Check for update**. On the Mac, updates install with
 
 Questions, bug reports, ideas, or a mix you made with GlideMix? Join the **[GlideMix Discord](https://discord.gg/EvWwBAvfuE)**.
 
-## Alpha
+## Beta
 
-GlideMix is in early preview: it's being tested and improved every week, and things may still break.
+GlideMix is in beta: it's tested and improved every week, and you may still find bugs.
 Every release lists its changes on the [Releases](../../releases) page, and the whole story since the first build (13 September 2026) is in the **[development history](CHANGELOG.md)**. Found a bug? Tell us in `#bug-reports` on [Discord](https://discord.gg/EvWwBAvfuE).
 
 GlideMix is built on [Audacity](https://www.audacityteam.org/) (GPL v3).
 It works with **rekordbox** and **Lexicon** libraries (read-only). rekordbox is a trademark of AlphaTheta Corporation; Lexicon is a product of Lexicon DJ. GlideMix is not affiliated with or endorsed by them.
-This repository holds the installers and release notes only.
+This repository holds the installers, the source code archives and the release notes.

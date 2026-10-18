@@ -6,6 +6,28 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.0</title>
+      <pubDate>Sun, 18 Oct 2026 12:00:30 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.0</link>
+      <sparkle:version>1.1.0</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.0** (Mac and Windows)</p>
+<h3>GlideMix is in Beta</h3>
+<ul>
+<li>Every download starts as the <b>free demo</b>: everything works, but every 2 minutes the sound goes quiet for a few seconds, exported mixes get a short noise in those gaps, and an export stops after 20 minutes. The window title says *GlideMix Demo*.</li>
+<li>A <b>licence</b> removes the limits for good. One-time payment, 3 computers, all 1.x updates:</li>
+<li><b>GlideMix – €29</b>: https://buy.polar.sh/polar_cl_TDU3Z0o0w98m8mkhaIMHA9gKkNpOMlv3VPZEr0sWq9G</li>
+<li><b>GlideMix Pro – €49</b>: https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ</li>
+<li><b>Help → Licence…</b>: buy, enter your key (from *Access purchase* in the order email), or <b>Deactivate this computer</b> to move the licence to another one. Activation needs the internet once; after that GlideMix works offline.</li>
+</ul>
+<h3>Source code</h3>
+<ul>
+<li>The complete source code of this version is attached (`GlideMix-1.1.0-source.tar.xz`, GNU GPL). Building it yourself can be challenging; we don&#x27;t provide help for it.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.0/GlideMix-Beta-v1.1.0.dmg" sparkle:edSignature="aRwOtM9b8ocjoFg/HIcLWwZVANGuReVhbWPCEtuO91wG1591iTPrnDLan3o8J0luH0AOJ/wHgHBL7O/4oDKACQ==" length="435561641" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.0.9</title>
       <pubDate>Sun, 18 Oct 2026 10:34:14 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.9</link>

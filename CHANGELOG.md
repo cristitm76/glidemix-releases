@@ -6,7 +6,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ---
 
-## Public versions (Alpha · Early Preview)
+## Public versions
+
+### v1.1.0 Beta · 18 Oct 2026
+- **GlideMix is in Beta.** Free demo download; a licence (GlideMix €29, Pro €49, one-time) removes the demo limits.
+- **Help → Licence…**: buy, enter your key, or free this computer for another one.
+- **Source code** of every release as one archive, next to the installers.
 
 ### v1.0.9 · 18 Oct 2026
 - **Edit Tags**: right-click a song (or several) → Edit Tags…: title, artist, album, genre, year, comment and more.
