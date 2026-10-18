@@ -1,0 +1,88 @@
+# GlideMix development history
+
+GlideMix has been built in the open-source tradition on top of Audacity, one small step at a time.
+Since the first build on **13 September 2026** there have been **350+ changes**. Here is what happened, week by week.
+Installers and detailed notes for every public version are on the [Releases](../../releases) page.
+
+---
+
+## Public versions (Alpha · Early Preview)
+
+### v1.0.8 · 18 Oct 2026
+- **Ratings and colors work again** in the library: stars and colors show up the moment you set them.
+- Rate and color **Lexicon and rekordbox songs** too (stored in GlideMix; their own databases stay untouched).
+- **Select Color** offers rekordbox's 8 track colors, each with its color circle.
+
+### v1.0.7 · 14 Oct 2026 (Mac & Windows)
+- Fixed a crash when pressing **Perform** or **Stop** (mostly Windows).
+- Windows gets everything from v1.0.6.
+
+### v1.0.6 · 13 Oct 2026
+- **Exports sound exactly like playback**, with the limiter, tempo line and automation: no more clipping.
+- Optional **automation lanes** of their own under a track, saved with the project.
+- Library drags never stick to the mouse; GlideMix's folder moved from Documents to Music.
+
+### v1.0.5 · 12 Oct 2026
+- **Single wave**: a stereo track drawn as one waveform in half the height.
+- Fixed a crash while adding songs (Mac).
+
+### v1.0.4 · 12 Oct 2026
+- **Mac updates install themselves** (Sparkle); updater apps can see GlideMix.
+- Stop button right beside PERFORM; stem lanes named by stem (Drums, Bass, Vocals, Other).
+
+### v1.0.3 · 11 Oct 2026
+- **Help → Keyboard shortcuts**: the full list, searchable, with an editor.
+- No more empty band on notched MacBook screens; full screen fixed.
+
+### v1.0.2 · 11 Oct 2026
+- **Much faster analysis**: rekordbox and Lexicon grids are used first.
+- Double-click a song to add it to the end of the mix.
+- Windows: no blink after a drop, GlideMix icon everywhere.
+
+### v1.0.1 · 11 Oct 2026
+- **Built-in updates**: GlideMix checks for new versions itself. Windows updates install silently.
+- A new phrase model trained on 35,000 tracks.
+
+### v1.0.0 Early Preview · 5 Oct 2026
+- First tester build under the name **GlideMix**, for macOS and Windows.
+
+---
+
+## Before the first public version
+
+### 4–6 Oct 2026: analysis, automation and Windows
+- New beat-grid detection and the **GlideMix Phrase Detector** (intro, chorus, drop, outro) built into the app.
+- **Plugin automation the Ableton way**: any knob of any VST3/AU plugin, every line visible at once, **Arm** to record moves.
+- Master safety limiter; tempo glides between songs.
+- Windows: crackle-free playback, every audio format, non-ASCII file names, tuned for small PCs.
+- Library like rekordbox: drag playlists and folders, Quick Links, Analyze/History/Recordings views.
+- Quick Start manuals for testers (Mac and Windows).
+
+### 26 Sep – 29 Sep 2026: GlideMix is born
+- The app gets its name: **GlideMix**.
+- **Stems**: split a song into drums, bass, vocals and other.
+- **Transitions with effects**: filter sweeps, risers, downsweeps, echo and reverb outs, mixer beat effects.
+- HD color waveforms on the timeline and in the library.
+- Cover art for rekordbox and Lexicon tracks; key detection for every format.
+- **Broadcast**: song titles sent to Shoutcast/Icecast as Artist – Title.
+- Self-contained installers with FFmpeg and the key analyzer inside.
+- A full **Preferences audit**: 28 pages reduced to the 12 that matter, in the order a DJ works.
+
+### 20 Sep – 22 Sep 2026: performing and broadcasting
+- **Perform** grows up: red audience playhead, Stop button, separate room and headphone meters and levels.
+- rekordbox's color waveform, per clip at full resolution; Snap to Beat and Smart snap.
+- **Live broadcasting** to Icecast and Shoutcast (v1 and v2), with stream meters and auto-reconnect.
+- **Mix Now** with phrase-matched landings and bass-swap transitions; a transition builder.
+
+### 15 Sep 2026: the new engine
+- A new **playback engine** built for DJ mixing: keylocked time-stretch per clip, effects with automation, multi-core.
+- **Beat grid editor** in the style of rekordbox's GRID/PHRASE EDIT, with its own deck and metronome.
+- **IN/OUT anchors** with magnetic snap, transition presets, **Mix Now**.
+- **Perform**: the mix on outputs 1–2, the headphone preview on 3–4.
+
+### 13–14 Sep 2026: the first build
+- The DJ library: analysis, preview, key wheel, beat grids, alignment.
+- **Lexicon** and **rekordbox XML** in the sidebar, with playlists, beat grids, cue points and phrases.
+- Tempo line under the ruler, SYNC, KEYLOCK, BEATMATCH crossfades, half/double tempo.
+- 24 built-in DJ effects, tempo- and beat-synced, with presets.
+- The cloud, sign-in and store parts of Audacity removed: GlideMix works fully offline.

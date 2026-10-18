@@ -132,7 +132,7 @@ Questions, bug reports, ideas, or a mix you made with GlideMix? Join the **[Glid
 ## Alpha
 
 GlideMix is in early preview: it's being tested and improved every week, and things may still break.
-Every release lists its changes on the [Releases](../../releases) page. Found a bug? Tell us in `#bug-reports` on [Discord](https://discord.gg/EvWwBAvfuE).
+Every release lists its changes on the [Releases](../../releases) page, and the whole story since the first build (13 September 2026) is in the **[development history](CHANGELOG.md)**. Found a bug? Tell us in `#bug-reports` on [Discord](https://discord.gg/EvWwBAvfuE).
 
 GlideMix is built on [Audacity](https://www.audacityteam.org/) (GPL v3).
 This repository holds the installers and release notes only.
