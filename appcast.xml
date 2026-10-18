@@ -6,6 +6,26 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.0.8</title>
+      <pubDate>Sun, 18 Oct 2026 06:36:25 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.8</link>
+      <sparkle:version>1.0.8</sparkle:version>
+      <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Alpha v1.0.8 Early Preview** (Mac and Windows)</p>
+<h3>Library: ratings and colors</h3>
+<ul>
+<li>Stars and colors you set show up at once (before, only after switching views).</li>
+<li>Rate and color <b>Lexicon and rekordbox songs</b> too. GlideMix keeps these in its own library; Lexicon&#x27;s and rekordbox&#x27;s databases stay untouched.</li>
+<li><b>Select Color</b> offers rekordbox&#x27;s 8 track colors (Pink, Red, Orange, Yellow, Green, Aqua, Blue, Purple), each with its color circle. The old list was too long for the menu to open.</li>
+</ul>
+<h3>Also new</h3>
+<ul>
+<li>A development history on the GitHub page: every change since the first build.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.8/GlideMix-Alpha-v1.0.8-Early-Preview.dmg" sparkle:edSignature="eBB2+pMINkmkXg733bx50HvOo33yPSsFSL0Y4xBHWePHinuD1JkOkTp81YQmBmUOVxmb9kZZBrVP3zIo1QsDBg==" length="440850012" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.0.7</title>
       <pubDate>Wed, 14 Oct 2026 20:30:22 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.0.7</link>
