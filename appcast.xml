@@ -6,6 +6,26 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.5</title>
+      <pubDate>Mon, 19 Oct 2026 17:50:25 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.5</link>
+      <sparkle:version>1.1.5</sparkle:version>
+      <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.5** (Mac and Windows)</p>
+<h3>Tracklist with every export</h3>
+<ul>
+<li>Every exported mix now gets its <b>tracklist</b> beside it: a `.txt` with timestamps and Artist - Title, ready to paste into Mixcloud or your show notes, plus a `.cue` sheet. Times match the file, tempo changes included.</li>
+</ul>
+<h3>A friendlier demo</h3>
+<ul>
+<li>The demo no longer goes silent. Instead, every 2 minutes a voice says <b>&quot;Glide Mix demo&quot;</b> over the music, so you hear every transition in full.</li>
+<li>Demo exports are MP3 at 96 kbps, up to 20 minutes. The export window shows it.</li>
+<li>A licence (€49, one-time) removes all of it.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.5/GlideMix-Beta-v1.1.5.dmg" sparkle:edSignature="6Yji7Fa0keptlgCC1TorDQzAQSeBw50Xe3r/8siU/BjPCXmW7bMdq85XQ1z5NjVKr4EqgVbISfsHTNou00ODBQ==" length="439456207" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.4</title>
       <pubDate>Sun, 18 Oct 2026 20:38:19 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.4</link>

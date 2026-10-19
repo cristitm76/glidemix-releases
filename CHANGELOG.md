@@ -8,6 +8,10 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.5 Beta · 19 Oct 2026
+- **Tracklist** with every export: a timestamped .txt for Mixcloud and show notes, plus a .cue sheet.
+- Demo: a "Glide Mix demo" voice every 2 minutes instead of silent gaps; demo exports are MP3 96 kbps, up to 20 minutes.
+
 ### v1.1.4 Beta · 18 Oct 2026
 - **Learn** page on Home: getting started, what's new, shortcuts, Discord, support, licence.
 - LATCH removed again: ARM records knob moves as before, simpler for DJs.

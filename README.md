@@ -102,6 +102,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Two playheads, like a DJ mixer with cue**: **Perform** plays the mix to the audience (outputs 1–2, red playhead) while the white playhead previews any other part of the mix on your headphones (outputs 3–4). Check the next transition while the crowd hears the current one.
 - **Broadcast live** to your radio: **Shoutcast** (v1 and v2) and **Icecast** servers, straight from GlideMix, with the song titles sent to your listeners.
 - **Export** the finished mix (WAV, AIFF, MP3, FLAC…) exactly as it sounds, through a **true-peak limiter** (-1 dBTP), so it never clips, not even as an MP3.
+- **Tracklist** with every export: a timestamped list for Mixcloud and show notes, plus a .cue sheet.
 - **Loudness report** after every export: LUFS, true peak and peak, and what Spotify, YouTube and Apple Music will do with your mix.
 
 <p align="center">
@@ -122,8 +123,8 @@ Just download and run GlideMix on your Mac or PC, from **[Releases](../../releas
 | **macOS** (Apple Silicon, macOS 13 or later) | `GlideMix-Beta-v….dmg` |
 | **Windows** 10 / 11 (64-bit) | `GlideMix-Beta-v…-x64-setup.exe` |
 
-Every download starts as the **free demo**: everything works, but every 2 minutes the sound goes quiet for a few seconds,
-exported mixes get a short noise in those gaps, and an export stops after 20 minutes.
+Every download starts as the **free demo**: everything works, but every 2 minutes a voice says "Glide Mix demo"
+over the music, and exports are MP3 at 96 kbps, up to 20 minutes.
 A licence removes the limits for good — **[GlideMix – €49](https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ)**: everything unlocked, stems included. One-time payment, 3 computers, all 1.x updates.
 
 Early Beta price. After buying, open **Access purchase** in the order email to see your key, then enter it in GlideMix under **Help → Licence…**.
