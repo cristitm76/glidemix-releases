@@ -12,6 +12,7 @@
 <p align="center">
   <a href="../../releases/latest"><b>⬇ Download the latest version</b></a>
   &nbsp;·&nbsp; <a href="https://discord.gg/EvWwBAvfuE"><b>💬 Join us on Discord</b></a>
+  &nbsp;·&nbsp; <a href="https://www.reddit.com/r/GlideMix/"><b>r/GlideMix on Reddit</b></a>
   &nbsp;·&nbsp; Beta · free demo · €49 one-time
 </p>
 
@@ -147,7 +148,7 @@ You can also use **Help → Check for update**. On the Mac, updates install with
 
 ## Community
 
-Questions, bug reports, ideas, or a mix you made with GlideMix? Join the **[GlideMix Discord](https://discord.gg/EvWwBAvfuE)**.
+Questions, bug reports, ideas, or a mix you made with GlideMix? Join the **[GlideMix Discord](https://discord.gg/EvWwBAvfuE)** to chat, or post in **[r/GlideMix](https://www.reddit.com/r/GlideMix/)** on Reddit.
 
 ## Beta
 
