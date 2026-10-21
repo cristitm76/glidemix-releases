@@ -6,6 +6,36 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.6</title>
+      <pubDate>Wed, 21 Oct 2026 18:56:10 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.6</link>
+      <sparkle:version>1.1.6</sparkle:version>
+      <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.6** (Mac and Windows)</p>
+<p>**Smart Playlists** ⚙️</p>
+<ul>
+<li>New <b>Smart Playlists</b> in the library sidebar: playlists that fill themselves from rules, like rekordbox&#x27;s Intelligent Playlists and Lexicon&#x27;s Smartlists.</li>
+<li>Pick from your Music Collection, <b>Lexicon</b>, rekordbox XML or all of them. Match all or any rules, with &quot;or…&quot; alternatives.</li>
+<li>Rules for genre, artist, title, comment, BPM, key, rating, color, year, length, date added, last played, play count, playlist and more.</li>
+<li>DJ extras: <b>Key &quot;mixes with&quot; (harmonic)</b> and <b>BPM &quot;within ±%&quot;</b> (half and double tempo count too).</li>
+<li>&quot;Only the 50 newest&quot;, a live count while you edit, and Duplicate as Playlist.</li>
+</ul>
+<h3>Export to Folder</h3>
+<ul>
+<li>Right-click any playlist (your own, smart, Lexicon or rekordbox) → <b>Export to Folder…</b>: the songs copied in order, plus a track list (.txt) and an .m3u8 for players and USB sticks.</li>
+</ul>
+<h3>Export to rekordbox XML</h3>
+<ul>
+<li>Right-click <b>Music Collection</b> → <b>Export to rekordbox XML…</b>: tracks with tags, stars, colors and beat grids (cue points for Lexicon songs), your playlist folders and smart playlists, ready to import into rekordbox or Lexicon. Their own databases are never touched.</li>
+</ul>
+<h3>Also</h3>
+<ul>
+<li>Home → Learn has a link to the new <b>r/GlideMix</b> community on Reddit.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.6/GlideMix-Beta-v1.1.6.dmg" sparkle:edSignature="T+yqu+T0gBmfisV/ORiQb5XBHXq1pXJv8mPfMCPpWIcoTK5FhQzVkl2Z5/VltshKCsdeiTkXJRfFVPXKj5gRDA==" length="444725851" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.5</title>
       <pubDate>Mon, 19 Oct 2026 17:50:25 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.5</link>

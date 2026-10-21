@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.6 Beta · 21 Oct 2026
+- **Smart Playlists**: rules that pick tracks from your collection, Lexicon or rekordbox (harmonic key and BPM ± % included).
+- **Export to Folder**: a playlist's songs in order, with a track list and an .m3u8.
+- **Export to rekordbox XML**: tags, stars, colors, beat grids and playlists, for rekordbox and Lexicon.
+
 ### v1.1.5 Beta · 19 Oct 2026
 - **Tracklist** with every export: a timestamped .txt for Mixcloud and show notes, plus a .cue sheet.
 - Demo: a "Glide Mix demo" voice every 2 minutes instead of silent gaps; demo exports are MP3 96 kbps, up to 20 minutes.
