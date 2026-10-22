@@ -6,6 +6,32 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.7</title>
+      <pubDate>Thu, 22 Oct 2026 21:26:13 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.7</link>
+      <sparkle:version>1.1.7</sparkle:version>
+      <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.7** (Mac and Windows)</p>
+<p>**Energy** ⚡</p>
+<ul>
+<li>New <b>Energy</b> column right after BPM: every song rated <b>Energy 1–10</b>, like Mixed In Key and Lexicon. Sort by it, and use it in Smart Playlists (&quot;Energy 7–9 and BPM 124–128&quot;).</li>
+<li>Lexicon songs show Lexicon&#x27;s own energy. Your Music Collection songs get theirs from GlideMix&#x27;s analysis, tuned to agree with Lexicon&#x27;s ratings (songs analysed before this version: press Analyze once).</li>
+<li><b>ENERGY</b> button next to TEMPO: the energy of the whole mix drawn behind the tempo line, blue (calm) to red (peak). See how your set builds, where it drops, and where a breakdown or a long fade lets it sag.</li>
+</ul>
+<p>**Watch folders** 📂</p>
+<ul>
+<li>The music folders in Preferences → Music library are now watched while GlideMix runs: copy or download a song into one and it appears in your Music Collection a few seconds later.</li>
+<li>New songs are <b>analysed automatically</b> (BPM, key, beat grid, phrases, energy). Both can be switched off in Preferences.</li>
+</ul>
+<h3>Cue points</h3>
+<ul>
+<li>The waveforms in the library now show each song&#x27;s <b>cue points</b>, like rekordbox: hot cues A, B, C… in their colours and memory cues along the bottom.</li>
+<li><b>Export to rekordbox XML</b> gives songs without cue points <b>hot cues where their phrases start</b> (Intro, Up, Chorus, Down, Outro), on the beat grid, plus memory cues, so they arrive on CDJs ready to play.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.7/GlideMix-Beta-v1.1.7.dmg" sparkle:edSignature="ownewY0wPzQzHv29Zekn2Vlz+rfvLSdADvokzBfCFhwC8zht1ZG3biC+4M+ts3kHAqE8OxUMnmhWnbcigWfZDA==" length="443232032" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.6</title>
       <pubDate>Wed, 21 Oct 2026 18:56:10 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.6</link>

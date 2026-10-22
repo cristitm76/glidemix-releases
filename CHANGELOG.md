@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.7 Beta · 22 Oct 2026
+- **Energy 1–10**: a column after BPM, sortable and in Smart Playlists; Lexicon songs keep Lexicon's energy.
+- **Energy of the mix** behind the tempo line (ENERGY button), blue to red.
+- **Watch folders**: new songs in your music folders are added and analysed automatically.
+- **Cue points** on the library waveforms, and phrase hot cues in the rekordbox XML export.
+
 ### v1.1.6 Beta · 21 Oct 2026
 - **Smart Playlists**: rules that pick tracks from your collection, Lexicon or rekordbox (harmonic key and BPM ± % included).
 - **Export to Folder**: a playlist's songs in order, with a track list and an .m3u8.
