@@ -8,6 +8,13 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.8 Beta · 24 Oct 2026
+- **Find Duplicates**: songs that are in the collection more than once, best copy first, and Select extra copies.
+- **Smart Playlist generator**: one smart playlist per genre, key or energy level in one go.
+- The sidebar marks the playlists that contain the selected song; lists remember their sort and scroll position.
+- Folders added in Preferences are scanned at once; cue markers show right after analysis; better high-energy ratings.
+- New website **[glidemix.com](https://glidemix.com)**, linked from the Help menu.
+
 ### v1.1.7 Beta · 22 Oct 2026
 - **Energy 1–10**: a column after BPM, sortable and in Smart Playlists; Lexicon songs keep Lexicon's energy.
 - **Energy of the mix** behind the tempo line (ENERGY button), blue to red.

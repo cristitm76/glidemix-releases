@@ -6,6 +6,40 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.8</title>
+      <pubDate>Sat, 24 Oct 2026 09:58:34 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.8</link>
+      <sparkle:version>1.1.8</sparkle:version>
+      <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.8** (Mac and Windows)</p>
+<p>**Find Duplicates** 🔁</p>
+<ul>
+<li>New <b>Duplicates</b> under Music Collection: songs that are in your collection more than once (same artist and title, same length), side by side with the best copy first (WAV/AIFF/FLAC before MP3, then the higher bitrate).</li>
+<li><b>Select extra copies</b> selects every copy except the best one, ready for Remove from Library or Delete from Disk.</li>
+</ul>
+<p>**Smart Playlist generator** ⚙️</p>
+<ul>
+<li>Right-click <b>Smart Playlists → Generate Smart Playlists</b>: one playlist per <b>genre</b>, per <b>key</b> or per <b>energy level</b>, from your collection, Lexicon, rekordbox or all of them, in one go.</li>
+<li><b>Delete Generated Smart Playlists</b> removes them all again.</li>
+</ul>
+<h3>Small comforts</h3>
+<ul>
+<li>The sidebar <b>marks every playlist and smart playlist that contains the selected song</b>.</li>
+<li>Each list <b>remembers its sort, scroll position and selected song</b> while GlideMix runs.</li>
+<li>The Energy column reads <b>&quot;Energy 7&quot;</b>.</li>
+</ul>
+<h3>Fixes and more</h3>
+<ul>
+<li>A folder added in <b>Preferences → Music library</b> is scanned and analysed right away (before, its songs came in at the next start).</li>
+<li>A newly analysed song&#x27;s <b>cue markers</b> now show at once (they needed a restart).</li>
+<li><b>Energy</b> is closer to Lexicon&#x27;s ratings for high-energy songs.</li>
+<li>New <b>glidemix.com</b> website: <b>Help → Help and FAQ</b> and <b>Help → GlideMix website</b>.</li>
+<li>The licence window shows the Beta price: <b>€49</b> (normal price €89).</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.8/GlideMix-Beta-v1.1.8.dmg" sparkle:edSignature="lzEWYeRnC/6afle0wVLhlED5KiuKkV1Wwzdrzr9Cv8yiSI+O0k4NIbU1ZFe2a71jT4alu/iRCNhnvYhajQ4jCQ==" length="442962801" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.7</title>
       <pubDate>Thu, 22 Oct 2026 21:26:13 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.7</link>

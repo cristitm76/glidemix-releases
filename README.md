@@ -45,6 +45,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Energy 1–10** for every song, like Mixed In Key and Lexicon (Lexicon songs keep Lexicon's own).
 - **Watch folders**: copy or download a song into your music folder and it appears in the library a few seconds later, already analysed.
 - **Cue points** on the library waveforms, like rekordbox.
+- **Find Duplicates** (best copy first) and a **Smart Playlist generator** (one per genre, key or energy level).
 - **Ratings, colors and Edit Tags** like in rekordbox: stars, rekordbox's 8 track colors, and right-click → **Edit Tags…** for one song or many. Tags are saved into the music files, so rekordbox and Lexicon see them after re-reading the tags.
 - **Smart Playlists**: playlists that fill themselves from rules (genre, BPM, key "mixes with", rating, color, date added…), from your collection, Lexicon or rekordbox, like rekordbox's Intelligent Playlists and Lexicon's Smartlists.
 - **Export** any playlist to a folder (songs in order, a track list and an .m3u8), or your whole collection to a **rekordbox XML** for rekordbox and Lexicon. Songs without cue points get hot cues where their phrases start (Intro, Chorus, Outro…), ready for CDJs.
