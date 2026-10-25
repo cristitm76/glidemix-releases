@@ -8,6 +8,9 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.10 Beta · 25 Oct 2026
+- The rekordbox XML file chooser opens in Documents (or the last XML's folder); on Windows it opened in a system folder.
+
 ### v1.1.9 Beta · 25 Oct 2026
 - **rekordbox XML opens like Lexicon**: the song count beside Rekordbox XML, playlists and folders beneath it.
 - A **progress bar ("Loading 42%")** while a big XML is read; a clear message when the file isn't a rekordbox XML.

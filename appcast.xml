@@ -6,6 +6,21 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.10</title>
+      <pubDate>Sun, 25 Oct 2026 07:42:07 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.10</link>
+      <sparkle:version>1.1.10</sparkle:version>
+      <sparkle:shortVersionString>1.1.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.10** (Mac and Windows)</p>
+<h3>Fix</h3>
+<ul>
+<li><b>Import from Rekordbox XML…</b> now opens the file chooser in your <b>Documents</b> folder (or the folder of the XML you used last). On Windows it used to open in a system folder.</li>
+</ul>
+<p>Also see v1.1.9: rekordbox XML opens like Lexicon, with a progress bar while it loads.</p>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.10/GlideMix-Beta-v1.1.10.dmg" sparkle:edSignature="M16JZI0VgU223jOt+58jg2G9lXwMM5F2KQGikyJwCo45QmEOGqdI/fBN/2yqWu/g5G9WfG3gCIrVe3rDsFz7Dw==" length="442807771" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.9</title>
       <pubDate>Sun, 25 Oct 2026 07:21:01 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.9</link>
