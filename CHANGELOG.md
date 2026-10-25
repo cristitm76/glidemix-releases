@@ -8,6 +8,10 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.11 Beta · 25 Oct 2026
+- Songs without an energy rating (e.g. from rekordbox) get one automatically once they are on the timeline.
+- Lexicon songs show their energy rising and falling in the ENERGY view, not one flat block.
+
 ### v1.1.10 Beta · 25 Oct 2026
 - The rekordbox XML file chooser opens in Documents (or the last XML's folder); on Windows it opened in a system folder.
 

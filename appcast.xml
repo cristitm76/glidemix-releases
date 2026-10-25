@@ -6,6 +6,21 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.11</title>
+      <pubDate>Sun, 25 Oct 2026 08:14:15 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.11</link>
+      <sparkle:version>1.1.11</sparkle:version>
+      <sparkle:shortVersionString>1.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.11** (Mac and Windows)</p>
+<p>**Energy for every song on the timeline** ⚡</p>
+<ul>
+<li>Songs without an energy rating (for example songs imported from rekordbox, which doesn&#x27;t rate energy) get one automatically a few seconds after you put them on the timeline. The rating shows in the library&#x27;s Energy column too. Their beat grid and key stay as they are.</li>
+<li>Songs from <b>Lexicon</b> now show how their energy rises and falls (intro, breakdowns, drops), instead of one flat block.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.11/GlideMix-Beta-v1.1.11.dmg" sparkle:edSignature="QKpm3nLY7y4zeddOzk6e5i/hbbN1gMdib4FjZw3zfEUzj4FwpYX2+JI1Ml/tyyU7LKtYmHtDN9T6Sy6zc7j2Bg==" length="441816702" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.10</title>
       <pubDate>Sun, 25 Oct 2026 07:42:07 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.10</link>
