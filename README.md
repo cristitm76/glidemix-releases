@@ -75,6 +75,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Energy of the mix** drawn like a row of level meters behind the tempo line: green when calm, yellow as it builds, red at the peak. See how your set builds and where it drops.
 - **Mix Now** pulls the next song in at the next bar.
 - **Transitions** you build yourself: crossfade, fade, bass/mid/high swap, filter sweeps, risers, echo or reverb outs, each fade with its own shape (equal power, linear, S-curve, early, late).
+- **Transition effects** added in the transition panel act inside the transition only, each with its own on/off, amount and remove. **Right-click a transition's pill** to switch it off (grey) and back on.
 
 <p align="center">
   <img src="assets/energy-view.jpg" alt="The energy of a GlideMix mix as level-meter bars above the songs, with the yellow tempo line on top" width="100%">
@@ -93,7 +94,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 
 **Effects and automation, the Ableton way**
 - Built-in DJ effects: filter, echo, reverb, risers, sweeps and more.
-- **Automation for any knob of any plugin**, drawn right on the song: click to add a point, drag it, hold **Option** to bend a ramp into a curve. Each knob has its own colour, and all of a song's lines show at once.
+- **Automation for any knob of any plugin**, drawn right on the song: click to add a point, drag it; new ramps glide in an **S-curve** (right-click a point for straight), hold **Option** to bend a ramp into a curve. Each knob has its own colour, and all of a song's lines show at once.
 - **Arm** and record: move a knob while the mix plays and GlideMix writes the move into the line. Let go, and the line plays on as it was.
 - Optional **own lane** per parameter under the track, as in Ableton.
 

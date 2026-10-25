@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.14 Beta · 25 Oct 2026
+- **S-curves** on volume and FX automation, and crossfades drawn as one smooth line per song; no stray automation points left on screen.
+- **Right-click the transition pill** to switch a transition off (grey) and on again; **transition effects** stay inside the transition, each with on/off, amount and remove (also fixed on Windows).
+- Master effects with look-ahead stay in time with the playhead and exports; smooth track-height zoom; a double right-click in the library no longer adds a song.
+
 ### v1.1.13 Beta · 25 Oct 2026
 - **Energy like level meters**: green when calm, yellow as it builds, red at the peak; the tempo line in the volume line's yellow.
 - Library: **key badges** in the key wheel's colours, **energy LED blocks**, **zoom sliders** for text size and row height.

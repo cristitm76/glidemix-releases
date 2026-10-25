@@ -6,6 +6,34 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.14</title>
+      <pubDate>Sun, 25 Oct 2026 23:04:08 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.14</link>
+      <sparkle:version>1.1.14</sparkle:version>
+      <sparkle:shortVersionString>1.1.14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.14** (Mac and Windows)</p>
+<p>**Smooth S-curves** 〰️</p>
+<ul>
+<li>Volume and FX automation now ease in and out like a DJ riding a fader, the same S-curves as the tempo line. Right-click a point → <b>Line: straight</b> or <b>Line: S-curve</b>.</li>
+<li>Crossfades are drawn as <b>one smooth line</b> per song instead of a row of dots.</li>
+<li>No more stray automation points left on screen after a transition is changed or switched off.</li>
+</ul>
+<h3>Transitions</h3>
+<ul>
+<li><b>Right-click the BEATMATCH / CROSSFADE pill</b> to switch a transition off: its fades, EQ and effects are removed and the pill turns grey. Right-click again to bring it back.</li>
+<li><b>Add effect</b> in the transition panel: each effect gets its own row with an on/off button, an amount knob and a remove button, like a track&#x27;s effect list. Effects now act <b>inside the transition only</b>, not over the rest of the song.</li>
+<li>Fixed on Windows: choosing an effect in the transition panel did nothing.</li>
+</ul>
+<h3>Mixing</h3>
+<ul>
+<li><b>Master effects with look-ahead</b> (limiters): the playhead, click and exports now line up with the music.</li>
+<li><b>Track height slider</b> resizes all tracks in one smooth step.</li>
+<li>A quick <b>double right-click</b> on a song in the library no longer adds it to the mix.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.14/GlideMix-Beta-v1.1.14.dmg" sparkle:edSignature="sPe1HCIM4ukjxSG91W9O5KDULYZbbNI02eZCv3P17Z36/5yzRX5qPeu4whAfrf8fTcDqDhIkDKd4/D01ORBiDA==" length="517887181" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.13</title>
       <pubDate>Sun, 25 Oct 2026 17:37:09 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.13</link>
@@ -316,8 +344,8 @@
 <ul>
 <li>Every download starts as the <b>free demo</b>: everything works, but every 2 minutes the sound goes quiet for a few seconds, exported mixes get a short noise in those gaps, and an export stops after 20 minutes. The window title says *GlideMix Demo*.</li>
 <li>A <b>licence</b> removes the limits for good. One-time payment, 3 computers, all 1.x updates:</li>
-<li><b>GlideMix – €29</b>: https://buy.polar.sh/polar_cl_TDU3Z0o0w98m8mkhaIMHA9gKkNpOMlv3VPZEr0sWq9G</li>
-<li><b>GlideMix Pro – €49</b>: https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ</li>
+</ul>
+<ul>
 <li><b>Help → Licence…</b>: buy, enter your key (from *Access purchase* in the order email), or <b>Deactivate this computer</b> to move the licence to another one. Activation needs the internet once; after that GlideMix works offline.</li>
 </ul>
 <h3>Source code</h3>
