@@ -38,11 +38,17 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 
 ## What it does
 
+**Fast analysis**
+- A new song is ready in about **a second**: beat grid, phrases, key, energy and colour waveforms. On a Mac the beat grid runs on the graphics chip (Core ML) with the full, most accurate beat model.
+- 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
+- A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
+
 **Your music, analysed like a DJ app**
 - Tempo, beat grid, musical key (Camelot key wheel) and song phrases (intro, chorus, drop, outro), shown right on each song.
 - Uses the analysis you already have: songs analysed in **rekordbox** or **Lexicon** take their beat grids and keys from there, in seconds.
 - Reads your **rekordbox XML** and your **Lexicon** library, with their playlists.
-- **Energy 1–10** for every song, like Mixed In Key and Lexicon (Lexicon songs keep Lexicon's own).
+- **Energy 1–10** for every song, like Mixed In Key and Lexicon (Lexicon songs keep Lexicon's own), shown as LED blocks in the library.
+- Keys as **coloured badges** in the key wheel's colours, and five-star ratings like rekordbox.
 - **Watch folders**: copy or download a song into your music folder and it appears in the library a few seconds later, already analysed.
 - **Cue points** on the library waveforms, like rekordbox.
 - **Find Duplicates** (best copy first) and a **Smart Playlist generator** (one per genre, key or energy level).
@@ -50,6 +56,11 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Smart Playlists**: playlists that fill themselves from rules (genre, BPM, key "mixes with", rating, color, date added…), from your collection, Lexicon or rekordbox, like rekordbox's Intelligent Playlists and Lexicon's Smartlists.
 - **Export** any playlist to a folder (songs in order, a track list and an .m3u8), or your whole collection to a **rekordbox XML** for rekordbox and Lexicon. Songs without cue points get hot cues where their phrases start (Intro, Chorus, Outro…), ready for CDJs.
 - **Key wheel**: click a key on the Camelot wheel and the library shows only the songs in that key; click more keys to add them. Perfect for harmonic mixing.
+
+<p align="center">
+  <img src="assets/library-detail.jpg" alt="The GlideMix library: key wheel, colour waveforms with cue points, key badges, energy blocks and star ratings" width="100%">
+  <br><i>The library: colour waveforms with cue points, key badges, energy blocks and ratings.</i>
+</p>
 
 <p align="center">
   <img src="assets/keywheel.jpg" alt="The GlideMix key wheel: 8A selected, the library showing only songs in 8A" width="100%">
@@ -61,9 +72,24 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Sync**: every song stretched to the mix tempo and locked to the bar. **Keylock** keeps the pitch.
 - **IN / OUT** markers snap the next song into the previous one's outro.
 - A **tempo line** for tempo changes across the mix; songs follow it. Tempo changes glide in an **S-curve**, smooth at both ends like a hand on the pitch fader (or straight, your choice per point).
-- **Energy of the mix** drawn behind the tempo line, blue (calm) to red (peak): see how your set builds and where it drops.
+- **Energy of the mix** drawn like a row of level meters behind the tempo line: green when calm, yellow as it builds, red at the peak. See how your set builds and where it drops.
 - **Mix Now** pulls the next song in at the next bar.
 - **Transitions** you build yourself: crossfade, fade, bass/mid/high swap, filter sweeps, risers, echo or reverb outs, each fade with its own shape (equal power, linear, S-curve, early, late).
+
+<p align="center">
+  <img src="assets/energy-view.jpg" alt="The energy of a GlideMix mix as level-meter bars above the songs, with the yellow tempo line on top" width="100%">
+  <br><i>The energy of the whole mix, green to red, with the tempo line on top.</i>
+</p>
+
+**Colour waveforms**
+- **HD colour waveforms** on the timeline and in the library: **bass red, mids green, highs blue**, each drawn as its own layer. A drop shows red and pink, a breakdown blue, vocals and leads green.
+- Zoom in to single beats: the grid, the phrases and the cue points stay on the song.
+- **DJ style** (RGB on black) or **Classic** in the track colour, and **single wave** for a compact view.
+
+<p align="center">
+  <img src="assets/waveform-detail.jpg" alt="A GlideMix colour waveform close up: kicks in red, a breakdown in blue, vocals in green, with phrases underneath" width="100%">
+  <br><i>Close up: the chorus in red and blue, the breakdown, then the vocal part in green.</i>
+</p>
 
 **Effects and automation, the Ableton way**
 - Built-in DJ effects: filter, echo, reverb, risers, sweeps and more.
@@ -115,8 +141,13 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Loudness report** after every export: LUFS, true peak and peak, and what Spotify, YouTube and Apple Music will do with your mix.
 
 <p align="center">
-  <img src="assets/lib.jpg" alt="The GlideMix music library: key wheel, waveform overviews, keys and tempos, with rekordbox and Lexicon sources" width="100%">
-  <br><i>The library: key wheel, colour waveforms, key and tempo, with your rekordbox XML and Lexicon collections.</i>
+  <img src="assets/perform.jpg" alt="GlideMix in Perform mode: a red audience playhead and a white headphone cue playhead" width="100%">
+  <br><i>Perform: the red playhead plays to the room, the white one is your headphone cue.</i>
+</p>
+
+<p align="center">
+  <img src="assets/stream.jpg" alt="GlideMix live broadcasting: the Broadcast window over the Icecast server settings" width="100%">
+  <br><i>Broadcast live to Icecast or Shoutcast.</i>
 </p>
 
 ## Download and install
@@ -156,7 +187,7 @@ You can also use **Help → Check for update**. On the Mac, updates install with
 
 ## Community
 
-Answers to common questions are on **[glidemix.com/help](https://glidemix.com/help)**.
+The full **[Manual](https://glidemix.com/manual)** and answers to common questions (**[FAQ](https://glidemix.com/help)**) are on glidemix.com.
 Questions, bug reports, ideas, or a mix you made with GlideMix? Join the **[GlideMix Discord](https://discord.gg/EvWwBAvfuE)** to chat, or post in **[r/GlideMix](https://www.reddit.com/r/GlideMix/)** on Reddit.
 
 ## Beta
