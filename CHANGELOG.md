@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.13 Beta · 25 Oct 2026
+- **Energy like level meters**: green when calm, yellow as it builds, red at the peak; the tempo line in the volume line's yellow.
+- Library: **key badges** in the key wheel's colours, **energy LED blocks**, **zoom sliders** for text size and row height.
+- **Analysis uses: Performance / Normal / Power saving**, like rekordbox; a steady progress line while analysing.
+
 ### v1.1.12 Beta · 25 Oct 2026
 - **Much faster analysis:** on the Mac the beat grid runs on the graphics chip (Core ML) with the full beat model; 288 songs in 4 min 42 s on our test Mac (rekordbox 7: about 20 minutes). Windows uses all free cores per song.
 - **Status line** at the bottom: what GlideMix is doing (scan, "Analysing 7 of 20 · time left", Stop), what the button under the mouse does, and a notice when a new version is out.

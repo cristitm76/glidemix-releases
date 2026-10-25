@@ -6,6 +6,33 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.13</title>
+      <pubDate>Sun, 25 Oct 2026 17:37:09 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.13</link>
+      <sparkle:version>1.1.13</sparkle:version>
+      <sparkle:shortVersionString>1.1.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.13** (Mac and Windows)</p>
+<p>**Energy you can read at a glance** ⚡</p>
+<ul>
+<li>The <b>ENERGY</b> view is drawn like a row of level meters: <b>green</b> when the mix is calm, <b>yellow</b> as it builds, <b>red</b> at the peak. Solid, vivid colours instead of the faded ones.</li>
+<li>The tempo line is now the same bright yellow as volume automation.</li>
+<li>The library&#x27;s <b>Energy</b> column shows LED blocks (one per point) and the number, like Lexicon.</li>
+</ul>
+<h3>Library</h3>
+<ul>
+<li><b>Keys as coloured badges</b> in the key wheel&#x27;s colours (Preferences → Music library → Show keys as coloured badges).</li>
+<li><b>Zoom sliders</b> above the list for <b>text size</b> and <b>row height</b>, like rekordbox&#x27;s Font Size and Line Space.</li>
+<li>Lexicon keys in other notations (Open Key &quot;8M&quot;, traditional &quot;Am&quot;) now get their colours, badges and harmonic filters.</li>
+</ul>
+<h3>Analysis</h3>
+<ul>
+<li><b>Analysis uses: Performance / Normal / Power saving</b> (Preferences → Music library), like rekordbox.</li>
+<li>The status line shows a steady &quot;Analysing 7 of 20&quot; with a progress bar and time left; no more flicker between songs.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.13/GlideMix-Beta-v1.1.13.dmg" sparkle:edSignature="cQmM55EhQjhSOy3w31hOsL4dHCAWucvzu1TMVCAoyZALOmznKOn9M3Gyt8H3uNh1FdnfaKpWVnSOLCFmjURQDA==" length="517558071" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.12</title>
       <pubDate>Sun, 25 Oct 2026 14:26:13 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.12</link>
