@@ -6,6 +6,38 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.12</title>
+      <pubDate>Sun, 25 Oct 2026 14:26:13 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.12</link>
+      <sparkle:version>1.1.12</sparkle:version>
+      <sparkle:shortVersionString>1.1.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.12** (Mac and Windows)</p>
+<p>**Much faster analysis** ⚡</p>
+<ul>
+<li><b>Mac:</b> the beat grid is worked out on the graphics chip (Core ML), with the full, most accurate beat model. On our test Mac, 288 songs took <b>4 min 42 s</b> (rekordbox 7 on the same songs: about 20 minutes). A new song is ready in about a second.</li>
+<li><b>Windows:</b> each song&#x27;s beat analysis now uses all free processor cores, so a single new song is several times faster.</li>
+<li>Beat grids are a little closer to rekordbox&#x27;s (tested on 200 songs).</li>
+</ul>
+<p>**Status line** at the bottom of the window, like Ableton and Logic 💬</p>
+<ul>
+<li>Shows what GlideMix is doing: scanning your folders, <b>&quot;Analysing 7 of 20 · Artist – Title · about 1 minute left&quot;</b> with a progress bar and <b>Stop</b>, loading the rekordbox XML, working out energy, installing the stems engine. Then a short message when it&#x27;s done.</li>
+<li><b>Hover over any button</b> and the status line explains what it does.</li>
+<li>When a new version is out: <b>&quot;GlideMix 1.x is out · Click to update&quot;</b>.</li>
+</ul>
+<h3>Library</h3>
+<ul>
+<li>The Rating column shows <b>five stars, empty ones outlined</b>, like rekordbox. Click a star to rate; click it again to clear.</li>
+</ul>
+<h3>Also</h3>
+<ul>
+<li><b>Help → GlideMix Manual</b>: the full manual on glidemix.com.</li>
+<li>About: Mixxx is thanked in one line instead of 400 names.</li>
+<li>&quot;1 song&quot; / &quot;2 songs&quot; instead of &quot;song(s)&quot;.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.12/GlideMix-Beta-v1.1.12.dmg" sparkle:edSignature="cPDlvicQ8CAW9FeyYVXpxFx52sBm+tByyTXIX3tf8uMVDNdjN6hDwZ3xyRj/3lNABhdyh4BcDY0+VU/dwYtbAA==" length="519060400" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.11</title>
       <pubDate>Sun, 25 Oct 2026 08:14:15 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.11</link>
