@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.9 Beta · 25 Oct 2026
+- **rekordbox XML opens like Lexicon**: the song count beside Rekordbox XML, playlists and folders beneath it.
+- A **progress bar ("Loading 42%")** while a big XML is read; a clear message when the file isn't a rekordbox XML.
+- Copying rekordbox songs into the Music Collection is now **Copy Rekordbox XML into Music Collection…**.
+
 ### v1.1.8 Beta · 24 Oct 2026
 - **Find Duplicates**: songs that are in the collection more than once, best copy first, and Select extra copies.
 - **Smart Playlist generator**: one smart playlist per genre, key or energy level in one go.

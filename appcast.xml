@@ -6,6 +6,24 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.9</title>
+      <pubDate>Sun, 25 Oct 2026 07:21:01 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.9</link>
+      <sparkle:version>1.1.9</sparkle:version>
+      <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.9** (Mac and Windows)</p>
+<p>**rekordbox XML import, like Lexicon** 🎛️</p>
+<ul>
+<li><b>Import from Rekordbox XML…</b> (File menu, or right-click <b>Rekordbox XML</b> in the sidebar) now opens your rekordbox library in place, just like Lexicon: the song count shows next to <b>Rekordbox XML</b>, and its playlists and folders open beneath it.</li>
+<li>A big XML shows <b>&quot;Loading 42%&quot;</b> with a progress bar while it is read, instead of nothing.</li>
+<li>Before you have picked a file, clicking <b>Rekordbox XML</b> asks you for it.</li>
+<li>A file that isn&#x27;t a rekordbox XML gets a clear message.</li>
+<li>The old way, copying every rekordbox song into your Music Collection, is still there as <b>Copy Rekordbox XML into Music Collection…</b>.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.9/GlideMix-Beta-v1.1.9.dmg" sparkle:edSignature="No4vba7M64fvr3/6hc0y9FvH/4uJElJC1DQ7v8Rj2P3Yq9h6vC5yS3dZePSFCgp/wNO1BKFgfm3V01Z8f/+5Cw==" length="442169939" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.8</title>
       <pubDate>Sat, 24 Oct 2026 09:58:34 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.8</link>
