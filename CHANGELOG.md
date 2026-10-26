@@ -8,6 +8,10 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.17 Beta · 26 Oct 2026
+- **Songs that jump off their beat grid stay on the beat**: a song whose beats move part-way (a demo stitched from loops, an edit, a mashup) is split just before the jump when you add it with Sync on, and the later part slides back onto the bar.
+- Fixed: Undo and Redo after double-clicking a song into an empty project brought it back off the bar.
+
 ### v1.1.16 Beta · 26 Oct 2026
 - **Loops the Logic way**: drag across the top half of the ruler to draw a loop; it plays at once. Right-click a selection → **Loop** (Shift+L) or **Split**.
 - **Cmd+D / Ctrl+D repeats the selection** right after itself on the same track, in whole bars with Sync on; press again to keep going.

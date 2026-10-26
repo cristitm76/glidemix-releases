@@ -71,6 +71,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 **Mixing on a timeline**
 - Drag songs from the library onto the timeline, or double-click to add them at the end of the mix.
 - **Sync**: every song stretched to the mix tempo and locked to the bar. **Keylock** keeps the pitch.
+- **Songs that jump off their beat grid** (stitched demos, edits, mashups) are split where the beats move and the later part slid back onto the bar, so the metronome and your other songs stay on the kicks.
 - **IN / OUT** markers snap the next song into the previous one's outro.
 - A **tempo line** for tempo changes across the mix; songs follow it. Tempo changes glide in an **S-curve**, smooth at both ends like a hand on the pitch fader (or straight, your choice per point).
 - **Energy of the mix** drawn like a row of level meters behind the tempo line: green when calm, yellow as it builds, red at the peak. See how your set builds and where it drops.
