@@ -6,6 +6,25 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.15</title>
+      <pubDate>Mon, 26 Oct 2026 08:07:56 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.15</link>
+      <sparkle:version>1.1.15</sparkle:version>
+      <sparkle:shortVersionString>1.1.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.15** (Mac and Windows)</p>
+<p>**New: the transition as a DJ mixer** 🎛️</p>
+<ul>
+<li>Mix a transition on a <b>2-channel mixer laid out like a Pioneer DJM</b>: CH 1 is the song going out, CH 2 the song coming in.</li>
+<li>Each channel: <b>HI / MID / LOW with KILL</b>, a <b>COLOR</b> filter knob (left low-pass, right high-pass) and a <b>channel fader</b>. Below them the <b>crossfader</b> with <b>Smooth / Constant / Cut</b> curves.</li>
+<li><b>BEAT FX</b>: pick Echo, Reverb, Roll, Brake, Tape stop, Riser or Sweep, set <b>LEVEL/DEPTH</b> and hit the big <b>ON/OFF</b>.</li>
+<li><b>REC</b>: switch it on, press play and ride the knobs and faders — your moves are written into the transition as automation. Stopped, a move sets one point at the playhead.</li>
+<li>Turn it on in <b>Preferences → Transitions → The transition pill opens: The DJ mixer</b>, then click the cog on a BEATMATCH / CROSSFADE pill. The classic transition window is still there.</li>
+<li>Controls shown dim (TRIM, meters, Dub Echo / Sweep / Noise, FX frequency, EQ curve, some effects) are coming in later updates.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.15/GlideMix-Beta-v1.1.15.dmg" sparkle:edSignature="wbXSIRVbjoGLPehMQfeUiymQ1t1eqkpaaJ9ZshTbkmBrYGLpwonuRtZOgTAWGjoCAhVD/W5188m7eMF4UXaKDA==" length="517052279" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.14</title>
       <pubDate>Sun, 25 Oct 2026 23:04:08 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.14</link>
