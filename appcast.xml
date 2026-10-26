@@ -6,6 +6,26 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.17</title>
+      <pubDate>Mon, 26 Oct 2026 17:43:18 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.17</link>
+      <sparkle:version>1.1.17</sparkle:version>
+      <sparkle:shortVersionString>1.1.17</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.17** (Mac and Windows)</p>
+<p>**New: songs that jump off their beat grid stay on the beat** 🥁</p>
+<ul>
+<li>Some songs don&#x27;t sit on one steady grid: demos stitched from loops, edits, mashups. Part-way through, the beats move a few hundredths of a second, and from there the metronome and your other songs flam against the kicks.</li>
+<li>GlideMix now hears this when you add a song with <b>SYNC</b> on (drag it in or double-click it): it <b>splits the song just before the jump and slides the later part back onto the bar</b>. You see the cut on the timeline.</li>
+<li>Normal songs made on a steady grid are left exactly as they were.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Double-clicking a song into an empty project, then Undo and Redo, no longer brings the song back off the bar.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.17/GlideMix-Beta-v1.1.17.dmg" sparkle:edSignature="HY/NqxNMlrRRSDg7jFPConMxh3yihe9J3RU3Jvz5YiNCnhsXONFKHUbkU+rjw1m2FnaLC4yq+qyO5XIXETvsAQ==" length="519563017" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.16</title>
       <pubDate>Mon, 26 Oct 2026 16:49:38 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.16</link>
