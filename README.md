@@ -75,6 +75,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - A **tempo line** for tempo changes across the mix; songs follow it. Tempo changes glide in an **S-curve**, smooth at both ends like a hand on the pitch fader (or straight, your choice per point).
 - **Energy of the mix** drawn like a row of level meters behind the tempo line: green when calm, yellow as it builds, red at the peak. See how your set builds and where it drops.
 - **Mix Now** pulls the next song in at the next bar.
+- **Loops and repeats like Logic and Ableton**: drag across the top of the ruler to loop a section, right-click a selection for **Loop** or **Split**, and press **Cmd+D** (Ctrl+D) to repeat the selection right after itself, in whole bars with Sync on.
 - **Transitions** you build yourself: crossfade, fade, bass/mid/high swap, filter sweeps, risers, echo or reverb outs, each fade with its own shape (equal power, linear, S-curve, early, late).
 - **Transition effects** added in the transition panel act inside the transition only, each with its own on/off, amount and remove. **Right-click a transition's pill** to switch it off (grey) and back on.
 

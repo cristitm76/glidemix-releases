@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.16 Beta · 26 Oct 2026
+- **Loops the Logic way**: drag across the top half of the ruler to draw a loop; it plays at once. Right-click a selection → **Loop** (Shift+L) or **Split**.
+- **Cmd+D / Ctrl+D repeats the selection** right after itself on the same track, in whole bars with Sync on; press again to keep going.
+- Fixed "Connection to project file is null" when pressing Play after starting a new project.
+
 ### v1.1.15 Beta · 26 Oct 2026
 - **The transition as a DJ mixer**: a 2-channel mixer laid out like a Pioneer DJM, with HI / MID / LOW and KILL, COLOR, channel faders and a crossfader with Smooth / Constant / Cut curves.
 - **BEAT FX** with LEVEL/DEPTH and ON/OFF; **REC** writes your knob and fader moves into the transition while it plays.
