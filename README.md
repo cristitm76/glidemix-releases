@@ -92,6 +92,18 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
   <br><i>Close up: the chorus in red and blue, the breakdown, then the vocal part in green.</i>
 </p>
 
+**A DJ mixer for every transition**
+- Open a transition as a **2-channel mixer laid out like a Pioneer DJM**: CH 1 is the song going out, CH 2 the song coming in.
+- **HI / MID / LOW with KILL**, a **COLOR** filter knob and a **channel fader** per channel; a **crossfader** with **Smooth / Constant / Cut** curves.
+- **BEAT FX**: Echo, Reverb, Roll, Brake, Tape stop, Riser and Sweep, with **LEVEL/DEPTH** and a big **ON/OFF**.
+- Press **REC**, play, and ride the knobs: every move is written into the transition as automation.
+- Pick it in **Preferences → Transitions → The transition pill opens: The DJ mixer**. The classic transition window stays.
+
+<p align="center">
+  <img src="assets/mixer.jpg" alt="The GlideMix transition mixer: two channels with EQ, kills, COLOR and faders, a crossfader and BEAT FX, open over a mix" width="100%">
+  <br><i>The transition as a DJ mixer: kill the bass of the song going out, set the crossfader, switch on an echo, and REC it into the mix.</i>
+</p>
+
 **Effects and automation, the Ableton way**
 - Built-in DJ effects: filter, echo, reverb, risers, sweeps and more.
 - **Automation for any knob of any plugin**, drawn right on the song: click to add a point, drag it; new ramps glide in an **S-curve** (right-click a point for straight), hold **Option** to bend a ramp into a curve. Each knob has its own colour, and all of a song's lines show at once.

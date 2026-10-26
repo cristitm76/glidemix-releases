@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.15 Beta · 26 Oct 2026
+- **The transition as a DJ mixer**: a 2-channel mixer laid out like a Pioneer DJM, with HI / MID / LOW and KILL, COLOR, channel faders and a crossfader with Smooth / Constant / Cut curves.
+- **BEAT FX** with LEVEL/DEPTH and ON/OFF; **REC** writes your knob and fader moves into the transition while it plays.
+- Choose the mixer or the classic transition window in Preferences → Transitions.
+
 ### v1.1.14 Beta · 25 Oct 2026
 - **S-curves** on volume and FX automation, and crossfades drawn as one smooth line per song; no stray automation points left on screen.
 - **Right-click the transition pill** to switch a transition off (grey) and on again; **transition effects** stay inside the transition, each with on/off, amount and remove (also fixed on Windows).
