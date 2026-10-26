@@ -6,6 +6,27 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.16</title>
+      <pubDate>Mon, 26 Oct 2026 16:49:38 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.16</link>
+      <sparkle:version>1.1.16</sparkle:version>
+      <sparkle:shortVersionString>1.1.16</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.16** (Mac and Windows)</p>
+<p>**New: loops and repeats the Logic / Ableton way** 🔁</p>
+<ul>
+<li><b>Draw a loop in the ruler</b>: drag across the top half of the time ruler and that section loops right away. Drag the loop&#x27;s edges to resize it, drag its middle to move it, press <b>L</b> to turn looping on or off.</li>
+<li><b>Loop a selection</b>: drag over part of a track to select it, right-click and choose <b>Loop</b> (or press <b>Shift+L</b>). <b>Split</b> is in the same menu.</li>
+<li><b>Repeat with Cmd+D</b> (Ctrl+D on Windows): the selected section is copied right after itself on the same track, and the selection moves onto the copy, so pressing again keeps repeating it. With <b>SYNC</b> on the selection snaps to whole bars first, so the repeats stay on the beat. A selected clip repeats right after itself too.</li>
+<li>The new keys are in <b>Help → Keyboard shortcuts</b>.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>&quot;Connection to project file is null&quot; when pressing Play after starting a new project.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.16/GlideMix-Beta-v1.1.16.dmg" sparkle:edSignature="qWHWV0JX0e+BXnX0pGK6thbfK047DTJDG8bBHB0RnhFKlY0q2BvYo95DRrf/2dJuTi0i6kG2DseYhrfHTo2ABg==" length="521062258" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.15</title>
       <pubDate>Mon, 26 Oct 2026 08:07:56 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.15</link>
