@@ -6,6 +6,39 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.18</title>
+      <pubDate>Tue, 27 Oct 2026 15:28:40 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.18</link>
+      <sparkle:version>1.1.18</sparkle:version>
+      <sparkle:shortVersionString>1.1.18</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>**GlideMix Beta v1.1.18** (Mac and Windows)</p>
+<p>**Fixed: songs no longer land on the timeline in pieces** 🎚️</p>
+<ul>
+<li>Drag or double-click a song in and it stays <b>one clip</b>, every time. (v1.1.17 sometimes cut a song where it thought the beats moved off the grid, and could leave the second piece minutes away.)</li>
+<li>Want to fix a song whose beats really do jump part-way (a demo stitched from loops, a mashup)? Right-click it and choose <b>Split at grid jumps</b>. It cuts just before each jump and puts every part back on the bar. Undo puts it back together.</li>
+</ul>
+<p>**Phrase colours for Lexicon songs on any computer** 🌈</p>
+<ul>
+<li>The INTRO / UP / CHORUS ribbon under each song now also shows for Lexicon songs on a computer without rekordbox (for example Windows). GlideMix works the phrases out itself in the background, a few seconds after the song lands.</li>
+</ul>
+<p>**One look for every track** 👀</p>
+<ul>
+<li>New <b>View &gt; Track view</b>: show every song as Waveform, Spectrogram, Multi-view, Half-wave or Single wave in one go. Songs you add later follow the same look.</li>
+<li>The same choice is in <b>Preferences &gt; Waveforms &gt; Track view</b>.</li>
+</ul>
+<h3>Same menus on the song and on the track name</h3>
+<ul>
+<li>Right-click a song or right-click the track name: both now have <b>Color</b> (Color by key, Clip color, Track color, Intensity, Reset colors) and <b>Track visualization</b>.</li>
+<li>Half-wave and Single wave are no longer greyed out while Preferences is open.</li>
+</ul>
+<h3>Tidier stems download</h3>
+<ul>
+<li>The stems engine download now just counts its steps (1/4 … 4/4) instead of listing technical package names.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.18/GlideMix-Beta-v1.1.18.dmg" sparkle:edSignature="by2anYg6IuK9YP7jLSTaLaTpISxL4aF9j0t4xCWpucIudwdeYh6Azw6aa2fQgCQ6BlPdRGwKzVxGzsBGOiCiDQ==" length="519854008" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.17</title>
       <pubDate>Mon, 26 Oct 2026 17:43:18 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.17</link>
