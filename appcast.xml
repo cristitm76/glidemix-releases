@@ -12,17 +12,17 @@
       <sparkle:version>1.1.18</sparkle:version>
       <sparkle:shortVersionString>1.1.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.18** (Mac and Windows)</p>
-<p>**Fixed: songs no longer land on the timeline in pieces** 🎚️</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.18 (Mac and Windows)</h3>
+<h3>Fixed: songs no longer land on the timeline in pieces 🎚️</h3>
 <ul>
 <li>Drag or double-click a song in and it stays <b>one clip</b>, every time. (v1.1.17 sometimes cut a song where it thought the beats moved off the grid, and could leave the second piece minutes away.)</li>
 <li>Want to fix a song whose beats really do jump part-way (a demo stitched from loops, a mashup)? Right-click it and choose <b>Split at grid jumps</b>. It cuts just before each jump and puts every part back on the bar. Undo puts it back together.</li>
 </ul>
-<p>**Phrase colours for Lexicon songs on any computer** 🌈</p>
+<h3>Phrase colours for Lexicon songs on any computer 🌈</h3>
 <ul>
 <li>The INTRO / UP / CHORUS ribbon under each song now also shows for Lexicon songs on a computer without rekordbox (for example Windows). GlideMix works the phrases out itself in the background, a few seconds after the song lands.</li>
 </ul>
-<p>**One look for every track** 👀</p>
+<h3>One look for every track 👀</h3>
 <ul>
 <li>New <b>View &gt; Track view</b>: show every song as Waveform, Spectrogram, Multi-view, Half-wave or Single wave in one go. Songs you add later follow the same look.</li>
 <li>The same choice is in <b>Preferences &gt; Waveforms &gt; Track view</b>.</li>
@@ -45,8 +45,8 @@
       <sparkle:version>1.1.17</sparkle:version>
       <sparkle:shortVersionString>1.1.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.17** (Mac and Windows)</p>
-<p>**New: songs that jump off their beat grid stay on the beat** 🥁</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.17 (Mac and Windows)</h3>
+<h3>New: songs that jump off their beat grid stay on the beat 🥁</h3>
 <ul>
 <li>Some songs don&#x27;t sit on one steady grid: demos stitched from loops, edits, mashups. Part-way through, the beats move a few hundredths of a second, and from there the metronome and your other songs flam against the kicks.</li>
 <li>GlideMix now hears this when you add a song with <b>SYNC</b> on (drag it in or double-click it): it <b>splits the song just before the jump and slides the later part back onto the bar</b>. You see the cut on the timeline.</li>
@@ -65,8 +65,8 @@
       <sparkle:version>1.1.16</sparkle:version>
       <sparkle:shortVersionString>1.1.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.16** (Mac and Windows)</p>
-<p>**New: loops and repeats the Logic / Ableton way** 🔁</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.16 (Mac and Windows)</h3>
+<h3>New: loops and repeats the Logic / Ableton way 🔁</h3>
 <ul>
 <li><b>Draw a loop in the ruler</b>: drag across the top half of the time ruler and that section loops right away. Drag the loop&#x27;s edges to resize it, drag its middle to move it, press <b>L</b> to turn looping on or off.</li>
 <li><b>Loop a selection</b>: drag over part of a track to select it, right-click and choose <b>Loop</b> (or press <b>Shift+L</b>). <b>Split</b> is in the same menu.</li>
@@ -86,8 +86,8 @@
       <sparkle:version>1.1.15</sparkle:version>
       <sparkle:shortVersionString>1.1.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.15** (Mac and Windows)</p>
-<p>**New: the transition as a DJ mixer** 🎛️</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.15 (Mac and Windows)</h3>
+<h3>New: the transition as a DJ mixer 🎛️</h3>
 <ul>
 <li>Mix a transition on a <b>2-channel mixer laid out like a Pioneer DJM</b>: CH 1 is the song going out, CH 2 the song coming in.</li>
 <li>Each channel: <b>HI / MID / LOW with KILL</b>, a <b>COLOR</b> filter knob (left low-pass, right high-pass) and a <b>channel fader</b>. Below them the <b>crossfader</b> with <b>Smooth / Constant / Cut</b> curves.</li>
@@ -105,8 +105,8 @@
       <sparkle:version>1.1.14</sparkle:version>
       <sparkle:shortVersionString>1.1.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.14** (Mac and Windows)</p>
-<p>**Smooth S-curves** 〰️</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.14 (Mac and Windows)</h3>
+<h3>Smooth S-curves 〰️</h3>
 <ul>
 <li>Volume and FX automation now ease in and out like a DJ riding a fader, the same S-curves as the tempo line. Right-click a point → <b>Line: straight</b> or <b>Line: S-curve</b>.</li>
 <li>Crossfades are drawn as <b>one smooth line</b> per song instead of a row of dots.</li>
@@ -133,8 +133,8 @@
       <sparkle:version>1.1.13</sparkle:version>
       <sparkle:shortVersionString>1.1.13</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.13** (Mac and Windows)</p>
-<p>**Energy you can read at a glance** ⚡</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.13 (Mac and Windows)</h3>
+<h3>Energy you can read at a glance ⚡</h3>
 <ul>
 <li>The <b>ENERGY</b> view is drawn like a row of level meters: <b>green</b> when the mix is calm, <b>yellow</b> as it builds, <b>red</b> at the peak. Solid, vivid colours instead of the faded ones.</li>
 <li>The tempo line is now the same bright yellow as volume automation.</li>
@@ -160,14 +160,14 @@
       <sparkle:version>1.1.12</sparkle:version>
       <sparkle:shortVersionString>1.1.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.12** (Mac and Windows)</p>
-<p>**Much faster analysis** ⚡</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.12 (Mac and Windows)</h3>
+<h3>Much faster analysis ⚡</h3>
 <ul>
 <li><b>Mac:</b> the beat grid is worked out on the graphics chip (Core ML), with the full, most accurate beat model. On our test Mac, 288 songs took <b>4 min 42 s</b> (rekordbox 7 on the same songs: about 20 minutes). A new song is ready in about a second.</li>
 <li><b>Windows:</b> each song&#x27;s beat analysis now uses all free processor cores, so a single new song is several times faster.</li>
 <li>Beat grids are a little closer to rekordbox&#x27;s (tested on 200 songs).</li>
 </ul>
-<p>**Status line** at the bottom of the window, like Ableton and Logic 💬</p>
+<h3>Status line at the bottom of the window, like Ableton and Logic 💬</h3>
 <ul>
 <li>Shows what GlideMix is doing: scanning your folders, <b>&quot;Analysing 7 of 20 · Artist – Title · about 1 minute left&quot;</b> with a progress bar and <b>Stop</b>, loading the rekordbox XML, working out energy, installing the stems engine. Then a short message when it&#x27;s done.</li>
 <li><b>Hover over any button</b> and the status line explains what it does.</li>
@@ -192,8 +192,8 @@
       <sparkle:version>1.1.11</sparkle:version>
       <sparkle:shortVersionString>1.1.11</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.11** (Mac and Windows)</p>
-<p>**Energy for every song on the timeline** ⚡</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.11 (Mac and Windows)</h3>
+<h3>Energy for every song on the timeline ⚡</h3>
 <ul>
 <li>Songs without an energy rating (for example songs imported from rekordbox, which doesn&#x27;t rate energy) get one automatically a few seconds after you put them on the timeline. The rating shows in the library&#x27;s Energy column too. Their beat grid and key stay as they are.</li>
 <li>Songs from <b>Lexicon</b> now show how their energy rises and falls (intro, breakdowns, drops), instead of one flat block.</li>
@@ -207,7 +207,7 @@
       <sparkle:version>1.1.10</sparkle:version>
       <sparkle:shortVersionString>1.1.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.10** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.10 (Mac and Windows)</h3>
 <h3>Fix</h3>
 <ul>
 <li><b>Import from Rekordbox XML…</b> now opens the file chooser in your <b>Documents</b> folder (or the folder of the XML you used last). On Windows it used to open in a system folder.</li>
@@ -222,8 +222,8 @@
       <sparkle:version>1.1.9</sparkle:version>
       <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.9** (Mac and Windows)</p>
-<p>**rekordbox XML import, like Lexicon** 🎛️</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.9 (Mac and Windows)</h3>
+<h3>rekordbox XML import, like Lexicon 🎛️</h3>
 <ul>
 <li><b>Import from Rekordbox XML…</b> (File menu, or right-click <b>Rekordbox XML</b> in the sidebar) now opens your rekordbox library in place, just like Lexicon: the song count shows next to <b>Rekordbox XML</b>, and its playlists and folders open beneath it.</li>
 <li>A big XML shows <b>&quot;Loading 42%&quot;</b> with a progress bar while it is read, instead of nothing.</li>
@@ -240,13 +240,13 @@
       <sparkle:version>1.1.8</sparkle:version>
       <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.8** (Mac and Windows)</p>
-<p>**Find Duplicates** 🔁</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.8 (Mac and Windows)</h3>
+<h3>Find Duplicates 🔁</h3>
 <ul>
 <li>New <b>Duplicates</b> under Music Collection: songs that are in your collection more than once (same artist and title, same length), side by side with the best copy first (WAV/AIFF/FLAC before MP3, then the higher bitrate).</li>
 <li><b>Select extra copies</b> selects every copy except the best one, ready for Remove from Library or Delete from Disk.</li>
 </ul>
-<p>**Smart Playlist generator** ⚙️</p>
+<h3>Smart Playlist generator ⚙️</h3>
 <ul>
 <li>Right-click <b>Smart Playlists → Generate Smart Playlists</b>: one playlist per <b>genre</b>, per <b>key</b> or per <b>energy level</b>, from your collection, Lexicon, rekordbox or all of them, in one go.</li>
 <li><b>Delete Generated Smart Playlists</b> removes them all again.</li>
@@ -274,14 +274,14 @@
       <sparkle:version>1.1.7</sparkle:version>
       <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.7** (Mac and Windows)</p>
-<p>**Energy** ⚡</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.7 (Mac and Windows)</h3>
+<h3>Energy ⚡</h3>
 <ul>
 <li>New <b>Energy</b> column right after BPM: every song rated <b>Energy 1–10</b>, like Mixed In Key and Lexicon. Sort by it, and use it in Smart Playlists (&quot;Energy 7–9 and BPM 124–128&quot;).</li>
 <li>Lexicon songs show Lexicon&#x27;s own energy. Your Music Collection songs get theirs from GlideMix&#x27;s analysis, tuned to agree with Lexicon&#x27;s ratings (songs analysed before this version: press Analyze once).</li>
 <li><b>ENERGY</b> button next to TEMPO: the energy of the whole mix drawn behind the tempo line, blue (calm) to red (peak). See how your set builds, where it drops, and where a breakdown or a long fade lets it sag.</li>
 </ul>
-<p>**Watch folders** 📂</p>
+<h3>Watch folders 📂</h3>
 <ul>
 <li>The music folders in Preferences → Music library are now watched while GlideMix runs: copy or download a song into one and it appears in your Music Collection a few seconds later.</li>
 <li>New songs are <b>analysed automatically</b> (BPM, key, beat grid, phrases, energy). Both can be switched off in Preferences.</li>
@@ -300,8 +300,8 @@
       <sparkle:version>1.1.6</sparkle:version>
       <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.6** (Mac and Windows)</p>
-<p>**Smart Playlists** ⚙️</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.6 (Mac and Windows)</h3>
+<h3>Smart Playlists ⚙️</h3>
 <ul>
 <li>New <b>Smart Playlists</b> in the library sidebar: playlists that fill themselves from rules, like rekordbox&#x27;s Intelligent Playlists and Lexicon&#x27;s Smartlists.</li>
 <li>Pick from your Music Collection, <b>Lexicon</b>, rekordbox XML or all of them. Match all or any rules, with &quot;or…&quot; alternatives.</li>
@@ -330,7 +330,7 @@
       <sparkle:version>1.1.5</sparkle:version>
       <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.5** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.5 (Mac and Windows)</h3>
 <h3>Tracklist with every export</h3>
 <ul>
 <li>Every exported mix now gets its <b>tracklist</b> beside it: a `.txt` with timestamps and Artist - Title, ready to paste into Mixcloud or your show notes, plus a `.cue` sheet. Times match the file, tempo changes included.</li>
@@ -350,7 +350,7 @@
       <sparkle:version>1.1.4</sparkle:version>
       <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.4** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.4 (Mac and Windows)</h3>
 <h3>Learn, right on Home</h3>
 <ul>
 <li>Home has a new <b>Learn</b> page: getting started, what&#x27;s new, every keyboard shortcut, the Discord community, support by email, and your licence. All one click away.</li>
@@ -372,7 +372,7 @@
       <sparkle:version>1.1.3</sparkle:version>
       <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.3** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.3 (Mac and Windows)</h3>
 <h3>How loud is your mix?</h3>
 <ul>
 <li>After every export GlideMix tells you the <b>loudness (LUFS)</b>, the <b>true peak</b> and the peak, and what Spotify, YouTube and Apple Music will do with it (they play music at about -14 LUFS).</li>
@@ -402,7 +402,7 @@
       <sparkle:version>1.1.2</sparkle:version>
       <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.2** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.2 (Mac and Windows)</h3>
 <h3>One licence, everything included</h3>
 <ul>
 <li><b>GlideMix – €49</b> unlocks everything, stems included. One-time payment, 3 computers, all 1.x updates: https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ</li>
@@ -417,7 +417,7 @@
       <sparkle:version>1.1.1</sparkle:version>
       <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.1** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.1 (Mac and Windows)</h3>
 <h3>Better sound on smaller PCs</h3>
 <ul>
 <li>On computers with 2 cores (4 threads), GlideMix used a cheap sample-rate converter to avoid crackles. It dulled the highs: hi-hats and cymbals came out softer and gritty, in playback and in exports. It now uses a proper high-quality converter (windowed sinc), clean far below hearing, and still light enough for small PCs.</li>
@@ -432,7 +432,7 @@
       <sparkle:version>1.1.0</sparkle:version>
       <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Beta v1.1.0** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.0 (Mac and Windows)</h3>
 <h3>GlideMix is in Beta</h3>
 <ul>
 <li>Every download starts as the <b>free demo</b>: everything works, but every 2 minutes the sound goes quiet for a few seconds, exported mixes get a short noise in those gaps, and an export stops after 20 minutes. The window title says *GlideMix Demo*.</li>
@@ -454,7 +454,7 @@
       <sparkle:version>1.0.9</sparkle:version>
       <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Alpha v1.0.9 Early Preview** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.9 Early Preview (Mac and Windows)</h3>
 <h3>Edit Tags</h3>
 <ul>
 <li>Right-click a song, or several selected songs, → <b>Edit Tags…</b>: Title, Artist, Album, Album Artist, Genre, Year, Track #, Composer, Grouping, Comment.</li>
@@ -475,7 +475,7 @@
       <sparkle:version>1.0.8</sparkle:version>
       <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Alpha v1.0.8 Early Preview** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.8 Early Preview (Mac and Windows)</h3>
 <h3>Library: ratings and colors</h3>
 <ul>
 <li>Stars and colors you set show up at once (before, only after switching views).</li>
@@ -495,7 +495,7 @@
       <sparkle:version>1.0.7</sparkle:version>
       <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Alpha v1.0.7 Early Preview** (Mac and Windows)</p>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.7 Early Preview (Mac and Windows)</h3>
 <h3>Fix</h3>
 <ul>
 <li>GlideMix could crash when you pressed <b>Perform</b> or <b>Stop</b> (the red Perform playhead), most often on Windows. Fixed.</li>
@@ -516,7 +516,7 @@
       <sparkle:version>1.0.6</sparkle:version>
       <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Alpha v1.0.6 Early Preview** (Mac; the Windows installer follows)</p>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.6 Early Preview (Mac; the Windows installer follows)</h3>
 <h3>Exports sound like playback</h3>
 <ul>
 <li>Exported mixes no longer clip: export now goes through the same engine as playback, with its limiter, the tempo line and all plugin automation. A 20-minute test mix: 0 clipped samples, peak −1 dBFS (before: over 1% of samples clipped).</li>
@@ -544,7 +544,7 @@
 <ul>
 <li>New: <b>Single wave</b>. In a track&#x27;s <b>⋯</b> menu → <b>Track visualization</b> → <b>Single wave</b>, a stereo track is drawn as one waveform and its lane takes about half the height, so more of the mix fits on screen. Choose it again to get both channels and the full height back. It&#x27;s saved with the project. The beat grid editor is unchanged.</li>
 </ul>
-<p>Mac: this is the first update you can install from inside GlideMix: **Help → Check for update → Install Update**, then **Install and Relaunch**.</p>]]></description>
+<p>Mac: this is the first update you can install from inside GlideMix: <b>Help → Check for update → Install Update</b>, then <b>Install and Relaunch</b>.</p>]]></description>
       <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.5/GlideMix-Alpha-v1.0.5-Early-Preview.dmg" sparkle:edSignature="kctDx00kJXRcg2oNp22gXdBDZ9maeiupTKDCAnHaXO8KPR89+ZF0kX8nqFr2Fvh2Fj3iLSJ2EDMjEX6tMb8UBQ==" length="442073111" type="application/octet-stream"/>
     </item>
     <item>
@@ -643,7 +643,7 @@
       <sparkle:version>1.0.1</sparkle:version>
       <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>**GlideMix Alpha v1.0.1 Early Preview** — the first build that updates itself.</p>
+      <description><![CDATA[<h3>GlideMix Alpha v1.0.1 Early Preview — the first build that updates itself.</h3>
 <h3>New</h3>
 <ul>
 <li>GlideMix now checks for new versions when it starts and shows what changed. You can also check any time with <b>Help → Check for updates…</b></li>
