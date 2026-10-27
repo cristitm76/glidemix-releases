@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.18 Beta · 27 Oct 2026
+- **Songs land as one clip again**: adding a song never splits it by itself any more, and no piece ends up minutes away. Split a song whose beats really jump by hand: right-click → **Split at grid jumps**.
+- **Phrase colours for Lexicon songs on any computer**, worked out in the background where rekordbox has none (for example Windows).
+- **View → Track view**: every song as Waveform, Spectrogram, Multi-view, Half-wave or Single wave, also in Preferences → Waveforms.
+- **The same Color and Track visualization menus** on a song and on its track name; the stems download just counts its steps.
+
 ### v1.1.17 Beta · 26 Oct 2026
 - **Songs that jump off their beat grid stay on the beat**: a song whose beats move part-way (a demo stitched from loops, an edit, a mashup) is split just before the jump when you add it with Sync on, and the later part slides back onto the bar.
 - Fixed: Undo and Redo after double-clicking a song into an empty project brought it back off the bar.
