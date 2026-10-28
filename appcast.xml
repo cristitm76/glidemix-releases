@@ -6,6 +6,32 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.20</title>
+      <pubDate>Wed, 28 Oct 2026 18:59:23 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.20</link>
+      <sparkle:version>1.1.20</sparkle:version>
+      <sparkle:shortVersionString>1.1.20</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.20 (Mac and Windows)</h3>
+<h3>Songs with special characters drop onto the timeline again 💿</h3>
+<ul>
+<li>With an effect on the master track, songs whose file names have accents, emoji or special spaces (common in downloaded compilations) didn&#x27;t land on the timeline. Nothing happened, and no message appeared. They drop normally again, however many tracks you have.</li>
+</ul>
+<h3>Smoother playback, much less CPU ⚡</h3>
+<ul>
+<li>During playback, every transition kept recalculating its knobs and faders on every frame, even with its window closed. Now only an open transition window follows the playhead. On a test mix, GlideMix&#x27;s CPU use went from about 100% to about 36%.</li>
+</ul>
+<h3>Fixed: a crash when closing a master effect window 🎛️</h3>
+<ul>
+<li>Closing a master effect&#x27;s window with its red button could close GlideMix. Fixed.</li>
+</ul>
+<h3>Known issue: AIR Music Technology plugins</h3>
+<ul>
+<li>AIR plugins (AIR Compressor and the rest of the AIR range) crash GlideMix when added. Please don&#x27;t use them for now.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.20/GlideMix-Beta-v1.1.20.dmg" sparkle:edSignature="+KFxR6+sDHozpFh6J8oxe9Kab6nUCCKS+7Za2K/mZgqtuVN62xxppvvMiYKbaFGWDh76I9gxC81Y2pp3bgTiCA==" length="521906645" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.19</title>
       <pubDate>Wed, 28 Oct 2026 08:14:10 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.19</link>
