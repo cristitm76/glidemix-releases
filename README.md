@@ -88,7 +88,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 **Colour waveforms**
 - **HD colour waveforms** on the timeline and in the library: **bass red, mids green, highs blue**, each drawn as its own layer. A drop shows red and pink, a breakdown blue, vocals and leads green.
 - Zoom in to single beats: the grid, the phrases and the cue points stay on the song.
-- **DJ style** (RGB on black) or **Classic** in the track colour, and **single wave** for a compact view.
+- **DJ style** (RGB on black) or **Classic** in the track colour. New songs open in **single wave**: one waveform in half the height, so more of the mix fits on screen.
 - **View → Track view** shows every song at once as Waveform, Spectrogram, Multi-view, Half-wave or Single wave (also in Preferences → Waveforms); right-click a song or its track name for **Color** and **Track visualization** of that track.
 
 <p align="center">
@@ -102,6 +102,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **BEAT FX**: Echo, Reverb, Roll, Brake, Tape stop, Riser and Sweep, with **LEVEL/DEPTH** and a big **ON/OFF**.
 - Press **REC**, play, and ride the knobs: every move is written into the transition as automation.
 - Pick it in **Preferences → Transitions → The transition pill opens: The DJ mixer**. The classic transition window stays.
+- Or keep the **classic transition window**: its knobs and VOL fader change the sound while you turn them, record the move while the mix plays, and each move is one undo step.
 
 <p align="center">
   <img src="assets/mixer.jpg" alt="The GlideMix transition mixer: two channels with EQ, kills, COLOR and faders, a crossfader and BEAT FX, open over a mix" width="100%">

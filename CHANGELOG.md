@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.19 Beta · 28 Oct 2026
+- **Transition window knobs you can play**: High, Mid, Low, Color and a real VOL fader change the sound while you turn them, record the move while the mix plays, and each move is one undo step. Fixed a crash on save after EQ moves.
+- **BEATMATCH pills stay on their transition** after zooming; **the music keeps playing** when you drag the playhead elsewhere; **one copy per library drop**.
+- **DJ-style knobs and faders** in the track headers, zoom and library sliders; **Single wave by default**; Preferences → Reset keeps your licence.
+
 ### v1.1.18 Beta · 27 Oct 2026
 - **Songs land as one clip again**: adding a song never splits it by itself any more, and no piece ends up minutes away. Split a song whose beats really jump by hand: right-click → **Split at grid jumps**.
 - **Phrase colours for Lexicon songs on any computer**, worked out in the background where rekordbox has none (for example Windows).
