@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.20 Beta · 28 Oct 2026
+- **Songs with special characters drop onto the timeline again**: with an effect on the master track, songs whose file names had accents, emoji or special spaces silently failed to land.
+- **Much less CPU during playback**: only an open transition window follows the playhead now (about 100% → 36% on a test mix).
+- Fixed a crash when closing a master effect's window. Known issue: AIR Music Technology plugins crash GlideMix; don't use them for now.
+
 ### v1.1.19 Beta · 28 Oct 2026
 - **Transition window knobs you can play**: High, Mid, Low, Color and a real VOL fader change the sound while you turn them, record the move while the mix plays, and each move is one undo step. Fixed a crash on save after EQ moves.
 - **BEATMATCH pills stay on their transition** after zooming; **the music keeps playing** when you drag the playhead elsewhere; **one copy per library drop**.
