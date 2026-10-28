@@ -6,6 +6,54 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.19</title>
+      <pubDate>Wed, 28 Oct 2026 08:14:10 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.19</link>
+      <sparkle:version>1.1.19</sparkle:version>
+      <sparkle:shortVersionString>1.1.19</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.19 (Mac and Windows)</h3>
+<h3>Transition window: play the knobs like a mixer 🎛️</h3>
+<ul>
+<li>High, Mid, Low, Color and the VOL fader now change the sound <b>while you turn them</b>, not only after you let go.</li>
+<li>Turn a knob while the mix plays and the move is <b>recorded</b> as you make it. Stopped, a turn sets one point at the playhead.</li>
+<li>Each move is <b>one undo step</b>.</li>
+<li>The knobs follow the playhead: move it and they show the transition&#x27;s value at that spot.</li>
+<li>VOL is a real fader now, with a cap you can grab.</li>
+<li>The scroll wheel moves a knob in small steps (it used to jump to 0% or 100%).</li>
+</ul>
+<h3>Fixed: a crash on save after EQ moves</h3>
+<ul>
+<li>After some knob moves in a transition, saving could close GlideMix. Fixed, and a project already affected opens and saves normally again.</li>
+</ul>
+<h3>BEATMATCH pills stay on their transition 🔗</h3>
+<ul>
+<li>Zoom the tracks in, scroll, zoom back out: the pill stays on its transition instead of floating away.</li>
+</ul>
+<h3>The music keeps playing when you move the playhead ▶️</h3>
+<ul>
+<li>Drag the playhead somewhere else while the mix plays, even past the end of a selection, and the music carries on from where you dropped it.</li>
+</ul>
+<h3>One copy per drop</h3>
+<ul>
+<li>Dragging a song from the library onto the timeline sometimes left a second, pale copy behind. Now you get just the song.</li>
+</ul>
+<h3>DJ-style knobs and faders 🎚️</h3>
+<ul>
+<li>The track pan knob, the track volume, the zoom sliders and the library text size and row height sliders have a new DJ look: a silver fader cap on a dark slot, and a rubber knob with a value ring.</li>
+<li>Every track keeps its pan knob and volume fader after you reopen a project (tracks at the smallest height used to lose them).</li>
+</ul>
+<h3>Single wave by default 🌊</h3>
+<ul>
+<li>New songs open as one waveform in half the height, so more of the mix fits on screen. Switch any track back with <b>View &gt; Track view</b> or the track&#x27;s right-click menu.</li>
+</ul>
+<h3>Reset keeps your licence</h3>
+<ul>
+<li><b>Preferences &gt; Reset</b> no longer turns a Standard or Pro licence back into the demo.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.19/GlideMix-Beta-v1.1.19.dmg" sparkle:edSignature="PyhSLwu8leX/RDc5M1/pRZL4g+Lwd9CSgqJC9Gg/+HgG6kVYs2OF2b/aZvJ3yi1KlwQgI/lctwODDDDABh8OAA==" length="520030920" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.18</title>
       <pubDate>Tue, 27 Oct 2026 15:28:40 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.18</link>
