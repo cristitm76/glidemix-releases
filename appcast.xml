@@ -6,6 +6,51 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.21</title>
+      <pubDate>Sun, 01 Nov 2026 14:00:25 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.21</link>
+      <sparkle:version>1.1.21</sparkle:version>
+      <sparkle:shortVersionString>1.1.21</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.21 (Mac and Windows)</h3>
+<h3>New: the Project tab, your mix as a playlist 🎚️</h3>
+<ul>
+<li>A <b>Project</b> tab next to Music library lists the songs of your mix in order: #, title, artist, BPM (with stretch %), key and the transition into the next song.</li>
+<li><b>Drag a row to reorder your mix.</b> Every song snaps in with its IN on the previous song&#x27;s OUT, the lanes follow the new order, and the changed pairs get their transition again. One Undo puts everything back.</li>
+<li><b>Pick each transition from the row&#x27;s drop-down.</b> The choice is saved with the project.</li>
+<li><b>Click a row</b> and the timeline zooms to that song: no more scrolling to the end of a long mix. After a drag it zooms to the song you moved.</li>
+<li>A thin bar under each row shows how far the song has played; click it to jump there.</li>
+</ul>
+<h3>Songs snap into the mix every time 🧲</h3>
+<ul>
+<li>A song double-clicked in the library always joins the end of the mix, linked and with a transition, however far away it was.</li>
+<li>Delete a song and the songs after it close the gap.</li>
+<li>A song that isn&#x27;t analysed yet is analysed straight away and joins the mix when it&#x27;s ready.</li>
+<li>No more silence between songs: a song&#x27;s IN now sits where its music really starts, and its OUT stays on music that&#x27;s still loud.</li>
+<li>A smoother default blend: the new song fades in and is at full volume on its IN, the old one leaves after its OUT, and the bass changes hands right there.</li>
+<li>Each row&#x27;s drop-down also offers MixMeister&#x27;s classic Beatmix transitions (8 to 64 bars). The smooth S-curve crossfade stays the default.</li>
+</ul>
+<h3>Volume lines on from the start 📈</h3>
+<ul>
+<li>Every song&#x27;s volume line shows straight away, so you can shape a fade without looking for the automation button first. The button still hides it.</li>
+</ul>
+<h3>Smarter mix points 🎯</h3>
+<ul>
+<li>GlideMix skips a quiet first or last phrase when it places a song&#x27;s IN and OUT, and short songs get shorter phrases so they still mix.</li>
+</ul>
+<h3>A huge library opens fast ⚡</h3>
+<ul>
+<li>With a big rekordbox-imported library, sorting or searching could freeze GlideMix for up to two minutes. It now takes a fraction of a second (tested on 38,000 songs).</li>
+</ul>
+<h3>Plugins 🔌</h3>
+<ul>
+<li>If a plugin crashes GlideMix while it loads, opens its window or plays, GlideMix turns it off the next time it starts and tells you which one. To try it again: Effect &gt; Plugin manager, tick &quot;Include plugins with errors&quot;, then Rescan.</li>
+<li>VST3 plugins now keep knob changes made while stopped, and plugin names with accents show correctly.</li>
+<li>Known issue: older AIR Music Technology plugins can still crash GlideMix. Please let us know which plugins misbehave for you.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.21/GlideMix-Beta-v1.1.21.dmg" sparkle:edSignature="aRqlVqRoiAjONj1anJku2b1kdurgqBVhEU0ZeGsg7aNbcJYdKlr2ufyLFYsYn10lSOtjMSI9Hw+DWczolpArDA==" length="522467353" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.20</title>
       <pubDate>Wed, 28 Oct 2026 18:59:23 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.20</link>
