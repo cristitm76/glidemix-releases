@@ -8,6 +8,14 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.21 Beta · 1 Nov 2026
+- **The Project tab**: your mix as a playlist next to Music library. Drag a row to reorder and the whole mix follows, IN on OUT, in one Undo. Click a row to zoom to that song. Pick each transition from its row; it's saved with the project.
+- **Songs snap in every time**: a double-clicked song always joins the end of the mix with a transition, and a deleted song leaves no gap.
+- **No more silence between songs**: the IN sits where the music really starts and the OUT stays on music that's still loud. The new song is at full volume on its IN and the old one leaves after its OUT.
+- **Volume lines on from the start**, without looking for the automation button.
+- **A huge library opens fast**: sorting 38,000 songs went from a two-minute freeze to a fraction of a second.
+- **Plugins**: one that crashes GlideMix while loading, opening its window or playing is turned off on the next start, with a message naming it. VST3 knob changes while stopped are kept, and plugin names with accents show correctly.
+
 ### v1.1.20 Beta · 28 Oct 2026
 - **Songs with special characters drop onto the timeline again**: with an effect on the master track, songs whose file names had accents, emoji or special spaces silently failed to land.
 - **Much less CPU during playback**: only an open transition window follows the playhead now (about 100% → 36% on a test mix).

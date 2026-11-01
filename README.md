@@ -43,6 +43,16 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.1.21: your mix as a playlist**
+<p align="center">
+  <img src="assets/project-tab.jpg" alt="The GlideMix Project tab: the songs of a mix listed in order with BPM, key and transition, above them the songs on the timeline, each IN on the previous OUT" width="100%">
+</p>
+
+- The **Project tab**, next to Music library, lists your mix in order: title, artist, BPM with stretch, key and the transition into the next song.
+- **Drag a row to reorder**: every song snaps in, IN on the previous OUT, the lanes follow, and one Undo puts it all back.
+- **A song added from the library always lands linked**, and deleting a song closes the gap. **Click a row** and the timeline zooms to that song.
+- **Smooth blends by default**: the new song fades in and is at full volume on its IN, the old one leaves after its OUT, and the bass changes hands right there.
+
 **Your music, analysed like a DJ app**
 - **Tip for rekordbox and Lexicon users:** analyse your whole library there first (rekordbox: BPM/Grid, KEY and Phrase on), then open it in GlideMix. Those songs come with their beat grids, keys, cues and phrases and need no analysis at all; GlideMix only analyses songs those apps don't know.
 - Tempo, beat grid, musical key (Camelot key wheel) and song phrases (intro, chorus, drop, outro), shown right on each song.
