@@ -8,6 +8,10 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.23 Beta · 1 Nov 2026
+- **Help > What's new**: read the What's new window again whenever you want.
+- **Cancel stops the whole range**: pressing Cancel while a range of songs loads now stops the load and keeps the songs already in the mix.
+
 ### v1.1.22 Beta · 1 Nov 2026
 - **Big mixes stay usable**: with 30 songs or more, lanes, track headers and sliders no longer drift apart when you change the track view, zoom or scroll, and you keep your place while lanes change height.
 - **Reset view** button in front of the zoom sliders: lanes at their default height, the first songs readable.

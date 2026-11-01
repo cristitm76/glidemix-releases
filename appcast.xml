@@ -6,6 +6,42 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.23</title>
+      <pubDate>Sun, 01 Nov 2026 20:00:44 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.23</link>
+      <sparkle:version>1.1.23</sparkle:version>
+      <sparkle:shortVersionString>1.1.23</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.23 (Mac and Windows)</h3>
+<h3>A small update after v1.1.22 ✨</h3>
+<ul>
+<li><b>Help &gt; What&#x27;s new in 1.1.23</b> opens the What&#x27;s new window whenever you want to read it again.</li>
+<li><b>Cancel stops the whole range:</b> pressing Cancel while a range of songs loads from the library now stops the load and keeps the songs already in the mix. Before, it only skipped the current song.</li>
+</ul>
+<h3>Also new since v1.1.21, from v1.1.22 🎚️</h3>
+<h3>Big mixes stay usable 🎚️</h3>
+<ul>
+<li>With 30 songs or more, lanes, track headers and sliders no longer drift apart when you change the track view, zoom or scroll. No more restarting to fix the view.</li>
+<li>You keep your place: the same song stays at the top while lanes change height or you switch track view.</li>
+<li>New <b>Reset view</b> button in front of the zoom sliders: lanes back at their default height and the first songs of the mix readable.</li>
+</ul>
+<h3>Load a whole range from the library 📚</h3>
+<ul>
+<li>Click a song, Shift-click another, right-click and choose Load to &gt; Project. They join the end of the mix in the same order, each one blended into the next, and the view shows the first of them.</li>
+</ul>
+<h3>The Project tab looks like the library 🖼️</h3>
+<ul>
+<li>Cover art, waveform, artist, year, key, genre, energy, duration, rating, comment and date added for every song in your mix.</li>
+<li>Scroll sideways for more columns. The transition stays pinned on the right.</li>
+</ul>
+<h3>Also new ✨</h3>
+<ul>
+<li>GlideMix now tells you what changed the first time it starts after an update.</li>
+<li>Single wave is the default track view on a fresh install.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.23/GlideMix-Beta-v1.1.23.dmg" sparkle:edSignature="BIoGWlAyf+s9fXcSVQ7JHSYfIKiTi64tx1sLIxiXCglqldN281NpAy4ZK5/86J7Q1b9xHRyEBYKOCi7DBj/rCw==" length="517777130" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.22</title>
       <pubDate>Sun, 01 Nov 2026 18:50:35 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.22</link>
