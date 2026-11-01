@@ -43,12 +43,22 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
-**New in 1.1.21: your mix as a playlist**
+**New in 1.1.22: big mixes stay usable**
+<p align="center">
+  <img src="assets/project-tab-library.jpg" alt="The GlideMix Project tab with the library's columns: cover art, waveform, artist, key, BPM with stretch, energy, duration and rating, with the transition pinned on the right" width="100%">
+</p>
+
+- **The Project tab looks like the library**: cover art, waveform, key, genre, energy, duration and rating for every song in your mix, with the transition pinned on the right.
+- **Load a whole range**: Shift-select songs in the library, right-click, Load to > Project. They join the end of the mix in the same order, each one blended into the next.
+- **Reset view** in front of the zoom sliders puts lanes back at their default height with the first songs readable. Lanes and headers stay together at 30 songs and more, and you keep your place when lanes change height.
+- **What's new** after each update: GlideMix tells you what changed the first time it starts.
+
+**Your mix as a playlist**
 <p align="center">
   <img src="assets/project-tab.jpg" alt="The GlideMix Project tab: the songs of a mix listed in order with BPM, key and transition, above them the songs on the timeline, each IN on the previous OUT" width="100%">
 </p>
 
-- The **Project tab**, next to Music library, lists your mix in order: title, artist, BPM with stretch, key and the transition into the next song.
+- The **Project tab**, next to Music library, lists your mix in order, with the transition into the next song on every row.
 - **Drag a row to reorder**: every song snaps in, IN on the previous OUT, the lanes follow, and one Undo puts it all back.
 - **A song added from the library always lands linked**, and deleting a song closes the gap. **Click a row** and the timeline zooms to that song.
 - **Smooth blends by default**: the new song fades in and is at full volume on its IN, the old one leaves after its OUT, and the bass changes hands right there.
