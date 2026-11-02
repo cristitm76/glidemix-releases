@@ -8,6 +8,15 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.25 Beta · 2 Nov 2026
+- **Tempo line:** BPM markers at every transition, so you can see the tempo without scrolling back. Points and markers follow your theme color.
+- **Reset** on the tempo line now returns every track to its real BPM, and the Project tab shows the tempo each song really plays at.
+- **Import From File Tags** works: right-click songs > Metadata. Changed a tag in another app? Pull it into your library.
+- **ReplayGain:** tags are read when songs are added, and Import From File Tags fills in songs already in your library.
+- **Show in Library:** right-click a Project tab song to find the track, its album or its artist. Playlist songs get Show in Library too.
+- **Search related Tracks:** no more stuck filters. The search shows on the key wheel or in the search box, and one click clears it.
+- **Drag preview:** dragging a song onto the timeline now shows artist and title.
+
 ### v1.1.24 Beta · 2 Nov 2026
 - We’ve polished the canvas and vaporized the bugs, making your GlideMix exports and artworks smoother than ever. Those glitches thought they were art, but we treated them like a bad sketch. Canvas cleared, bugs deleted. 🎨💥
 

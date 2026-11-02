@@ -6,6 +6,26 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.25</title>
+      <pubDate>Mon, 02 Nov 2026 21:11:50 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.25</link>
+      <sparkle:version>1.1.25</sparkle:version>
+      <sparkle:shortVersionString>1.1.25</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.25 (Mac and Windows)</h3>
+<p>Fixes and requests from our users:</p>
+<ul>
+<li><b>Tempo line:</b> BPM markers at every transition, so you can see the tempo without scrolling back. Points and markers follow your theme color.</li>
+<li><b>Reset</b> on the tempo line now returns every track to its real BPM, and the Project tab shows the tempo each song really plays at.</li>
+<li><b>Import From File Tags</b> works: right-click songs &gt; Metadata. Changed a tag in another app? Pull it into your library.</li>
+<li><b>ReplayGain:</b> tags are read when songs are added, and Import From File Tags fills in songs already in your library.</li>
+<li><b>Show in Library:</b> right-click a Project tab song to find the track, its album or its artist. Playlist songs get Show in Library too.</li>
+<li><b>Search related Tracks:</b> no more stuck filters. The search shows on the key wheel or in the search box, and one click clears it.</li>
+<li><b>Drag preview:</b> dragging a song onto the timeline now shows artist and title.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.25/GlideMix-Beta-v1.1.25.dmg" sparkle:edSignature="Gmk6h6/U2J861f3sAHITsIn2f8krTU9Ftqj8wm6oBjkS19aUWMkyVQPUP21gJGtSvU71yu+TPO2uMVZRpX/MAA==" length="519557818" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.24</title>
       <pubDate>Mon, 02 Nov 2026 14:19:39 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.24</link>
