@@ -8,6 +8,9 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.24 Beta · 2 Nov 2026
+- We’ve polished the canvas and vaporized the bugs, making your GlideMix exports and artworks smoother than ever. Those glitches thought they were art, but we treated them like a bad sketch. Canvas cleared, bugs deleted. 🎨💥
+
 ### v1.1.23 Beta · 1 Nov 2026
 - **Help > What's new**: read the What's new window again whenever you want.
 - **Cancel stops the whole range**: pressing Cancel while a range of songs loads now stops the load and keeps the songs already in the mix.

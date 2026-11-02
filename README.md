@@ -43,6 +43,9 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.1.24: your mix wears your artwork**
+- **Artwork**: choose a photo in the Metadata editor and it goes into your exported file, together with the title and artist tags.
+
 **New in 1.1.22: big mixes stay usable**
 <p align="center">
   <img src="assets/project-tab-library.jpg" alt="The GlideMix Project tab with the library's columns: cover art, waveform, artist, key, BPM with stretch, energy, duration and rating, with the transition pinned on the right" width="100%">

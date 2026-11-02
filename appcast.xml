@@ -6,6 +6,17 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.24</title>
+      <pubDate>Mon, 02 Nov 2026 14:19:39 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.24</link>
+      <sparkle:version>1.1.24</sparkle:version>
+      <sparkle:shortVersionString>1.1.24</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.24 (Mac and Windows)</h3>
+<p>We’ve polished the canvas and vaporized the bugs, making your GlideMix exports and artworks smoother than ever. Those glitches thought they were art, but we treated them like a bad sketch. Canvas cleared, bugs deleted. 🎨💥</p>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.24/GlideMix-Beta-v1.1.24.dmg" sparkle:edSignature="4FJlI7v0mIGnvC3Tt5jNPQZkE9QYTyOK3JA4aLmT7DEEB+MUfNXdF7dBeYM499iI7cla7qxOL1KxXCAvIsroCA==" length="520281183" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.23</title>
       <pubDate>Sun, 01 Nov 2026 20:00:44 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.23</link>
