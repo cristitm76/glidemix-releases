@@ -32,8 +32,8 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 **OUT**, so the mix is in time from the first drop.
 
 <p align="center">
-  <img src="assets/mix.jpg" alt="A mix of six songs in GlideMix: each song on its own lane, beatmatched and linked IN to OUT" width="100%">
-  <br><i>A mix of six songs: each song beatmatched, locked to the bar and linked IN → OUT.</i>
+  <img src="assets/mix.jpg" alt="A mix of five songs in GlideMix: each song on its own lane, beatmatched and linked IN to OUT" width="100%">
+  <br><i>A mix of five songs: each song beatmatched, locked to the bar and linked IN → OUT.</i>
 </p>
 
 ## What it does
@@ -92,8 +92,17 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 </p>
 
 <p align="center">
-  <img src="assets/keywheel.jpg" alt="The GlideMix key wheel: 8A selected, the library showing only songs in 8A" width="100%">
-  <br><i>Click 8A on the key wheel: only songs in 8A are left.</i>
+  <img src="assets/keywheel.jpg" alt="The GlideMix key wheel: 6A selected, the library showing only songs in 6A" width="100%">
+  <br><i>Click 6A on the key wheel: only songs in 6A are left.</i>
+</p>
+
+**Find the next song fast**
+- **Search terms** in the search box: `bpm:128`, `~bpm:128` (near 128) and `key:8A`, in any key notation (8A, 1m, Am).
+- **Search related Tracks:** right-click a song and search by its artist, album, title or key. The search shows on the key wheel or in the search box, and one click clears it.
+- **Preview without loading:** hover the cover art and click play, click the waveform to jump.
+
+<p align="center">
+  <img src="assets/search-related.jpg" alt="The GlideMix library: the right-click menu on a song with Search related Tracks open, offering artist, album, title and key" width="100%">
 </p>
 
 **Mixing on a timeline**
@@ -144,8 +153,8 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - Optional **own lane** per parameter under the track, as in Ableton.
 
 <p align="center">
-  <img src="assets/auto.jpg" alt="Automation in GlideMix: a low-pass filter line on a song, ramping down into the drop, snapping open, and curving down at the end" width="100%">
-  <br><i>Automation: a low-pass filter sweep drawn on a song. A ramp down into the drop, snapped open, then a curve into the outro.</i>
+  <img src="assets/auto.jpg" alt="Automation in GlideMix: a volume line drawn as smooth curves on a song, with the waveform following it" width="100%">
+  <br><i>A volume line drawn as S-curves: the waveform follows it.</i>
 </p>
 
 **Your plugins: VST3 and Audio Unit**
@@ -154,8 +163,8 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - Open the plugin's own window, or tweak its knobs inside GlideMix. Every knob can be automated and recorded like the built-in effects.
 
 <p align="center">
-  <img src="assets/plugins.jpg" alt="Plugins in GlideMix: Hyperlift and Serato Hex FX open on a song, with the plugin line drawn on the clip" width="100%">
-  <br><i>Hyperlift and Serato Hex FX open on a song, each knob ready to automate on the clip.</i>
+  <img src="assets/plugins.jpg" alt="Plugins in GlideMix: FabFilter Pro-Q 4 and Sugar Bytes Turnado open on a song" width="100%">
+  <br><i>FabFilter Pro-Q 4 and Sugar Bytes Turnado open on a song, each knob ready to automate on the clip.</i>
 </p>
 
 **Stems**
@@ -194,6 +203,17 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 <p align="center">
   <img src="assets/stream.jpg" alt="GlideMix live broadcasting: the Broadcast window over the Icecast server settings" width="100%">
   <br><i>Broadcast live to Icecast or Shoutcast.</i>
+</p>
+
+## A look at something we're working on: Main FX
+
+A new tab for shaping the whole mix: effects on the master, a Scene pad, your own plug-ins, and a mic for voice over.
+
+It is in development and still a long way off. There is no date. It will come when it is polished, not before. It will be included for paid GlideMix users.
+
+<p align="center">
+  <img src="assets/sneak-rack.jpg" alt="An early look at the Main FX tab: filter, echo, reverb, Scene pad and voice over modules" width="100%">
+  <br><i>From a private test version, so everything you see may still change.</i>
 </p>
 
 ## Download and install
