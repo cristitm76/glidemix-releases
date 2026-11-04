@@ -8,6 +8,26 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.26 Beta · 4 Nov 2026
+- **Export is much faster.** A 16-minute mix now takes under 30 seconds on our Mac.
+- **Plug-ins:** fixed a bug that could slow the app down or stop it working.
+- **Stems:** fixed an install failure on some Macs.
+- **MP3 exports** no longer clip at normal bitrates.
+- **Starts cleaner:** you get to your music with fewer questions. The plug-in check waits for your first Add effect, and the licence window for your first export.
+- A dot marks songs already in your project.
+- The list shows its song count and total length, for searches and playlists too.
+- Hover the search box to see its filters, like genre:house bpm:>125.
+- Right-click a song on the timeline for Show in Library.
+- The library now keeps its last four backups.
+- Home shows how many songs each project holds.
+- The File menu says Save project and Save project as.
+- The transition pill shows the transition's name.
+- One Undo fully reverses Mix Now, including the OUT marker and the transition's name.
+- Closing the window on a Mac now really quits GlideMix.
+- The demo's export is now a proper 44.1 kHz MP3.
+- A plug-in that crashes during its check no longer brings up a crash message.
+- Cleaner wording on the first-run screens and in messages ("1 file", not "1 file(s)").
+
 ### v1.1.25 Beta · 2 Nov 2026
 - **Tempo line:** BPM markers at every transition, so you can see the tempo without scrolling back. Points and markers follow your theme color.
 - **Reset** on the tempo line now returns every track to its real BPM, and the Project tab shows the tempo each song really plays at.

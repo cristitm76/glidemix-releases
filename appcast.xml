@@ -6,6 +6,44 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.26</title>
+      <pubDate>Wed, 04 Nov 2026 00:55:12 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.26</link>
+      <sparkle:version>1.1.26</sparkle:version>
+      <sparkle:shortVersionString>1.1.26</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.26 (Mac and Windows)</h3>
+<h3>Faster and more reliable</h3>
+<ul>
+<li><b>Export is much faster.</b> A 16-minute mix now takes under 30 seconds on our Mac.</li>
+<li><b>Plug-ins:</b> fixed a bug that could slow the app down or stop it working.</li>
+<li><b>Stems:</b> fixed an install failure on some Macs.</li>
+<li><b>MP3 exports</b> no longer clip at normal bitrates.</li>
+<li><b>Starts cleaner:</b> you get to your music with fewer questions. The plug-in check waits for your first Add effect, and the licence window for your first export.</li>
+</ul>
+<h3>New in the library, from our users&#x27; requests</h3>
+<ul>
+<li>A dot marks songs already in your project.</li>
+<li>The list shows its song count and total length, for searches and playlists too.</li>
+<li>Hover the search box to see its filters, like genre:house bpm:&gt;125.</li>
+<li>Right-click a song on the timeline for Show in Library.</li>
+<li>The library now keeps its last four backups.</li>
+</ul>
+<h3>Small fixes</h3>
+<ul>
+<li>Home shows how many songs each project holds.</li>
+<li>The File menu says Save project and Save project as.</li>
+<li>The transition pill shows the transition&#x27;s name.</li>
+<li>One Undo fully reverses Mix Now, including the OUT marker and the transition&#x27;s name.</li>
+<li>Closing the window on a Mac now really quits GlideMix.</li>
+<li>The demo&#x27;s export is now a proper 44.1 kHz MP3.</li>
+<li>A plug-in that crashes during its check no longer brings up a crash message.</li>
+<li>Cleaner wording on the first-run screens and in messages (&quot;1 file&quot;, not &quot;1 file(s)&quot;).</li>
+</ul>
+<h3>On a Mac: macOS may ask for permission one last time after this update. After that it should remember your answer.</h3>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.26/GlideMix-Beta-v1.1.26.dmg" sparkle:edSignature="RNFs6ha25NPjoRlBBuwfuMqAh5FsGMRsTblXXWWyMKUWaWpstMLprBdRGZ5ByZpeD7dtqBa08ek0blBSKOh5Bg==" length="522320380" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.25</title>
       <pubDate>Mon, 02 Nov 2026 21:11:50 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.25</link>
