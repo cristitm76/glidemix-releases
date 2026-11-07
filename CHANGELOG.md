@@ -8,6 +8,29 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.27 Beta · 7 Nov 2026
+- **Adding a song no longer resets your transitions.** Before, adding a song at the end of a mix reset every transition to the default and could move songs. Now only the new song moves and gets a transition. Everything you shaped by hand stays.
+- **No more sudden quits when the project can't be backed up.** If GlideMix can't write its automatic backup (disk full, or the file is in use by a sync or antivirus tool), it now warns you instead of closing.
+- **Easier to grab:** bigger points, the nearest one is picked, and points on the IN/OUT lines can be dragged.
+- **Cleaner:** no more clusters of dots. Each fade shows only its corners.
+- **Press and drag** on a line adds a point and moves it in one go.
+- **All lines work like the volume line:** 100% sits at about three-quarters height, and above it boosts.
+- **Transition lines** get dots in their own colour.
+- **The vertical ruler** now shows the volume scale in dB, lined up with the volume line.
+- **Click a song's waveform** to preview it from that spot. While your mix plays, it starts on the same beat of the bar, at the mix's tempo.
+- **Analysis continues by itself** after GlideMix is closed or stops unexpectedly. A file that stops it twice is skipped.
+- **Songs added during analysis** are now analysed in the same run.
+- **Mouse wheel zooms the timeline:** an option in Preferences > Waveforms. Hold Cmd or Ctrl to scroll the tracks.
+- **Phrase ribbon on or off:** a new switch in Preferences > Waveforms.
+- **Space** plays the song in the Beat grid editor while you work in it.
+- **Your own transitions** come first in the menus. "Show in menus" hides the ones you don't use.
+- **Quick Links:** every folder can be removed. + adds it back.
+- **A + beside the Music library and Project tabs** opens a closed tab again.
+- A point near the end of a song now opens its own menu, not the track menu.
+- A line that is flat to the end of a song stays flat when you move the point before it.
+- Volume points sit above the phrase ribbon, where they can be clicked.
+- The effects panel no longer shows a "Watch video" link.
+
 ### v1.1.26 Beta · 4 Nov 2026
 - **Export is much faster.** A 16-minute mix now takes under 30 seconds on our Mac.
 - **Plug-ins:** fixed a bug that could slow the app down or stop it working.

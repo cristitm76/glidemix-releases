@@ -43,10 +43,11 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
-**New in 1.1.26: much faster export**
-- **Export is much faster:** a 16-minute mix takes under 30 seconds on our Mac.
-- **Library:** a dot marks songs already in your project, the list shows its song count and total length, and the library keeps its last four backups.
-- **Show in Library** now works from the timeline too, and Home shows how many songs each project holds.
+**New in 1.1.27: your transitions stay as you made them**
+- **Adding a song** at the end of a mix no longer resets your transitions or moves your songs.
+- **Volume and automation lines** are easier to grab, with no clusters of dots. Press and drag adds a point.
+- **Click a song's waveform** in the library to preview it, in time with your mix while it plays.
+- **Analysis continues by itself** after GlideMix closes or stops unexpectedly.
 
 **New in 1.1.24: your mix wears your artwork**
 - **Artwork**: choose a photo in the Metadata editor and it goes into your exported file, together with the title and artist tags.

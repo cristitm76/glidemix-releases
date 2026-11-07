@@ -6,6 +6,52 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.27</title>
+      <pubDate>Sat, 07 Nov 2026 16:15:46 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.27</link>
+      <sparkle:version>1.1.27</sparkle:version>
+      <sparkle:shortVersionString>1.1.27</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>GlideMix Beta v1.1.27 (Mac and Windows)</h3>
+<h3>Important fixes</h3>
+<ul>
+<li><b>Adding a song no longer resets your transitions.</b> Before, adding a song at the end of a mix reset every transition to the default and could move songs. Now only the new song moves and gets a transition. Everything you shaped by hand stays.</li>
+<li><b>No more sudden quits when the project can&#x27;t be backed up.</b> If GlideMix can&#x27;t write its automatic backup (disk full, or the file is in use by a sync or antivirus tool), it now warns you instead of closing.</li>
+</ul>
+<h3>Volume and automation lines, reworked</h3>
+<ul>
+<li><b>Easier to grab:</b> bigger points, the nearest one is picked, and points on the IN/OUT lines can be dragged.</li>
+<li><b>Cleaner:</b> no more clusters of dots. Each fade shows only its corners.</li>
+<li><b>Press and drag</b> on a line adds a point and moves it in one go.</li>
+<li><b>All lines work like the volume line:</b> 100% sits at about three-quarters height, and above it boosts.</li>
+<li><b>Transition lines</b> get dots in their own colour.</li>
+<li><b>The vertical ruler</b> now shows the volume scale in dB, lined up with the volume line.</li>
+</ul>
+<h3>Library</h3>
+<ul>
+<li><b>Click a song&#x27;s waveform</b> to preview it from that spot. While your mix plays, it starts on the same beat of the bar, at the mix&#x27;s tempo.</li>
+<li><b>Analysis continues by itself</b> after GlideMix is closed or stops unexpectedly. A file that stops it twice is skipped.</li>
+<li><b>Songs added during analysis</b> are now analysed in the same run.</li>
+</ul>
+<h3>From our users&#x27; requests</h3>
+<ul>
+<li><b>Mouse wheel zooms the timeline:</b> an option in Preferences &gt; Waveforms. Hold Cmd or Ctrl to scroll the tracks.</li>
+<li><b>Phrase ribbon on or off:</b> a new switch in Preferences &gt; Waveforms.</li>
+<li><b>Space</b> plays the song in the Beat grid editor while you work in it.</li>
+<li><b>Your own transitions</b> come first in the menus. &quot;Show in menus&quot; hides the ones you don&#x27;t use.</li>
+<li><b>Quick Links:</b> every folder can be removed. + adds it back.</li>
+<li><b>A + beside the Music library and Project tabs</b> opens a closed tab again.</li>
+</ul>
+<h3>Small fixes</h3>
+<ul>
+<li>A point near the end of a song now opens its own menu, not the track menu.</li>
+<li>A line that is flat to the end of a song stays flat when you move the point before it.</li>
+<li>Volume points sit above the phrase ribbon, where they can be clicked.</li>
+<li>The effects panel no longer shows a &quot;Watch video&quot; link.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.27/GlideMix-Beta-v1.1.27.dmg" sparkle:edSignature="0+XmusYFxHJY3vrGH+nvhikRJQTBC5ILg/cdwTXpTMiUZr2xAw51noNjpsd24Nhm1cyHWY1mw920bNEmZfZ+DQ==" length="516297693" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.26</title>
       <pubDate>Wed, 04 Nov 2026 00:55:12 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.26</link>
