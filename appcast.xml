@@ -6,6 +6,44 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.28</title>
+      <pubDate>Sun, 08 Nov 2026 03:33:09 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.28</link>
+      <sparkle:version>1.1.28</sparkle:version>
+      <sparkle:shortVersionString>1.1.28</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.1.28</p>
+<p>## New</p>
+<ul>
+<li><b>Ableton Link.</b> Turn on the LINK button in the toolbar and GlideMix shares your mix&#x27;s tempo, beat and play/stop with other Link apps on your network: Resolume, TouchDesigner and other VJ software follow the mix, glides included. GlideMix leads; your mix keeps its own tempo.</li>
+<li><b>Your other DJ apps, in GlideMix.</b> Engine DJ, Traktor, Serato, VirtualDJ and djay appear in the library sidebar with their songs and playlists (read only). When GlideMix analyses a song one of them already knows, it takes that app&#x27;s beat grid and key instead of working them out again. Traktor on Mac is read when you click it, so macOS only asks for your Documents folder if you use it.</li>
+<li><b>Mixed In Key.</b> The key and energy that Mixed In Key writes into the comment (&quot;8A - Energy 7&quot;) are read on import, analysis and Import From File Tags. Song comments are now kept, and Edit Tags has Key, Energy and Rating.</li>
+<li><b>Low, Mid, High and Color buttons</b> in every track header: each shows that line over the whole song, so a quick bass cut anywhere in the track is one click away.</li>
+<li><b>Library:</b></li>
+<li>The song list no longer stops at 2,000: scroll on and the next songs load.</li>
+<li>Song counts on smart playlists, Duplicates and Analyze in the sidebar.</li>
+<li><b>‹ Back</b> after Show in Library takes you back to the list, search and song you came from.</li>
+<li>Save a search as a smart playlist with the + beside the search box. The search syntax works as a smart playlist rule (&quot;genre:house bpm:&gt;125&quot;).</li>
+<li>Columns for any tag in your files (Mood, Label, Remixer, MusicBrainz IDs…): right-click a column title &gt; Add Tag Column.</li>
+<li>Up, Down, Page Up/Down, Home and End move through the song list.</li>
+<li>A preview volume slider.</li>
+<li>Wider search box.</li>
+<li><b>Playlists:</b> right-click a playlist &gt; Export as M3U8 Playlist, for other players and DJ apps.</li>
+<li><b>Automation:</b></li>
+<li>Right-click a point &gt; Set value… to type an exact value: dB on the volume line, % on the others (100% is the normal level).</li>
+<li>On the tempo line, Set tempo… takes a BPM.</li>
+<li>Shift-click several points, then drag one: they all move together.</li>
+</ul>
+<p>## Small fixes</p>
+<ul>
+<li>The song&#x27;s key shows in the clip header.</li>
+<li>A library scan no longer makes GlideMix stall while it runs.</li>
+<li>The + menu for closed tabs no longer overlaps the tabs.</li>
+<li>The song count above the list is right for smart playlists, Duplicates and other apps&#x27; lists.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.28/GlideMix-Beta-v1.1.28.dmg" sparkle:edSignature="Jf4FpvBfTxJhPFJJYInpelFN7uKL0nbyuLtKq747C3NtVAClQub6rTTL+6MltNXJC09JPgj2IW2vM/FXTQa/Cg==" length="522052819" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.27</title>
       <pubDate>Sat, 07 Nov 2026 16:15:46 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.27</link>

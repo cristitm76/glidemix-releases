@@ -8,6 +8,16 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.28 Beta · 8 Nov 2026
+- **Ableton Link.** Turn on LINK in the toolbar and GlideMix shares your mix's tempo, beat and play/stop with other Link apps on the network. Resolume, TouchDesigner and other VJ software follow the mix, glides included.
+- **Your other DJ apps, in GlideMix.** Engine DJ, Traktor, Serato, VirtualDJ and djay appear in the library with their songs and playlists (read only). Songs they already analysed keep their beat grid and key, so GlideMix doesn't work them out again.
+- **Mixed In Key:** the key and energy in the comment ("8A - Energy 7") are read. Comments are kept, and Edit Tags has Key, Energy and Rating.
+- **Low, Mid, High and Color buttons** in every track header show each line over the whole song.
+- **Library:** the list goes past 2,000 songs; counts on smart playlists, Duplicates and Analyze; Back after Show in Library; save a search as a smart playlist; columns for any file tag (Mood, Label, Remixer…); arrow keys in the song list; a preview volume.
+- **Playlists:** right-click > Export as M3U8 Playlist.
+- **Automation:** right-click a point > Set value… (Set tempo… on the tempo line), and Shift-click several points to move them together.
+- Small fixes: the key shows in the clip header; a library scan no longer makes GlideMix stall; the + menu for closed tabs no longer overlaps; the song count above the list is right for smart playlists and other lists.
+
 ### v1.1.27 Beta · 7 Nov 2026
 - **Adding a song no longer resets your transitions.** Before, adding a song at the end of a mix reset every transition to the default and could move songs. Now only the new song moves and gets a transition. Everything you shaped by hand stays.
 - **No more sudden quits when the project can't be backed up.** If GlideMix can't write its automatic backup (disk full, or the file is in use by a sync or antivirus tool), it now warns you instead of closing.

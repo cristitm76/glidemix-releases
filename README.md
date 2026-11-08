@@ -43,11 +43,12 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
-**New in 1.1.27: your transitions stay as you made them**
-- **Adding a song** at the end of a mix no longer resets your transitions or moves your songs.
-- **Volume and automation lines** are easier to grab, with no clusters of dots. Press and drag adds a point.
-- **Click a song's waveform** in the library to preview it, in time with your mix while it plays.
-- **Analysis continues by itself** after GlideMix closes or stops unexpectedly.
+**New in 1.1.28: Ableton Link and your other DJ apps**
+- **Ableton Link:** the LINK button shares your mix's tempo, beat and play/stop with Resolume, TouchDesigner and other Link apps.
+- **Engine DJ, Traktor, Serato, VirtualDJ and djay** show in the library, and their beat grids and keys are used instead of analysing again. Mixed In Key's key and energy are read from the comment.
+- **Low, Mid, High and Color** buttons in every track header: a quick bass cut anywhere in a song is one click away.
+- **Library:** past 2,000 songs, Back after Show in Library, saved searches as smart playlists, columns for any file tag, Export as M3U8.
+- **Automation:** type an exact value for a point, and move several points at once.
 
 **New in 1.1.24: your mix wears your artwork**
 - **Artwork**: choose a photo in the Metadata editor and it goes into your exported file, together with the title and artist tags.
