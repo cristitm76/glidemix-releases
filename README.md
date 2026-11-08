@@ -43,6 +43,9 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.1.31: no more freezes with network drives**
+- **Windows:** a mapped network drive that was offline or not ready made GlideMix freeze for up to 40 seconds, again and again. Drives are now checked in the background, and only local ones (internal, USB, SD card).
+
 **New in 1.1.30: crash fix**
 - **Mac:** hovering a track's volume fader no longer closes GlideMix; the fader's value tip shows again above the cap and follows it while you drag.
 
