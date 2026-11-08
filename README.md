@@ -43,6 +43,9 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.1.30: crash fix**
+- **Mac:** hovering a track's volume fader no longer closes GlideMix; the fader's value tip shows again above the cap and follows it while you drag.
+
 **New in 1.1.29: waveforms like the Beatgrid editor**
 - **Waveforms:** the timeline and the library draw every song with the same colours and shape as the Beatgrid editor: pink and red kicks, blue hi-hats.
 - **Your DJ apps on every drive:** Engine DJ, Serato and VirtualDJ libraries on an SD card or USB drive are read too.
