@@ -6,6 +6,34 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.29</title>
+      <pubDate>Sun, 08 Nov 2026 11:04:02 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.29</link>
+      <sparkle:version>1.1.29</sparkle:version>
+      <sparkle:shortVersionString>1.1.29</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.1.29</p>
+<p>## New</p>
+<ul>
+<li><b>Waveforms like the Beatgrid editor.</b> The timeline and the library now draw every song with the same colours and shape as the Beatgrid editor: pink and red kicks and bass, blue hi-hats, a bright core with the peaks around it. Each song&#x27;s picture is redone once, in the background, the first time it is shown.</li>
+<li><b>Your DJ apps on every drive.</b> Engine DJ, Serato and VirtualDJ keep a library on each drive for the songs on it. GlideMix now reads them all, so a collection on an SD card or USB drive shows its full count, and a drive plugged in later shows up by itself.</li>
+<li><b>Preferences &gt; Library &gt; Other DJ Apps:</b></li>
+<li>Show or hide rekordbox XML, Engine DJ, Traktor, Serato DJ, VirtualDJ and djay (all shown after installing). A hidden app is not read at all.</li>
+<li>Add a folder if one of your apps keeps its library somewhere else.</li>
+<li><b>Stems share one transition.</b> A song split into stems has one transition pill. Picking a transition, drawing a line or adding an effect reaches the song and all four stems, and one Undo takes it all back.</li>
+<li><b>Low, Mid, High and Color</b> lines from the track header glow in their colour, like the transition pill&#x27;s lines.</li>
+</ul>
+<p>## Small fixes</p>
+<ul>
+<li>An empty library says how to add music, with an Add music folder button.</li>
+<li>Picking a key on the key wheel no longer pushes the sidebar down.</li>
+<li>Windows: stems always run on the processor; the GPU choice that could fail is gone.</li>
+<li>About: the VST Compatible logo, Ableton Link in the credits, and the DJ apps GlideMix works with.</li>
+<li>The library sidebar uses its own icon for other DJ apps.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.29/GlideMix-Beta-v1.1.29.dmg" sparkle:edSignature="Xjc8UStaTj03YbId4enY3TOCE1S/0PbZBwHivicEoft6KeYZDL211oW7sSbWGZZcv/8/jgbufK7etmvaNyXLDQ==" length="521831632" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.28</title>
       <pubDate>Sun, 08 Nov 2026 03:33:09 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.28</link>
