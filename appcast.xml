@@ -6,6 +6,22 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.31</title>
+      <pubDate>Sun, 08 Nov 2026 17:10:31 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.31</link>
+      <sparkle:version>1.1.31</sparkle:version>
+      <sparkle:shortVersionString>1.1.31</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.1.31</p>
+<p>## Fixed</p>
+<ul>
+<li><b>Windows: freezes with network drives.</b> If a mapped network drive was offline or not ready (its computer switched off, a share not available), GlideMix froze for up to 40 seconds, about every 40 seconds, even when you were not doing anything. GlideMix now looks for DJ libraries only on local drives (internal, USB, SD card) and does it in the background, so a slow drive can no longer hold up the window.</li>
+<li>A DJ app library kept on a network share is still read: add its folder in Preferences &gt; Library &gt; Other DJ Apps.</li>
+</ul>
+<p>Thanks to the tester who sent a very precise report.</p>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.31/GlideMix-Beta-v1.1.31.dmg" sparkle:edSignature="3+rBqB2b3YScFbXKWEFhHjXEg1FixuKkDos4n0qO3jA48mMXVyMOLYpUWVpASNOClxo1T9h39V65CYHSspJ1BQ==" length="518357616" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.30</title>
       <pubDate>Sun, 08 Nov 2026 16:18:34 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.30</link>
