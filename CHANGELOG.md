@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.30 Beta · 8 Nov 2026
+- **Crash fix (Mac):** hovering a track header's volume fader closed GlideMix. Its value tip was tied to a part of the fader the DJ look had replaced; it now sits on the fader cap again and follows it while you drag (on Windows too).
+- Pop-up tips whose control has just gone away are skipped instead of opened.
+- Crash reports show where a crash really happened.
+
 ### v1.1.29 Beta · 8 Nov 2026
 - **Waveforms like the Beatgrid editor.** The timeline and the library now draw every song with the Beatgrid editor's colours and shape (same band split, colours and peak/core look). Each song's picture is redone once, in the background.
 - **Your DJ apps on every drive.** Engine DJ, Serato and VirtualDJ libraries kept on other drives (SD card, USB) are read too; a drive plugged in later shows up by itself.
