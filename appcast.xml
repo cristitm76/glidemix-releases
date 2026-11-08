@@ -6,6 +6,22 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.30</title>
+      <pubDate>Sun, 08 Nov 2026 16:18:34 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.30</link>
+      <sparkle:version>1.1.30</sparkle:version>
+      <sparkle:shortVersionString>1.1.30</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.1.30</p>
+<p>## Fixed</p>
+<ul>
+<li><b>Mac: crash when hovering a track&#x27;s volume fader.</b> Moving the mouse over the volume fader in a track header could close GlideMix in 1.1.29. Fixed. The fader&#x27;s value tip (like &quot;0.0dB&quot;) shows again above the silver cap and follows it while you drag.</li>
+<li>Pop-up tips whose control has just gone away (a track removed, a panel closed) are skipped instead of opened.</li>
+<li>Crash reports now show where a crash really happened, so the next one is quicker to find and fix.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.30/GlideMix-Beta-v1.1.30.dmg" sparkle:edSignature="Y8c9N97KDWBiRMUXHMb2ATYgNae8s5W1/90kQzBo/4ROqCqOEro+O339U5H6uRoutR0CZtwIRz5dhNsnahJTAg==" length="518648552" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.29</title>
       <pubDate>Sun, 08 Nov 2026 11:04:02 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.29</link>
