@@ -8,6 +8,9 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.31 Beta · 8 Nov 2026
+- **Windows: freezes with network drives fixed.** Since 1.1.29 GlideMix checked all drives every few seconds for DJ libraries, on the main thread; a mapped network drive that was offline or not ready held the window up until the network timeout. Now only local drives (internal, USB, SD card) are checked, in the background. A DJ library on a network share is still read when its folder is added in Preferences > Library > Other DJ Apps.
+
 ### v1.1.30 Beta · 8 Nov 2026
 - **Crash fix (Mac):** hovering a track header's volume fader closed GlideMix. Its value tip was tied to a part of the fader the DJ look had replaced; it now sits on the fader cap again and follows it while you drag (on Windows too).
 - Pop-up tips whose control has just gone away are skipped instead of opened.
