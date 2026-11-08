@@ -8,6 +8,14 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.29 Beta · 8 Nov 2026
+- **Waveforms like the Beatgrid editor.** The timeline and the library now draw every song with the Beatgrid editor's colours and shape (same band split, colours and peak/core look). Each song's picture is redone once, in the background.
+- **Your DJ apps on every drive.** Engine DJ, Serato and VirtualDJ libraries kept on other drives (SD card, USB) are read too; a drive plugged in later shows up by itself.
+- **Preferences > Library > Other DJ Apps:** show or hide each app, and add folders where an app keeps its library.
+- **Stems share one transition:** one pill for a song and its stems; every change reaches all of them, one Undo.
+- **Low, Mid, High and Color** lines from the track header glow like the pill's lines.
+- Small fixes: an empty library says how to add music; the key wheel no longer moves the sidebar; Windows stems always run on the processor; About shows the VST Compatible logo and credits Ableton Link.
+
 ### v1.1.28 Beta · 8 Nov 2026
 - **Ableton Link.** Turn on LINK in the toolbar and GlideMix shares your mix's tempo, beat and play/stop with other Link apps on the network. Resolume, TouchDesigner and other VJ software follow the mix, glides included.
 - **Your other DJ apps, in GlideMix.** Engine DJ, Traktor, Serato, VirtualDJ and djay appear in the library with their songs and playlists (read only). Songs they already analysed keep their beat grid and key, so GlideMix doesn't work them out again.
