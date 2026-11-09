@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.32 Beta · 9 Nov 2026
+- **A faster library.** The song list holds the whole collection in memory and asks the database only for the order of a view, so there are no more 2000-song pages: scrolling to the end, sorting (20-100 ms on 36,000 songs) and searching (about 30 ms) no longer stall. Edited songs are re-read one by one; rows are recycled while scrolling. rekordbox XML, Lexicon and the DJ apps show every song too.
+- **Select All -> Analyze** reaches every song in the list; never-analysed songs go first and the Analyze count goes down live.
+- **Import from Rekordbox XML** shows a small progress window and what it found.
+- Mac: quitting while the DJ apps were still being read could crash GlideMix. Fixed.
+
 ### v1.1.31 Beta · 8 Nov 2026
 - **Windows: freezes with network drives fixed.** Since 1.1.29 GlideMix checked all drives every few seconds for DJ libraries, on the main thread; a mapped network drive that was offline or not ready held the window up until the network timeout. Now only local drives (internal, USB, SD card) are checked, in the background. A DJ library on a network share is still read when its folder is added in Preferences > Library > Other DJ Apps.
 
