@@ -32,8 +32,8 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 **OUT**, so the mix is in time from the first drop.
 
 <p align="center">
-  <img src="assets/mix.jpg" alt="A mix of five songs in GlideMix: each song on its own lane, beatmatched and linked IN to OUT" width="100%">
-  <br><i>A mix of five songs: each song beatmatched, locked to the bar and linked IN → OUT.</i>
+  <img src="assets/mix.jpg" alt="A mix of four songs in GlideMix 1.2.0: each song on its own lane, beatmatched and linked IN to OUT" width="100%">
+  <br><i>A mix of four songs: each song beatmatched, locked to the bar and linked IN → OUT.</i>
 </p>
 
 ## What it does
@@ -42,6 +42,14 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - A new song is ready in about **a second**: beat grid, phrases, key, energy and colour waveforms. On a Mac the beat grid runs on the graphics chip (Core ML) with the full, most accurate beat model.
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
+
+**New in 1.2.0: a new look**
+- **Modern and rounded:** every panel is its own rounded card, buttons are pills that turn purple when on, menus and lists are slightly see-through with a soft blur behind them.
+- **A display at the top:** the clock, plus the key, energy and place in the mix (song 2 of 4) of the song under the playhead, processor and disk use, and a light that is green while playing.
+- **Toolbar in groups:** play controls, editing tools, SYNC/TEMPO/ENERGY/KEYLOCK, LINK/PERFORM and MIX NOW/ARM each in their own capsule.
+- **New knobs and faders:** flat knobs with a thin arc in the channel's colour, slim faders with see-through glass caps.
+- **Library toolbar on top:** New, All, Select All, Analyze, Match and Related in one row with the Key Wheel; the search below them.
+- **Light theme in GlideMix purple.**
 
 **New in 1.1.33: Match, Related and Charcoal**
 - **Match:** a button in the library. The Key cell turns green for songs that mix with the song under the playhead (BPM within a few percent, keys that fit), in every list, and it follows the playhead.
@@ -128,7 +136,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Preview without loading:** hover the cover art and click play, click the waveform to jump.
 
 <p align="center">
-  <img src="assets/search-related.jpg" alt="The GlideMix library: the right-click menu on a song with Search related Tracks open, offering artist, album, title and key" width="100%">
+  <img src="assets/search-related.jpg" alt="The GlideMix library: the right-click menu on a song, with Search related Tracks at the top" width="100%">
 </p>
 
 **Mixing on a timeline**

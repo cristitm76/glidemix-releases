@@ -8,6 +8,15 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.2.0 Beta · 9 Nov 2026
+- **A new, modern look.** Rounded buttons, fields, lists and menus; every panel is its own rounded card with a small gap around it. Buttons are pills: purple when on, a thin outline when off.
+- **A display at the top:** clock, key, energy and place in the mix (song 2 of 4) of the song under the playhead, processor and disk use, a light that is green while playing.
+- **Toolbar in groups,** each in its own capsule: play controls, editing tools, SYNC/TEMPO/ENERGY/KEYLOCK, LINK/PERFORM, MIX NOW/ARM.
+- **New knobs and faders:** flat knobs with a thin arc in the channel's colour (hover or turn for the value); slim faders with see-through glass caps, also on track volume, zoom sliders and the meter.
+- **See-through menus** with a soft blur behind them (Mac; Windows 11 menus and lists), drawn by the system.
+- **Library toolbar on top:** New, All, Select All, Analyze, Match and Related in one row with the Key Wheel; the search below.
+- **Light theme in GlideMix purple** instead of pale lavender. Smaller touches: rounded dialog buttons, ROOM/CUE pills, the Workspace name above its picker, LOW/MID/HIGH/COLOR pills on each track.
+
 ### v1.1.33 Beta · 9 Nov 2026
 - **Match.** A library button that lights the Key cell green for songs that mix with the song under the playhead (the incoming song in a transition), in every list, following the playhead.
 - **Related.** A tab with the full song table for the songs that go with the song under the playhead: same key first, then the closest BPM; sorting, drag and double-click as in the library.
