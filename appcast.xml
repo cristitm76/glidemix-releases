@@ -6,6 +6,29 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.33</title>
+      <pubDate>Mon, 09 Nov 2026 08:05:57 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.33</link>
+      <sparkle:version>1.1.33</sparkle:version>
+      <sparkle:shortVersionString>1.1.33</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.1.33: Match, Related and Charcoal</p>
+<p>## New</p>
+<ul>
+<li><b>Match.</b> A new button in the library toolbar. Turn it on and every list lights the Key cell green for songs that mix with the song under the playhead (and follows it as you play or move the playhead). In a transition, the song coming in counts.</li>
+<li><b>Related.</b> Opens a tab with the songs that go with the song under the playhead: the full song table, every column, sorting, drag and double-click as in the library. Same key first, then the closest BPM.</li>
+<li><b>Match and Related settings</b> (the gear next to Match), in the order DJs know: BPM ± % (half and double tempo too), Key (same key up to one step around), Energy, Year, Date Added, History (songs you played before and after it), same artist, genre, composer, remixer, label or colour, Rating (click the stars), Comment, any Tag column, same file format.</li>
+<li><b>Charcoal theme.</b> A darker look for the whole app. With Follow system theme on (the default), a dark Mac or PC now gets Charcoal. The previous dark theme is still there, now called Grey (Preferences &gt; Appearance).</li>
+<li><b>Sorting:</b> click a column header a third time to go back to the list&#x27;s own order (newest first in the library, a playlist&#x27;s or folder&#x27;s own order).</li>
+<li><b>A new or opened project shows the Music library tab</b> first, not the Project tab.</li>
+</ul>
+<p>## Fixed</p>
+<ul>
+<li>The pencil and plus icons in the Workspace menu were black on the dark menu.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.33/GlideMix-Beta-v1.1.33.dmg" sparkle:edSignature="5d7/tNkGhY7Wqxqxi6RtyDNjV+cSdYH27FrpnB13QspJl9mITTb6RqfhZiT5AYMY6SmLb5VrG0V/hNooKiu+Bg==" length="523121731" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.32</title>
       <pubDate>Sun, 08 Nov 2026 21:44:13 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.32</link>
