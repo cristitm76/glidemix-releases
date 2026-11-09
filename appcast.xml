@@ -6,6 +6,31 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.1</title>
+      <pubDate>Mon, 09 Nov 2026 19:21:19 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.1</link>
+      <sparkle:version>1.2.1</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.1: your own toolbar</p>
+<p>## New</p>
+<ul>
+<li><b>Customize the toolbar, like Safari.</b> Right-click an empty part of the toolbar (or click its gear) and drag buttons from the sheet into the toolbar, along it to move them, or out of it to take them off. Add a Space between groups, or a Flexible Space that pushes everything after it to the right. Show the buttons as icon and text, icon only or text only, with new GlideMix icons for SYNC, TEMPO, ENERGY, KEYLOCK, LINK, PERFORM, MIX NOW, ARM and RE-ENABLE. Drag the default set up (or click it) to put the toolbar back as it came. The toolbar changes as you go, and an emptied group leaves no gap.</li>
+<li><b>Key column your way.</b> Preferences &gt; Music library &gt; Key column: plain text, coloured text or coloured badges.</li>
+</ul>
+<p>## Fixed</p>
+<ul>
+<li><b>Tooltips</b> showed an empty dark box. They show their text again.</li>
+<li><b>Submenus</b> (the track menu&#x27;s Color, the effect picker&#x27;s VST3 and AudioUnit lists, and every other one) opened only on a click. They open as you point at them again.</li>
+<li><b>Transition dots:</b> the dot at a clip&#x27;s edge added a new dot every time you dragged it. It now moves the line&#x27;s start or end, up and down, and stays on the edge.</li>
+<li><b>Track headers</b> sat a few pixels below their rows in the timeline. They line up again.</li>
+<li><b>The library flashed</b> to the top of the sidebar every second while songs were analysed. It stays where you scrolled.</li>
+<li><b>Color &gt; Intensity</b> in the track header menu did nothing. It opens its slider now.</li>
+<li><b>Buttons:</b> OK, Cancel and the other text buttons in popups and dialogs are pills, like the rest of 1.2.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.1/GlideMix-Beta-v1.2.1.dmg" sparkle:edSignature="Sr3lN2L+eq9pL5Q0c/U2BFiZerFzBmzIn+IlrHTGNkFue1Qk5CjG7uxOrlAXO7Qh5pxelouNDIs/UTfhnVhFAA==" length="523028132" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.2.0</title>
       <pubDate>Mon, 09 Nov 2026 14:22:38 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.0</link>

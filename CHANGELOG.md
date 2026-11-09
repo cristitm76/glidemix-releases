@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.2.1 Beta · 9 Nov 2026
+- **Customize the toolbar, like Safari.** Right-click the toolbar (or its gear): drag buttons in, out and along it; Space and Flexible Space; icon and text, icon only or text only, with new GlideMix icons for SYNC, TEMPO, ENERGY, KEYLOCK, LINK, PERFORM, MIX NOW, ARM and RE-ENABLE; the default set puts it back. An emptied group leaves no gap.
+- **Key column your way:** plain text, coloured text or coloured badges (Preferences > Music library).
+- **Fixed:** empty tooltip boxes; submenus that opened only on a click; the transition dot at a clip's edge adding a new dot on every drag; track headers a few pixels below their timeline rows; the library sidebar flashing to the top while songs are analysed; Color > Intensity in the track header menu; square OK/Cancel buttons in popups.
+
 ### v1.2.0 Beta · 9 Nov 2026
 - **A new, modern look.** Rounded buttons, fields, lists and menus; every panel is its own rounded card with a small gap around it. Buttons are pills: purple when on, a thin outline when off.
 - **A display at the top:** clock, key, energy and place in the mix (song 2 of 4) of the song under the playhead, processor and disk use, a light that is green while playing.

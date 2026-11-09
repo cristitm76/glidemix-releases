@@ -43,6 +43,11 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.2.1: your own toolbar**
+- **Customize the toolbar like Safari:** right-click the toolbar (or click its gear) and drag buttons in, out and along it. Space and Flexible Space, a default set to go back to, and the choice of icon and text, icon only or text only, with new GlideMix icons.
+- **Key column your way:** plain text, coloured text or coloured badges (Preferences > Music library).
+- **Fixes:** tooltips show their text again, submenus open as you point at them, the transition dot at a clip's edge moves the line's start or end instead of adding dots, track headers line up with the timeline, no flashing in the library while songs are analysed.
+
 **New in 1.2.0: a new look**
 - **Modern and rounded:** every panel is its own rounded card, buttons are pills that turn purple when on, menus and lists are slightly see-through with a soft blur behind them.
 - **A display at the top:** the clock, plus the key, energy and place in the mix (song 2 of 4) of the song under the playhead, processor and disk use, and a light that is green while playing.
