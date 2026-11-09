@@ -6,6 +6,27 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.0</title>
+      <pubDate>Mon, 09 Nov 2026 14:22:38 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.0</link>
+      <sparkle:version>1.2.0</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.0: a new look</p>
+<p>## New</p>
+<ul>
+<li><b>A new, modern look.</b> Rounded buttons, fields, lists and menus. Every panel is its own rounded card with a small gap around it. Buttons are pills: purple only when they are on, a thin outline when off.</li>
+<li><b>A display at the top.</b> The clock now sits in one display with the key, energy and place in the mix (song 2 of 4) of the song under the playhead, how much processor and disk GlideMix uses, and a light that is green while playing.</li>
+<li><b>Toolbar in groups.</b> Play controls, editing tools, SYNC/TEMPO/ENERGY/KEYLOCK, LINK/PERFORM and MIX NOW/ARM each sit in their own capsule.</li>
+<li><b>New knobs and faders.</b> Flat knobs with a thin arc in the channel&#x27;s colour; hover or turn one to see its value. Slim faders with see-through glass caps, also on the track volume, the zoom sliders and the meter.</li>
+<li><b>See-through menus.</b> Menus and lists are slightly see-through, with what is behind them softly blurred (Mac; Windows 11 menus and lists). It costs nothing while you play: the system draws it.</li>
+<li><b>Library toolbar on top.</b> New, All, Select All, Analyze, Match and Related now sit in one row with the Key Wheel; the search is below them.</li>
+<li><b>Light theme in GlideMix purple</b>, instead of the pale lavender it had.</li>
+<li><b>Smaller touches:</b> rounded dialog buttons, ROOM/CUE as pills, the Workspace name above its picker, the LOW/MID/HIGH/COLOR buttons on each track as pills.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.0/GlideMix-Beta-v1.2.0.dmg" sparkle:edSignature="BwIU24FNR2uRl1a7+cW/9hbOcxXiBgVHqCDwUpqRHdaRsaBenXr9FgzSj7kY4purquoXc/7UdmNNrcodKg9gDw==" length="523318543" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.33</title>
       <pubDate>Mon, 09 Nov 2026 08:05:57 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.33</link>
