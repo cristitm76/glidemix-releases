@@ -43,6 +43,13 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.1.33: Match, Related and Charcoal**
+- **Match:** a button in the library. The Key cell turns green for songs that mix with the song under the playhead (BPM within a few percent, keys that fit), in every list, and it follows the playhead.
+- **Related:** a tab with the songs that go with the song under the playhead, every column there, same key first, then the closest BPM.
+- **One set of rules for both** (the gear next to Match): BPM ± %, half and double tempo, key, energy, year, date added, history, same artist, genre, composer, remixer, label or colour, rating stars, comment, any tag column, file format.
+- **Charcoal:** a darker look. With Follow system theme on, a dark Mac or PC gets it by itself; the previous dark theme is now called Grey.
+- **Sorting:** a third click on a column header goes back to the list's own order. New projects open on the Music library tab.
+
 **New in 1.1.32: a faster library**
 - **Your whole collection in the song list,** not 2000 songs at a time: scroll to the end, sort and search without waiting, even with 40,000 songs. The same for rekordbox XML, Lexicon and your other DJ apps.
 - **Select All means all:** Analyze and the other actions reach every song; never-analysed songs go first and the Analyze count goes down as they finish.

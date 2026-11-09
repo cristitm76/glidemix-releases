@@ -8,6 +8,14 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.1.33 Beta · 9 Nov 2026
+- **Match.** A library button that lights the Key cell green for songs that mix with the song under the playhead (the incoming song in a transition), in every list, following the playhead.
+- **Related.** A tab with the full song table for the songs that go with the song under the playhead: same key first, then the closest BPM; sorting, drag and double-click as in the library.
+- **Match and Related rules** (gear next to Match), shared by both: BPM ± % with half/double tempo, key width, energy, year, date added, history (songs played around it in GlideMix's History), same artist (also "feat." in titles), genre, composer, remixer, label, colour, rating (stars), comment text, any tag column, file format.
+- **Charcoal theme.** Following the system now means Charcoal on a dark Mac or PC; the previous dark theme stays, renamed Grey.
+- **Sorting:** a third click on a column header goes back to the view's own order. A new or opened project shows the Music library tab first.
+- Fixed: black pencil and plus icons in the Workspace menu.
+
 ### v1.1.32 Beta · 9 Nov 2026
 - **A faster library.** The song list holds the whole collection in memory and asks the database only for the order of a view, so there are no more 2000-song pages: scrolling to the end, sorting (20-100 ms on 36,000 songs) and searching (about 30 ms) no longer stall. Edited songs are re-read one by one; rows are recycled while scrolling. rekordbox XML, Lexicon and the DJ apps show every song too.
 - **Select All -> Analyze** reaches every song in the list; never-analysed songs go first and the Analyze count goes down live.
