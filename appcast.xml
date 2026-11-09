@@ -6,6 +6,27 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.1.32</title>
+      <pubDate>Sun, 08 Nov 2026 21:44:13 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.32</link>
+      <sparkle:version>1.1.32</sparkle:version>
+      <sparkle:shortVersionString>1.1.32</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.1.32: a faster library</p>
+<p>## New</p>
+<ul>
+<li><b>Your whole collection in the song list.</b> GlideMix used to show 2000 songs at a time and load the next 2000 as you scrolled down, which made big collections stall more and more. Now the whole collection is in the list at once: scroll straight to the end, sort and search without waiting, even with 40,000 songs. The same for the lists of rekordbox XML, Lexicon, Engine DJ, Serato, Traktor, VirtualDJ and djay.</li>
+<li><b>Select All means all.</b> Select All, then Analyze (or any other action), reaches every song in the list, not only the first 2000.</li>
+<li><b>Analyze:</b> with many songs, the ones never analysed go first, and the Analyze count in the sidebar goes down as each one finishes.</li>
+<li><b>Import from Rekordbox XML</b> shows a small window while it reads the file, then how many songs it found and where they are.</li>
+</ul>
+<p>## Fixed</p>
+<ul>
+<li>Mac: quitting during the first moments after start, while GlideMix was still reading your other DJ apps, could crash it.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.32/GlideMix-Beta-v1.1.32.dmg" sparkle:edSignature="V1qdTjPXQQk2R3CWaUgTRMDIk8evn8ua2of7BEXWc9y4FmswxPpP96h0UruOkuIEweSHxusTRVuijxo1rxnbBQ==" length="520052319" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.1.31</title>
       <pubDate>Sun, 08 Nov 2026 17:10:31 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.1.31</link>
