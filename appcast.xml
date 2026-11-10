@@ -6,6 +6,19 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.4</title>
+      <pubDate>Tue, 10 Nov 2026 13:35:57 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.4</link>
+      <sparkle:version>1.2.4</sparkle:version>
+      <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.4</p>
+<ul>
+<li>Library preview fixes.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.4/GlideMix-Beta-v1.2.4.dmg" sparkle:edSignature="RCcuYsLuLdpusEik1kMk/y2QZiNwQSt+jDLhE/TiwaoJKApLeFY4JhfRPzHGzJ4UMcrzv/7/Fe0bHFjzWfj9AA==" length="518935014" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.2.3</title>
       <pubDate>Tue, 10 Nov 2026 10:43:42 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.3</link>
