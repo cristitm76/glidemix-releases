@@ -8,6 +8,9 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.2.4 Beta · 10 Nov 2026
+- Library preview fixes.
+
 ### v1.2.3 Beta · 10 Nov 2026
 - **No more long freezes with a big library and many smart playlists.** A beat grid change (Alt+arrow keys or the Beatgrid editor), adding songs or starting up recounted every smart playlist with a full pass over the library each, on the main thread: up to half a minute with 70 playlists and 50,000 songs. Now the library is read once and the counting runs in the background, shared by every open song list.
 - **Set IN and OUT anchors from the keyboard:** ⌥/Alt+I and ⌥/Alt+O at the playhead on the selected song (changeable under Shortcuts).

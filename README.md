@@ -43,6 +43,9 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.2.4**
+- Library preview fixes.
+
 **New in 1.2.3: no more freezes, plus a few wishes**
 - **No more long freezes** after a beat grid change, adding songs or at start, with a big library and many smart playlists: the smart playlist counts now run in the background.
 - **IN and OUT from the keyboard:** select a song, put the playhead there and press **⌥/Alt+I** or **⌥/Alt+O**.
