@@ -6,6 +6,27 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.3</title>
+      <pubDate>Tue, 10 Nov 2026 10:43:42 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.3</link>
+      <sparkle:version>1.2.3</sparkle:version>
+      <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.3: no more freezes, plus a few wishes</p>
+<p>## Fixed</p>
+<ul>
+<li><b>No more long freezes with a big library and many smart playlists.</b> After a beat grid change (Alt+arrow keys or the Beatgrid editor), adding songs, or at start, GlideMix could stop responding for up to half a minute while it recounted every smart playlist, one full pass over the library each. It now reads the library once and does the counting in the background.</li>
+<li><b>The Related tab&#x27;s search box works.</b> Type a title, artist, genre or `bpm:&gt;125` and the related songs narrow down, with the same search rules as the music library.</li>
+<li><b>Windows:</b> Task Manager and the file properties show &quot;GlideMix Beta v1.2.3&quot;, not &quot;GlideMix 1.1 beta dev&quot;.</li>
+</ul>
+<p>## New</p>
+<ul>
+<li><b>Set the IN and OUT anchors from the keyboard.</b> Select a song in the timeline, put the playhead where you want it and press <b>Alt+I</b> (IN) or <b>Alt+O</b> (OUT). Change the keys under Shortcuts if you like.</li>
+<li><b>Rename a project</b> from its <b>…</b> menu on the Home page (a saved project that isn&#x27;t open).</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.3/GlideMix-Beta-v1.2.3.dmg" sparkle:edSignature="AeFbuPDvIbQ44w+OpLN733kChMh0QiSK7Pm0jBzkifdhLjufOmLd0VC0zeE1SA27ieOcUCvtKz3F5UZdLSDSCg==" length="518356603" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.2.2</title>
       <pubDate>Tue, 10 Nov 2026 07:26:03 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.2</link>
