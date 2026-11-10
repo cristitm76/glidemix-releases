@@ -6,6 +6,22 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.2</title>
+      <pubDate>Tue, 10 Nov 2026 07:26:03 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.2</link>
+      <sparkle:version>1.2.2</sparkle:version>
+      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.2: your plug-ins play along</p>
+<p>## Fixed</p>
+<ul>
+<li><b>Tempo-synced plug-ins now follow the beat.</b> Loopers, tape stops, beat gates, rumble generators and beat FX (TimeStop, Maddix Rumble, Serato Hex FX, Trance Gate and the like) loaded but did nothing: GlideMix never told them the tempo or where the song was. VST3 and Audio Unit plug-ins now get the tempo (tempo lane glides too), the beat and the bar, counted from your bar 1.</li>
+<li><b>AIR plug-ins no longer crash GlideMix.</b> AIR Compressor, AIR Enhancer and other plug-ins that carry their own copy of Qt (Serato Hex FX too) closed GlideMix a few seconds after they opened (Mac).</li>
+<li><b>No crash when quitting</b> with plug-ins like TimeStop or Hyperlift loaded.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.2/GlideMix-Beta-v1.2.2.dmg" sparkle:edSignature="Vg9o+1w0bDowb6ZDFxg/aeTwSiU40pffTmlbQZR/6YR6I3GpsiytWI06eBh4f3CFGRyG2VdScD8mH+WaChneAg==" length="520181627" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.2.1</title>
       <pubDate>Mon, 09 Nov 2026 19:21:19 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.1</link>

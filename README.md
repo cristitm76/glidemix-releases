@@ -43,6 +43,11 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.2.2: your plug-ins play along**
+- **Tempo-synced plug-ins follow the beat:** loopers, tape stops, beat gates and beat FX now get the tempo (tempo lane glides too), the beat and the bar from GlideMix, VST3 and Audio Unit, on Mac and Windows.
+- **AIR plug-ins no longer crash GlideMix** (AIR Compressor, AIR Enhancer and others that bring their own Qt, Serato Hex FX too; Mac).
+- **No crash when quitting** with plug-ins like TimeStop or Hyperlift loaded.
+
 **New in 1.2.1: your own toolbar**
 - **Customize the toolbar like Safari:** right-click the toolbar (or click its gear) and drag buttons in, out and along it. Space and Flexible Space, a default set to go back to, and the choice of icon and text, icon only or text only, with new GlideMix icons.
 - **Key column your way:** plain text, coloured text or coloured badges (Preferences > Music library).

@@ -8,6 +8,10 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.2.2 Beta · 10 Nov 2026
+- **Tempo-synced plug-ins follow the beat.** VST3 and Audio Unit plug-ins (loopers, tape stops, beat gates, beat FX such as TimeStop, Maddix Rumble, Serato Hex FX, Trance Gate) now get the tempo (tempo lane glides too), the beat and the bar, counted from bar 1. Before, they loaded but did nothing.
+- **Fixed:** AIR plug-ins (and others that carry their own Qt, Serato Hex FX too) crashing GlideMix a few seconds after opening (Mac); a crash when quitting with plug-ins like TimeStop or Hyperlift loaded.
+
 ### v1.2.1 Beta · 9 Nov 2026
 - **Customize the toolbar, like Safari.** Right-click the toolbar (or its gear): drag buttons in, out and along it; Space and Flexible Space; icon and text, icon only or text only, with new GlideMix icons for SYNC, TEMPO, ENERGY, KEYLOCK, LINK, PERFORM, MIX NOW, ARM and RE-ENABLE; the default set puts it back. An emptied group leaves no gap.
 - **Key column your way:** plain text, coloured text or coloured badges (Preferences > Music library).
