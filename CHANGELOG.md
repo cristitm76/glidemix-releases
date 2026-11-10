@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.2.3 Beta · 10 Nov 2026
+- **No more long freezes with a big library and many smart playlists.** A beat grid change (Alt+arrow keys or the Beatgrid editor), adding songs or starting up recounted every smart playlist with a full pass over the library each, on the main thread: up to half a minute with 70 playlists and 50,000 songs. Now the library is read once and the counting runs in the background, shared by every open song list.
+- **Set IN and OUT anchors from the keyboard:** ⌥/Alt+I and ⌥/Alt+O at the playhead on the selected song (changeable under Shortcuts).
+- **Rename a project** from its … menu on the Home page.
+- **Fixed:** the Related tab's search box did nothing (it now narrows the related songs with the library's search terms); Windows showed "GlideMix 1.1 beta dev" in Task Manager.
+
 ### v1.2.2 Beta · 10 Nov 2026
 - **Tempo-synced plug-ins follow the beat.** VST3 and Audio Unit plug-ins (loopers, tape stops, beat gates, beat FX such as TimeStop, Maddix Rumble, Serato Hex FX, Trance Gate) now get the tempo (tempo lane glides too), the beat and the bar, counted from bar 1. Before, they loaded but did nothing.
 - **Fixed:** AIR plug-ins (and others that carry their own Qt, Serato Hex FX too) crashing GlideMix a few seconds after opening (Mac); a crash when quitting with plug-ins like TimeStop or Hyperlift loaded.
