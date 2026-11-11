@@ -8,6 +8,14 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.2.5 Beta · 11 Nov 2026
+- **Edit like in Ableton.** Z zooms to the selection, X goes back one step at a time, = and - zoom; ⌘/Ctrl+E splits (was ⌘I), ⌘/Ctrl+L loops the selection or clip, ⇧⌘/Ctrl+Shift+J crops, R reverses (Record moved to F9), ⌘/Ctrl+R renames, ⌘/Ctrl+1–4 finer grid, coarser grid, triplets, snap. A saved shortcut list moves to the new keys once, where it still had the old ones.
+- **Right-click menus in Ableton's order** on a selection, a clip and the empty timeline: Cut, Copy, Paste, Duplicate, Delete; Zoom to selection / Zoom back; Split, Join, Split at silences; Loop, Crop, Reverse, Silence; Cut time, Paste time, Delete time; Snap to grid and a Grid submenu (1 Bar to 1/32, Narrow, Widen, Triplet).
+- **Thin automation lines with values,** like Logic: a thinner line and small dots, and the value beside each point: dB on volume lines, % on effect lines, BPM on the tempo line.
+- **Icon-only toolbar in category capsules:** levels and metronome; Sync, Keylock, Link; Snap; Tempo, Energy; Perform, Stop, Broadcast, Mix now; Arm, Re-enable (now a switch). New Keylock, Arm, Mix now and Reset view icons; every tooltip says what the button does.
+- **⌘/Ctrl+A** selects all songs while the song list has the keyboard, the whole timeline otherwise.
+- **Fixed:** a crash when zoomed in to single samples with clips just off screen (seen with 40 songs in a mix).
+
 ### v1.2.4 Beta · 10 Nov 2026
 - Library preview fixes.
 

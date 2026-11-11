@@ -43,6 +43,14 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.2.5: edit like in your DAW**
+- **Ableton keys:** **Z** zooms to the selection and **X** goes back step by step, **⌘/Ctrl+E** splits, **⌘/Ctrl+L** loops the selection, **R** reverses, **⌘/Ctrl+1–4** narrow, widen, triplet and snap the grid. Some keys moved: Split was ⌘I, Record is now **F9**, Rename is **⌘/Ctrl+R**.
+- **Tidier right-click menus** in Ableton's order: edit, zoom, split, loop, crop and reverse, **Cut / Paste / Delete time**, and a **Grid** section (1 bar to 1/32).
+- **Thin automation lines** like Logic's, with the value beside each point: dB on volume, % on effects, BPM on the tempo line.
+- **Icon toolbar:** icons only, grouped by job in capsules; hover a button to read what it does.
+- **⌘/Ctrl+A** selects all songs while you're in the library, the whole timeline when you're there.
+- **Fixed:** a crash when zoomed in close enough to see single samples.
+
 **New in 1.2.4**
 - Library preview fixes.
 
