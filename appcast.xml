@@ -6,6 +6,25 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.5</title>
+      <pubDate>Wed, 11 Nov 2026 11:19:49 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.5</link>
+      <sparkle:version>1.2.5</sparkle:version>
+      <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.5</p>
+<ul>
+<li>Edit like in Ableton: Z zooms to the selection, X goes back, ⌘E splits, ⌘L loops, R reverses, ⌘1–⌘4 set the grid (Ctrl on Windows).</li>
+<li>Some keys moved: Split is now ⌘E (was ⌘I), Record is F9, Rename is ⌘R.</li>
+<li>Tidier right-click menus, with Cut / Paste / Delete time and a Grid section.</li>
+<li>Thin automation lines with the value beside each point (dB, %, BPM).</li>
+<li>Toolbar: icons only, grouped by job; hover a button to see what it does.</li>
+<li>⌘A selects all songs in the library, or the whole timeline.</li>
+<li>Fixed a crash when zoomed in very close.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.5/GlideMix-Beta-v1.2.5.dmg" sparkle:edSignature="1DfkTAFskuu/n2hcosl+VzVMLwMXVX99Ztv2u1RUNNrPszwuKnbRpi+JX0JrLm0LoxsRXpKTVefs0W1DJ3kcCg==" length="520435505" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.2.4</title>
       <pubDate>Tue, 10 Nov 2026 13:35:57 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.4</link>
