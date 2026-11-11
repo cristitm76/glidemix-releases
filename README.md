@@ -43,6 +43,14 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.2.6: songs that sound alike**
+- **Sounds like:** every song gets a small sound fingerprint when it's analysed (its tone, brightness, bass and groove, from the main part of the song, not the intro).
+- **Related** compares the song **under the playhead** with all the others: among the songs whose key and BPM mix, the ones that sound most alike come first. The new **Sounds like** column says how alike: 85 % means more alike than 85 % of your library. Move the playhead to another song and the list follows.
+- Songs analysed before get their fingerprint once in the background (a few hours for a big library); it waits while music plays.
+- **LED meter** above the clock: a light show of what the audience hears, red lows to violet highs. Right-click to hide it.
+- **Loops live under the ruler:** drag in the strip under the time numbers to loop, click the loop to turn it on or off. A click on the numbers just moves the playhead.
+- **Audio setup** and **Music library** moved to the top right, beside the Workspace picker.
+
 **New in 1.2.5: edit like in your DAW**
 - **Ableton keys:** **Z** zooms to the selection and **X** goes back step by step, **⌘/Ctrl+E** splits, **⌘/Ctrl+L** loops the selection, **R** reverses, **⌘/Ctrl+1–4** narrow, widen, triplet and snap the grid. Some keys moved: Split was ⌘I, Record is now **F9**, Rename is **⌘/Ctrl+R**.
 - **Tidier right-click menus** in Ableton's order: edit, zoom, split, loop, crop and reverse, **Cut / Paste / Delete time**, and a **Grid** section (1 bar to 1/32).

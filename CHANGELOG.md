@@ -8,6 +8,14 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.2.6 Beta · 11 Nov 2026
+- **Sounds like.** During analysis every song gets a sound fingerprint of about 40 numbers: timbre (MFCC, mean and spread), brightness, the balance of five bands, noisiness and groove, measured on the song's loud main parts, not the intro or breakdowns. Stored in the library.
+- **Related sorts by sound.** The Related rules (key, BPM and the others) still pick the songs; among them, the ones whose fingerprint is closest to the song under the playhead come first, a little lower for another compatible key or a few % of BPM away. The Related tab's new **Sounds like** column shows the share of the whole library that sounds less alike (100 % = the closest song of all).
+- **Background measuring** for songs analysed before: one light pass per song (a decode, no beats or key) at the lowest priority, newest songs first, waiting while anything plays or songs are being analysed; songs on an unplugged disk are tried again next start.
+- **LED meter** above the clock: 40 × 7 dots of the mix the audience hears (Play, or Perform while performing), in a colour sweep from red lows to violet highs; dark when stopped; right-click to hide.
+- **Loop bar under the ruler:** loops are drawn, moved, stretched and switched on/off in the strip under the time numbers; a click on the numbers only moves the playhead.
+- **Audio setup and Music library** moved beside the Workspace picker; the Workspace label is centred over its box. Fixed the top toolbars running off the window's edge when one grows after start-up.
+
 ### v1.2.5 Beta · 11 Nov 2026
 - **Edit like in Ableton.** Z zooms to the selection, X goes back one step at a time, = and - zoom; ⌘/Ctrl+E splits (was ⌘I), ⌘/Ctrl+L loops the selection or clip, ⇧⌘/Ctrl+Shift+J crops, R reverses (Record moved to F9), ⌘/Ctrl+R renames, ⌘/Ctrl+1–4 finer grid, coarser grid, triplets, snap. A saved shortcut list moves to the new keys once, where it still had the old ones.
 - **Right-click menus in Ableton's order** on a selection, a clip and the empty timeline: Cut, Copy, Paste, Duplicate, Delete; Zoom to selection / Zoom back; Split, Join, Split at silences; Loop, Crop, Reverse, Silence; Cut time, Paste time, Delete time; Snap to grid and a Grid submenu (1 Bar to 1/32, Narrow, Widen, Triplet).
