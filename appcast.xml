@@ -6,6 +6,24 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.6</title>
+      <pubDate>Wed, 11 Nov 2026 16:29:48 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.6</link>
+      <sparkle:version>1.2.6</sparkle:version>
+      <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.6</p>
+<ul>
+<li>Sounds like: every song now gets a small sound fingerprint when it&#x27;s analysed (its tone, brightness, bass and groove).</li>
+<li>Related compares the song under the playhead with all the others: among the songs whose key and BPM mix, the ones that sound most alike come first. The new &quot;Sounds like&quot; column says how alike (85 % = more alike than 85 % of your library). Move the playhead to another song and the list follows.</li>
+<li>Songs analysed before get their fingerprint once in the background (a few hours for a big library). It waits while music plays.</li>
+<li>A light show above the clock: LED dots that dance with the mix. Right-click to hide it.</li>
+<li>Audio setup and Music library moved to the top right, beside the Workspace picker.</li>
+<li>Loops live under the ruler now: drag in the strip under the time numbers to loop, click the loop to turn it on or off. A click on the numbers just moves the playhead.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.6/GlideMix-Beta-v1.2.6.dmg" sparkle:edSignature="M9SuptTBSMDWYcyrkGqMQsL7udtJ9XuBSPvpK0KEg3s6VvlqnqIaABsn/Oj1+z8C4lAZVZfqgXt7PzYKy/+5AA==" length="521519616" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.2.5</title>
       <pubDate>Wed, 11 Nov 2026 11:19:49 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.5</link>
