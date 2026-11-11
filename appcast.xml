@@ -6,6 +6,26 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.7</title>
+      <pubDate>Wed, 11 Nov 2026 21:46:24 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.7</link>
+      <sparkle:version>1.2.7</sparkle:version>
+      <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.7</p>
+<p>You asked for it: the MixMeister fade is back.</p>
+<ul>
+<li><b>Volume Fade is the new default transition.</b> The playing song stays at full volume up to its OUT anchor, then slides to half volume (-6 dB) over 8 bars and cuts. The next song starts on its IN anchor at half volume and rises to full over the same 8 bars. Every new pair of songs gets it.</li>
+<li><b>Move an anchor, the mix follows.</b> Drag an OUT or IN anchor and every song after it moves along, and the fade is redrawn from the new spot. Drag forward, drag back, drag far: no leftover dots.</li>
+<li><b>Right-click an IN or OUT flag</b> to switch that transition between Volume Fade and the GlideMix transition (crossfade + bass swap), or turn it off. The transition pill menu has Volume Fade too, and Preferences &gt; Transitions lets you pick your default.</li>
+<li><b>See the hidden part of the song.</b> Before the IN and after the cut the song is silent, but its waveform now shows faintly, so you see the drops and breaks while you move the IN.</li>
+<li><b>Sounds like in the main library.</b> A column that tells how much every song sounds like the one under the playhead. Click the header to sort: the closest songs first. The Related settings got a &quot;Sounds like: at least N %&quot; rule.</li>
+<li><b>Fixes:</b> deleting a song with Del or Backspace works every time now and takes its empty lane with it (no more old names on empty lanes); songs 2, 3, 4 no longer come in taller than song 1; in the Related settings, click the set star again to clear the rating rule.</li>
+</ul>
+<p>Already picked a transition by hand in Preferences &gt; Transitions? It stays. Choose &quot;Volume Fade&quot; there to get the new default.</p>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.7/GlideMix-Beta-v1.2.7.dmg" sparkle:edSignature="v70M21TUvigyGDschLM+BbXnXQuTZhZST7fGRUYkC+d/MGKzlO5YoaLMZdHbqA/XXJJYVsEZb073FSSYf5P/Bw==" length="521196739" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.2.6</title>
       <pubDate>Wed, 11 Nov 2026 16:29:48 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.6</link>
