@@ -8,6 +8,15 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.2.7 Beta · 11 Nov 2026
+- **Volume Fade (MixMeister's Beatmix 8 bars) is the default transition** for new pairs and Mix Now: the outgoing song 0 dB at its OUT to -6 dB over 32 beats (straight), silent a quarter beat later; the incoming song silent until its IN, -6 dB on it, 0 dB 32 beats later. Volume only, no EQ. A stored old default (quick crossfade + bass swap) moves over once; a transition picked by hand stays.
+- **Fades follow the anchors.** Dragging an OUT or IN anchor moves every song after it and writes the pair's transition again from the new anchor, clearing the old fade wherever it was left (also where it slid with the song on an IN drag). A linked anchor stops where the songs can no longer follow, so IN and OUT never come apart. Transition names survive undo.
+- **Deep IN anchors:** a song whose IN lies far into it may start before the song it mixes out of; the pair is still a transition (it was taken for stem layers when the overlap was large). A fade cut short by the end of a song stops at the level reached instead of sliding to silence.
+- **Right-click on an IN / OUT flag:** Volume Fade (MixMeister), GlideMix transition (crossfade + bass swap), turn the transition off/on.
+- **Ghost waveform:** where the volume line is silent (before the IN, after the cut) the song is drawn faintly from its HD analysis. Drawing only.
+- **Sounds like column in the main library** (sortable, closest first; unmeasured songs last) and a **"Sounds like: at least N %"** rule in the Related settings; click the set rating star again to clear the rating rule.
+- **Fixed:** Delete/Backspace on the timeline lost out to the library's own Delete shortcut (it applied app-wide whenever a library row was selected); a deleted song left its empty lane behind under its name (now removed in the same undo step); lanes 2, 3, 4 came in twice as tall as lane 1 (a new lane copied the other's height before its Single wave doubling).
+
 ### v1.2.6 Beta · 11 Nov 2026
 - **Sounds like.** During analysis every song gets a sound fingerprint of about 40 numbers: timbre (MFCC, mean and spread), brightness, the balance of five bands, noisiness and groove, measured on the song's loud main parts, not the intro or breakdowns. Stored in the library.
 - **Related sorts by sound.** The Related rules (key, BPM and the others) still pick the songs; among them, the ones whose fingerprint is closest to the song under the playhead come first, a little lower for another compatible key or a few % of BPM away. The Related tab's new **Sounds like** column shows the share of the whole library that sounds less alike (100 % = the closest song of all).

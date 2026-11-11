@@ -43,6 +43,14 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.2.7: the MixMeister fade**
+- **Volume Fade** is the new default transition: the playing song stays full up to its OUT, slides to half volume over 8 bars and cuts; the next song starts on its IN at half volume and rises to full.
+- **Move an anchor, the mix follows:** drag an OUT or IN and every song after it moves along; the fade is redrawn from the new spot.
+- **Right-click an IN or OUT flag** to switch between Volume Fade and the GlideMix transition (crossfade + bass swap), or turn it off.
+- **See the silent part:** before the IN and after the cut the song is drawn faintly, so you see where you are while you move the IN.
+- **Sounds like in the main library:** sort any list by how much it sounds like the song under the playhead.
+- **Fixed:** Del / Backspace delete a song every time and take its empty lane with it; new lanes come in at the same height.
+
 **New in 1.2.6: songs that sound alike**
 - **Sounds like:** every song gets a small sound fingerprint when it's analysed (its tone, brightness, bass and groove, from the main part of the song, not the intro).
 - **Related** compares the song **under the playhead** with all the others: among the songs whose key and BPM mix, the ones that sound most alike come first. The new **Sounds like** column says how alike: 85 % means more alike than 85 % of your library. Move the playhead to another song and the list follows.
