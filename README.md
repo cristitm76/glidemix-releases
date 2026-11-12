@@ -43,6 +43,13 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.2.9: make your own beats**
+- **Beat:** press BEAT on a sample line for a step sequencer of your own one-shots: 16 steps a bar (or 32, or triplets), 1 to 16 bars, MPC swing, choke groups and a per-step graph for velocity, pitch, pan, timing, rolls, length, reverse, drive, filter and reverb. Put on sample line renders it as one loop that follows the song tempo; Edit beat opens it again.
+- **Beat starter:** 18 genres or Random fill the rack from your own samples with the genre's groove and tempo; dice, lock, new groove, tune to the song's key, save your own patterns.
+- **Right-click a sample or song on the timeline:** Show similar sounds, Add compatible sound, View pack, Resample, Send to Beat, Create variations, Split into stems, Show in Finder, Export audio, Consolidate, Disable.
+- **Hide the sample line completely** with the eye inside the SAMPLES button.
+- **Library:** every Lexicon column (remixer, label, danceability, popularity, happiness...) and the file's own dates and size on the drive.
+
 **New in 1.2.8: samples and stems**
 - **Samples tab:** add your sample and sound-effect folders; find samples by category, pack, BPM and key; loops preview at the tempo of your mix.
 - **A sample line under every song:** press SAMPLES on a song and drag samples onto the line under it. Loops land on the bar and follow the song tempo, one-shots land where you drop them, nothing already there gets cut.
