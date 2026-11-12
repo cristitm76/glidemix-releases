@@ -43,6 +43,12 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.2.8: samples and stems**
+- **Samples tab:** add your sample and sound-effect folders; find samples by category, pack, BPM and key; loops preview at the tempo of your mix.
+- **A sample line under every song:** press SAMPLES on a song and drag samples onto the line under it. Loops land on the bar and follow the song tempo, one-shots land where you drop them, nothing already there gets cut.
+- **Save as sample:** select part of any song, right-click, and keep it as a WAV named with bars, BPM and key.
+- **Stems of a selection:** save the drums, bass, vocals or other of just that part as samples, or change the mix itself: remove a stem from that part only, or split it onto four stem lanes. One undo brings it all back.
+
 **New in 1.2.7: the MixMeister fade**
 - **Volume Fade** is the new default transition: the playing song stays full up to its OUT, slides to half volume over 8 bars and cuts; the next song starts on its IN at half volume and rises to full.
 - **Move an anchor, the mix follows:** drag an OUT or IN and every song after it moves along; the fade is redrawn from the new spot.
