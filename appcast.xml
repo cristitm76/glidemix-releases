@@ -6,6 +6,25 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.2.9</title>
+      <pubDate>Thu, 12 Nov 2026 14:58:58 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.9</link>
+      <sparkle:version>1.2.9</sparkle:version>
+      <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.2.9</p>
+<p>Make your own beats, right under the song.</p>
+<ul>
+<li><b>Beat.</b> Press BEAT on a sample line and the Beat window opens: a step sequencer for your own one-shots. Drag kicks, claps and hats in from the Samples tab, click the steps, press play - it loops at the tempo of your mix. 16 steps a bar (or 32, or triplets), 1 to 16 bars, MPC-style swing, accents, choke groups, and a graph under the rows for velocity, pitch, pan, timing, rolls, length, reverse, drive, filter and reverb per step.</li>
+<li><b>Beat starter.</b> Pick one of 18 genres (or Random) and the rack fills itself from YOUR samples with that genre&#x27;s groove and tempo. Roll the dice on a row for another sound of the same kind, lock the ones you like, tune a row to the song&#x27;s key. Save your own patterns.</li>
+<li><b>Put on sample line.</b> The beat lands as one seamless loop on the bar under the playhead and follows the song tempo. Right-click it &gt; Edit beat... to change it later.</li>
+<li><b>Hide the sample line for real.</b> The eye now lives in the song&#x27;s SAMPLES button and hides the line completely - more room on small screens and with the FX sidebar open. BEAT moved under FX / M / S.</li>
+<li><b>Right-click a sample or a song</b> on the timeline: Show similar sounds, Add compatible sound (a loop in a key that fits), View pack, Resample, Send to Beat, Create variations (reversed, chopped, stutter, dark), Split into stems, Show in Finder, Export audio, Consolidate, and Disable (the clip stays, but plays and exports silent).</li>
+<li><b>Library columns.</b> Every Lexicon column is here now - Remixer, Mix, Label, Producer, Lyricist, Extra 1/2, Danceability, Popularity, Happiness, Date Modified - plus the file&#x27;s own Modified / Created date and Size on the drive. Right-click the header to pick them.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.9/GlideMix-Beta-v1.2.9.dmg" sparkle:edSignature="/KNxNh06SgnVeYdEh26VQasz7b+/T/n7+FDKeMzh0L2iB9ET/A3jwV/1k/r5ycSPR1D7JyDllppzrNL6g6MMDA==" length="517466174" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.2.8</title>
       <pubDate>Thu, 12 Nov 2026 03:52:47 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.2.8</link>
