@@ -8,6 +8,13 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.1 Beta · 13 Nov 2026
+- **Onboarding:** Getting started has seven pages (theme, waveform look with the recommended transparent single wave preselected on a first start, your music + analysis speed, stems engine, Keylock / key notation / DJ clock, plug-ins with custom VST3 folders and a scan, workspace); Skip setup on every page; Help > Show onboarding reopens it with the current settings; the library's scan summary is a status line while it is open.
+- **Interface size 50-200 %** (Qt scale factor at start-up): View > Interface size, Preferences > Appearance slider with 100 % in the middle and Reset, page 2 of the wizard; Restart now, and the wizard resumes on the same page.
+- **Performance:** the DJ clock and bottom bar cache each song's key, tempo, beats, phrases and mix point per project change; a 32-song set no longer spends a third of the main thread in library queries.
+- **Tempo:** labels, clock and bottom bar show the heard tempo of songs matched double- or half-time; the tempo line, Follow tracks and Master BPM are saved with the project and mark it unsaved when changed.
+- **Fixed:** transition names dropped on save when a song's IN sits deep in the one before; the DJ clock fits the header at any interface size (least needed readouts step aside); "1 BAR LEFT"; a crash on Restart now in the wizard.
+
 ### v1.3.0 Beta · 13 Nov 2026
 - **Beat maps and bending:** songs whose tempo moves are bent onto the project grid beat by beat during playback and export (Rubber Band ratio per block through the song's beat map), and drawn bent. Maps from Serato 5 (Serato Tempo Map), GlideMix's own analysis (Beat This! beats, cleaned, snapped to onsets, smoothed; only for songs that fail a steady test) and Lexicon's tempo markers; the first that counts the same beats as the grid is used. On 200 test songs, 72 % of Serato's beats have a GlideMix grid line within 20 ms (was 43 %).
 - **Grids:** MP3 timing offsets fixed for rekordbox, Serato and Lexicon grids; steady songs' grids moved onto the hits; a new song lands on the nearest beat with SYNC off; File > Import is beatmatched like a drop; the beat grid editor's metronome follows the beat map.

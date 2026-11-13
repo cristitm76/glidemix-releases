@@ -66,6 +66,14 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.1: a proper welcome, any size you like**
+- **Getting started, done right:** the first start walks you through how your songs look (transparent single wave, single wave on colour, dual, colour waveform), your music folder and analysis speed, the stems engine, Keylock, key notation and the DJ clock, and your plug-ins (your own VST3 folders and a scan). Skip setup on any page; **Help > Show onboarding** opens it again with your current settings.
+- **Interface size 50-200 %:** View > Interface size, or the slider in Preferences > Appearance (100 % in the middle). Restart now applies it.
+- **Long mixes don't lag any more:** the DJ clock works out the songs once instead of twenty times a second.
+- **Real tempos:** a song mixed double-time (125 into 175) reads 125 on the tempo line, the clock and the bottom bar.
+- **The tempo line and Follow tracks are saved with the project.**
+- Fixed: transition names lost on save; the DJ clock now fits the header at any size; "1 bar left".
+
 **New in 1.3.0: every kick on the beat**
 - **Songs stay on the beat all the way through:** songs that drift (live drummers, disco, old records, edits) are bent onto the grid beat by beat while they play, like Logic's Smart Tempo. GlideMix takes the best beat map it can find (Serato's, its own, Lexicon's), and the waveform is drawn bent so the kicks sit on the lines. Nothing to do: just drag songs in.
 - **Bars and beats:** the ruler counts bars and beats, and the grid runs inside the songs. **View > Transparent clip background** (or right-click > Color > See-through) shows it behind the waveform.
