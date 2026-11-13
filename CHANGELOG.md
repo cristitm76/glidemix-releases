@@ -8,6 +8,15 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.0 Beta · 13 Nov 2026
+- **Beat maps and bending:** songs whose tempo moves are bent onto the project grid beat by beat during playback and export (Rubber Band ratio per block through the song's beat map), and drawn bent. Maps from Serato 5 (Serato Tempo Map), GlideMix's own analysis (Beat This! beats, cleaned, snapped to onsets, smoothed; only for songs that fail a steady test) and Lexicon's tempo markers; the first that counts the same beats as the grid is used. On 200 test songs, 72 % of Serato's beats have a GlideMix grid line within 20 ms (was 43 %).
+- **Grids:** MP3 timing offsets fixed for rekordbox, Serato and Lexicon grids; steady songs' grids moved onto the hits; a new song lands on the nearest beat with SYNC off; File > Import is beatmatched like a drop; the beat grid editor's metronome follows the beat map.
+- **Timeline:** bars-and-beats ruler by default, the project grid drawn inside the songs, see-through songs (View > Transparent clip background, Color > See-through, Intensity's Invisible track background).
+- **Export each track separately (stems):** one file per audible track, full mix length, rendered by the engine.
+- **DJ clock:** Song left / elapsed, bar and beat, phrase and bars left, next-mix countdown, tempo and stretch, mix length, memory; shown or hidden from the clock menu's Show (Complete = all); follows the audience playhead during PERFORM; NEXT MIX flashes in the last 32 bars before a mix, SONG LEFT in the last 32 bars of the last song (right-click to switch off). Bottom bar: tempo, selection in bars, mix summary, harmonic flow (replaces the Selection / Duration clocks).
+- **Reanalyze**, **Reanalyze (constant BPM)** and **Reanalyze (variable BPM)**: GlideMix's own detection, other apps' grids ignored; the song keeps GlideMix's grid afterwards. Lexicon-tab drags get a grid fitted through all of Lexicon's markers.
+- **Fixed:** a crash when zooming in on a bent song; Windows: Show in Explorer.
+
 ### v1.2.9 Beta · 12 Nov 2026
 - **Beat:** a step sequencer for your own one-shots, opened from the sample line's BEAT button. Rows from the Samples tab, 16/32/24 steps a bar, 1-16 bars (scrolling sideways), MPC-style swing with a per-row swing mix, accents, cut itself, choke groups, polymeter rows, Euclidean fills, row tools (fill, rotate, reverse, invert, copy/paste, clone), Attack / Release / Key shift, and a graph editor per step (velocity, pitch, pan, shift, repeat, length, reverse, distortion, filter, reverb). Renders to one seamless 24-bit loop on the sample line that follows the song tempo; the pattern is saved beside it for Edit beat / Update beat.
 - **Beat starter:** 18 genres and Random fill the rack from the user's own samples by kind of sound, with the genre's groove, swing and tempo; dice per row, New sounds, lock, New groove, tune a row to the song's key; Save pattern / Your patterns.

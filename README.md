@@ -29,12 +29,35 @@ Then you play it back, perform it live, or export the finished mix.
 It knows your music the way DJ software does: tempo, beat grid, key and the song's
 structure (intro, chorus, drop, outro). Drop a song after another and GlideMix
 beatmatches it, locks it to the bar and lines up its **IN** with the previous song's
-**OUT**, so the mix is in time from the first drop.
+**OUT**, so the mix is in time from the first drop. Songs that drift (a live drummer,
+disco, old records) are bent onto the grid beat by beat, so they stay locked all the way through.
 
 <p align="center">
   <img src="assets/mix.jpg" alt="A mix of four songs in GlideMix 1.2.0: each song on its own lane, beatmatched and linked IN to OUT" width="100%">
   <br><i>A mix of four songs: each song beatmatched, locked to the bar and linked IN → OUT.</i>
 </p>
+
+## Features at a glance
+
+1. **Automatic beatmatching and sync:** songs are matched to the mix tempo and bar as you drop them, and songs with changing tempo or live-drummer drift are bent onto the grid beat by beat.
+2. **Your DJ library, as it is:** reads the libraries and metadata of rekordbox, Lexicon, Serato, Engine DJ, Traktor, VirtualDJ and djay, plus rekordbox XML and playlists.
+3. **Music analysis:** BPM, beat grids and beat maps, key, phrases, energy, colour waveforms and sound similarity. Reanalyze with a constant or a variable tempo.
+4. **Beat grid and phrase editing:** move beats, set bar 1, tap or halve/double the tempo, use other apps' grids, lock grids, edit phrases, and check it all with a metronome that follows the song.
+5. **Timeline mixing:** a DAW-style timeline counted in bars and beats, with the grid running through the songs, IN/OUT markers, linked songs and a Project tab to reorder them.
+6. **Tempo across the mix:** a tempo lane with smooth or straight glides.
+7. **Transitions and fades:** Volume Fade or DJ-style crossfades, bass swaps, EQ fades, filters, risers, echo and reverb, with your own fade shapes and automated controls.
+8. **DJ mixer:** two channels with EQ, kills, filters, channel faders, crossfader curves and beat effects; record your knob moves into the transition.
+9. **Automation and effects:** draw or record volume, tempo and effect changes; built-in effects plus VST3 and Audio Unit plug-ins.
+10. **Stems:** split songs into drums, bass, vocals and other; mute, fade, move or process stems, split a selection, or save stems as samples.
+11. **Samples:** scan your own sample folders, browse and preview loops and one-shots, and place them on a song's sample line.
+12. **Beat sequencer:** drum patterns from your one-shots with swing, triplets, accents, fills, per-step controls and genre beat starters, rendered as loops.
+13. **Sample and clip tools:** find similar sounds, add compatible samples, resample, make variations, reverse, consolidate, export or disable clips.
+14. **Library tools:** search and filter by BPM, key and tags; find duplicates; smart playlists; tags, ratings, colours and cue points.
+15. **Harmonic mixing:** browse by key with the Key Wheel and find songs with keys and tempos that mix.
+16. **Export and sharing:** the mix in common audio formats or **each track separately (stems)**, tracklists and cue sheets, a loudness report, and broadcasting to Shoutcast or Icecast.
+17. **Play it live:** perform the mix while you preview another spot, with separate audience and headphone outputs; tempo and play shared over Ableton Link.
+18. **A DJ clock:** time left in the song, bar and beat, phrase and bars left, countdown to the next mix, tempo and stretch, key, energy, CPU, disk and memory, flashing before the end like a deck; the mix at a glance in the bottom bar.
+19. **Your workspace:** waveforms, see-through song backgrounds, track colours, lane heights, toolbars, themes, shortcuts and library columns.
 
 ## What it does
 
@@ -42,6 +65,15 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - A new song is ready in about **a second**: beat grid, phrases, key, energy and colour waveforms. On a Mac the beat grid runs on the graphics chip (Core ML) with the full, most accurate beat model.
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
+
+**New in 1.3.0: every kick on the beat**
+- **Songs stay on the beat all the way through:** songs that drift (live drummers, disco, old records, edits) are bent onto the grid beat by beat while they play, like Logic's Smart Tempo. GlideMix takes the best beat map it can find (Serato's, its own, Lexicon's), and the waveform is drawn bent so the kicks sit on the lines. Nothing to do: just drag songs in.
+- **Bars and beats:** the ruler counts bars and beats, and the grid runs inside the songs. **View > Transparent clip background** (or right-click > Color > See-through) shows it behind the waveform.
+- **Export each track separately:** File > Export audio > Type, one file per track, all the same length, ready for any DAW.
+- **A DJ clock:** song time left, bar and beat, phrase and bars left, countdown to the next mix, tempo and stretch, mix length and memory. It follows the audience during PERFORM and flashes red before the next mix. The small arrow next to the clock > Show picks what you see.
+- **The mix at a glance** in the bottom bar: tempo, your selection in bars, songs and tempo range, and how many transitions are in keys that mix.
+- **Reanalyze** in the library (plain, constant BPM or variable BPM) uses GlideMix's own grid instead of your other apps'.
+- Tighter grids from rekordbox and Lexicon on MP3s, a fix for a crash when zooming in, and Show in Explorer on Windows.
 
 **New in 1.2.9: make your own beats**
 - **Beat:** press BEAT on a sample line for a step sequencer of your own one-shots: 16 steps a bar (or 32, or triplets), 1 to 16 bars, MPC swing, choke groups and a per-step graph for velocity, pitch, pan, timing, rolls, length, reverse, drive, filter and reverb. Put on sample line renders it as one loop that follows the song tempo; Edit beat opens it again.
@@ -162,7 +194,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 
 **Your music, analysed like a DJ app**
 - **Tip for rekordbox and Lexicon users:** analyse your whole library there first (rekordbox: BPM/Grid, KEY and Phrase on), then open it in GlideMix. Those songs come with their beat grids, keys, cues and phrases and need no analysis at all; GlideMix only analyses songs those apps don't know.
-- Tempo, beat grid, musical key (Camelot key wheel) and song phrases (intro, chorus, drop, outro), shown right on each song.
+- Tempo, beat grid, musical key (key wheel) and song phrases (intro, chorus, drop, outro), shown right on each song.
 - Uses the analysis you already have: songs analysed in **rekordbox** or **Lexicon** take their beat grids and keys from there, in seconds.
 - Reads your **rekordbox XML** and your **Lexicon** library, with their playlists.
 - **Energy 1–10** for every song, like Mixed In Key and Lexicon (Lexicon songs keep Lexicon's own), shown as LED blocks in the library.
@@ -173,7 +205,7 @@ beatmatches it, locks it to the bar and lines up its **IN** with the previous so
 - **Ratings, colors and Edit Tags** like in rekordbox: stars, rekordbox's 8 track colors, and right-click → **Edit Tags…** for one song or many. Tags are saved into the music files, so rekordbox and Lexicon see them after re-reading the tags.
 - **Smart Playlists**: playlists that fill themselves from rules (genre, BPM, key "mixes with", rating, color, date added…), from your collection, Lexicon or rekordbox, like rekordbox's Intelligent Playlists and Lexicon's Smartlists.
 - **Export** any playlist to a folder (songs in order, a track list and an .m3u8), or your whole collection to a **rekordbox XML** for rekordbox and Lexicon. Songs without cue points get hot cues where their phrases start (Intro, Chorus, Outro…), ready for CDJs.
-- **Key wheel**: click a key on the Camelot wheel and the library shows only the songs in that key; click more keys to add them. Perfect for harmonic mixing.
+- **Key wheel**: click a key on the wheel and the library shows only the songs in that key; click more keys to add them. Perfect for harmonic mixing.
 
 <p align="center">
   <img src="assets/library-detail.jpg" alt="The GlideMix library: key wheel, colour waveforms with cue points, key badges, energy blocks and star ratings" width="100%">
