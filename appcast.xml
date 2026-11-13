@@ -6,6 +6,26 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.3.1</title>
+      <pubDate>Fri, 13 Nov 2026 20:32:59 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.1</link>
+      <sparkle:version>1.3.1</sparkle:version>
+      <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.3.1</p>
+<p>A proper welcome, a bigger (or smaller) GlideMix, and a smoother ride through long mixes.</p>
+<ul>
+<li><b>Getting started, done right.</b> The first start now walks you through how your songs look (transparent single wave, single wave on colour, dual, colour waveform), adding your music folder, installing the stems engine, keys and the DJ clock, and your plug-ins - your own VST3 folders and a scan included. Skip setup on any page. Help &gt; Show onboarding opens it again any time, with your current settings.</li>
+<li><b>Interface size 50-200 %.</b> For tiny laptop screens and sharp eyes alike: View &gt; Interface size, or the slider in Preferences &gt; Appearance (100 % in the middle). Restart now applies it and brings you right back.</li>
+<li><b>Long mixes don&#x27;t lag any more.</b> A 30-song set made the whole app sluggish; the DJ clock now does its homework once instead of twenty times a second.</li>
+<li><b>Real tempos on the tempo line.</b> A 125 BPM song mixed double-time into a 175 BPM set reads 125, not 250 - on the line, the clock and the bottom bar.</li>
+<li><b>The tempo line is saved with the project</b>, Follow tracks included. Reopen a set and it plays the way you left it.</li>
+<li><b>No more lost transition names</b> on save, even when a song&#x27;s IN sits deep inside the one before.</li>
+<li>The DJ clock fits the header at any size: the least needed readouts step aside when space runs out. &quot;1 bar left&quot;, not &quot;1 bars&quot;.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.3.1/GlideMix-Beta-v1.3.1.dmg" sparkle:edSignature="+Zwcz4jiEF+0qtDOeySZf20LGX6de17/hxKiKmYzPhL92aaYHnIaMj35ZTwt9mHCvKD8VzI1T18CmOWGHvUHDg==" length="522275320" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.3.0</title>
       <pubDate>Fri, 13 Nov 2026 15:59:14 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.0</link>
