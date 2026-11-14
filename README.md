@@ -66,6 +66,11 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.4: fixes and small improvements**
+- **Fixed a crash** that could happen a few seconds after the first start following an update.
+- **Double-time songs: your choice.** A song matched double-time (125 BPM in a 174 BPM set) no longer turns Follow tracks on by itself: Follow tracks blinks and the bottom bar explains how to play it at its own tempo.
+- **The DJ clock makes room for your project's name** at big interface sizes and on narrow screens.
+
 **New in 1.3.3: polish and fixes**
 - **Your project's name is on the Project tab.** Click it (or right-click) for Save, Save as, Rename and Delete. On the Mac the title bar no longer repeats it.
 - **A DJ clock that keeps still:** a new phrase (Intro to Chorus) or 10 to 9 bars no longer pushes the other readouts around.

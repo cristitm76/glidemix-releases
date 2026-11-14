@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.4 Beta · 14 Nov 2026
+- **Crash:** the IoC lookup no longer dereferences a missing context when a QML popup is torn down after its engine has gone (NavigationSection's destructor crashed a few seconds after the first start following the 1.3.3 update).
+- **Tempo:** a track matched double- or half-time no longer switches Follow tracks on; the tempo lane's Follow tracks button blinks for 8 s and the status bar explains (other tracks more than 8 % off still switch it on).
+- **Header:** the DJ clock measures the project-name tab's real width before deciding which readouts step aside.
+
 ### v1.3.3 Beta · 14 Nov 2026
 - **Project tab:** shows the open project's name ("Untitled project" when new, * while unsaved) with a menu on click or right-click: Save, Save as, Rename (closes, renames the file and its SQLite side files, reopens) and Delete (closes, moves the file to the Trash, takes it off the recent list). The Mac title bar no longer repeats the name.
 - **DJ clock:** each readout reserves room for its widest normal value and label, so phrase names and bar counts no longer shift the readouts beside it; readouts a little wider and taller inside the same header.
