@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.2 Beta · 14 Nov 2026
+- **Stems engine on Windows:** the install no longer stops at step 2/4 when OneDrive's file filter blocks uv's Python folder link (os error 448; the environment is then made from the downloaded Python), nor at the end after the move (the environment is made again in place). The installer pins a tested uv version (Mac and Windows) and no longer logs Hugging Face warnings.
+- **Install messages:** a failed install names the reason (download, disk space, OneDrive, or the first error line); Cancel says Cancelled; an install cut off by quitting is removed at the next start.
+- **Tracks view:** lanes added below the top (Separate stems, Split into stems) no longer scroll the view to the last new lane; stem lanes don't take the song's selection or focus.
+- **DJ clock and bottom bar:** tabular figures and steady readout widths while a song plays, so the readouts stop shifting as they count.
+
 ### v1.3.1 Beta · 13 Nov 2026
 - **Onboarding:** Getting started has seven pages (theme, waveform look with the recommended transparent single wave preselected on a first start, your music + analysis speed, stems engine, Keylock / key notation / DJ clock, plug-ins with custom VST3 folders and a scan, workspace); Skip setup on every page; Help > Show onboarding reopens it with the current settings; the library's scan summary is a status line while it is open.
 - **Interface size 50-200 %** (Qt scale factor at start-up): View > Interface size, Preferences > Appearance slider with 100 % in the middle and Reset, page 2 of the wizard; Restart now, and the wizard resumes on the same page.

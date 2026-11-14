@@ -66,6 +66,12 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.2: bugfixes and UI improvements, better stems for Mac and Windows**
+- **Stems install on Windows works**, also with OneDrive running (it stopped at step 2/4 or at the very end before).
+- **When a stems install can't finish, GlideMix says why:** no internet connection, not enough disk space, or OneDrive in the way. A half-done install left by quitting is cleaned up at the next start.
+- **The view stays put after Separate stems** and Split into stems: the stem lanes appear under the song, no jump.
+- **A steady DJ clock:** the readouts and the bottom bar no longer wobble while they count.
+
 **New in 1.3.1: a proper welcome, any size you like**
 - **Getting started, done right:** the first start walks you through how your songs look (transparent single wave, single wave on colour, dual, colour waveform), your music folder and analysis speed, the stems engine, Keylock, key notation and the DJ clock, and your plug-ins (your own VST3 folders and a scan). Skip setup on any page; **Help > Show onboarding** opens it again with your current settings.
 - **Interface size 50-200 %:** View > Interface size, or the slider in Preferences > Appearance (100 % in the middle). Restart now applies it.
