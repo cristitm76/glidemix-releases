@@ -66,6 +66,12 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.3: polish and fixes**
+- **Your project's name is on the Project tab.** Click it (or right-click) for Save, Save as, Rename and Delete. On the Mac the title bar no longer repeats it.
+- **A DJ clock that keeps still:** a new phrase (Intro to Chorus) or 10 to 9 bars no longer pushes the other readouts around.
+- **No lag after a beat grid edit:** only the edited song is re-read, not the whole library.
+- **Adjust BPM reaches your project:** halving or doubling a song's BPM in the library updates its grid in the open project right away.
+
 **New in 1.3.2: bugfixes and UI improvements, better stems for Mac and Windows**
 - **Stems install on Windows works**, also with OneDrive running (it stopped at step 2/4 or at the very end before).
 - **When a stems install can't finish, GlideMix says why:** no internet connection, not enough disk space, or OneDrive in the way. A half-done install left by quitting is cleaned up at the next start.

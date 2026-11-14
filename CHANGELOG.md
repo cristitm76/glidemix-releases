@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.3 Beta · 14 Nov 2026
+- **Project tab:** shows the open project's name ("Untitled project" when new, * while unsaved) with a menu on click or right-click: Save, Save as, Rename (closes, renames the file and its SQLite side files, reopens) and Delete (closes, moves the file to the Trash, takes it off the recent list). The Mac title bar no longer repeats the name.
+- **DJ clock:** each readout reserves room for its widest normal value and label, so phrase names and bar counts no longer shift the readouts beside it; readouts a little wider and taller inside the same header.
+- **Library speed:** a beat grid edit re-reads only the edited rows instead of the whole in-memory song index.
+- **Adjust BPM:** scaling a song's BPM in the library now notifies the app, so the open project's beat grids follow.
+
 ### v1.3.2 Beta · 14 Nov 2026
 - **Stems engine on Windows:** the install no longer stops at step 2/4 when OneDrive's file filter blocks uv's Python folder link (os error 448; the environment is then made from the downloaded Python), nor at the end after the move (the environment is made again in place). The installer pins a tested uv version (Mac and Windows) and no longer logs Hugging Face warnings.
 - **Install messages:** a failed install names the reason (download, disk space, OneDrive, or the first error line); Cancel says Cancelled; an install cut off by quitting is removed at the next start.
