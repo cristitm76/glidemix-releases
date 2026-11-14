@@ -6,6 +6,23 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.3.3</title>
+      <pubDate>Sat, 14 Nov 2026 10:39:11 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.3</link>
+      <sparkle:version>1.3.3</sparkle:version>
+      <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.3.3</p>
+<p>Polish and fixes.</p>
+<ul>
+<li><b>Your project&#x27;s name is on the Project tab.</b> Click the tab (or right-click it) for Save, Save as, Rename and Delete. On the Mac the title bar no longer repeats the name.</li>
+<li><b>A DJ clock that keeps its place.</b> When the phrase changes (Intro to Chorus) or the bar count goes from 9 to 10, the other readouts stay where they are. The readouts are also a little roomier.</li>
+<li><b>No more lag after a beatgrid edit.</b> Only the edited songs are re-read, not the whole library.</li>
+<li><b>Adjust BPM reaches your project.</b> Doubling or halving a song&#x27;s BPM in the library now updates that song&#x27;s beatgrid in the open project right away.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.3.3/GlideMix-Beta-v1.3.3.dmg" sparkle:edSignature="hBuzBmyv8z8voRYexnyGv3TnI1C+uHDHC9qS5BEVpioqWi6MrH0ZmvPkWsY4h5DZG7NURk6e3jEHQp8EurFuDg==" length="519970357" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.3.2</title>
       <pubDate>Sat, 14 Nov 2026 01:33:42 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.2</link>
@@ -99,7 +116,7 @@
 <li><b>Fixes:</b> samples and stem lanes no longer count as songs in the SONG counter, transitions or the tempo line; stem lanes go under the song&#x27;s sample line; the sample scan works with sample databases from earlier versions.</li>
 </ul>
 <p>You need the stems engine for the stems features (Preferences &gt; Stems &gt; Install, once).</p>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.8/GlideMix-Beta-v1.2.8.dmg" sparkle:edSignature="2kmxrYFsPgKgDj1F5I2fKchgQMLAGj4j/t7esH3sDHLQ4YT9aMRPE/iuTdADRnB+jJB5zZI/ALZKzVIb7JFGBw==" length="520451877" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.8/GlideMix-Beta-v1.2.8.dmg" length="520451877" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.2.7</title>
@@ -119,7 +136,7 @@
 <li><b>Fixes:</b> deleting a song with Del or Backspace works every time now and takes its empty lane with it (no more old names on empty lanes); songs 2, 3, 4 no longer come in taller than song 1; in the Related settings, click the set star again to clear the rating rule.</li>
 </ul>
 <p>Already picked a transition by hand in Preferences &gt; Transitions? It stays. Choose &quot;Volume Fade&quot; there to get the new default.</p>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.7/GlideMix-Beta-v1.2.7.dmg" sparkle:edSignature="v70M21TUvigyGDschLM+BbXnXQuTZhZST7fGRUYkC+d/MGKzlO5YoaLMZdHbqA/XXJJYVsEZb073FSSYf5P/Bw==" length="521196739" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.7/GlideMix-Beta-v1.2.7.dmg" length="521196739" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.2.6</title>
@@ -137,7 +154,7 @@
 <li>Audio setup and Music library moved to the top right, beside the Workspace picker.</li>
 <li>Loops live under the ruler now: drag in the strip under the time numbers to loop, click the loop to turn it on or off. A click on the numbers just moves the playhead.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.6/GlideMix-Beta-v1.2.6.dmg" sparkle:edSignature="M9SuptTBSMDWYcyrkGqMQsL7udtJ9XuBSPvpK0KEg3s6VvlqnqIaABsn/Oj1+z8C4lAZVZfqgXt7PzYKy/+5AA==" length="521519616" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.6/GlideMix-Beta-v1.2.6.dmg" length="521519616" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.2.5</title>
@@ -156,7 +173,7 @@
 <li>⌘A selects all songs in the library, or the whole timeline.</li>
 <li>Fixed a crash when zoomed in very close.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.5/GlideMix-Beta-v1.2.5.dmg" sparkle:edSignature="1DfkTAFskuu/n2hcosl+VzVMLwMXVX99Ztv2u1RUNNrPszwuKnbRpi+JX0JrLm0LoxsRXpKTVefs0W1DJ3kcCg==" length="520435505" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.5/GlideMix-Beta-v1.2.5.dmg" length="520435505" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.2.4</title>
@@ -169,7 +186,7 @@
 <ul>
 <li>Library preview fixes.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.4/GlideMix-Beta-v1.2.4.dmg" sparkle:edSignature="RCcuYsLuLdpusEik1kMk/y2QZiNwQSt+jDLhE/TiwaoJKApLeFY4JhfRPzHGzJ4UMcrzv/7/Fe0bHFjzWfj9AA==" length="518935014" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.4/GlideMix-Beta-v1.2.4.dmg" length="518935014" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.2.3</title>
@@ -190,7 +207,7 @@
 <li><b>Set the IN and OUT anchors from the keyboard.</b> Select a song in the timeline, put the playhead where you want it and press <b>Alt+I</b> (IN) or <b>Alt+O</b> (OUT). Change the keys under Shortcuts if you like.</li>
 <li><b>Rename a project</b> from its <b>…</b> menu on the Home page (a saved project that isn&#x27;t open).</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.3/GlideMix-Beta-v1.2.3.dmg" sparkle:edSignature="AeFbuPDvIbQ44w+OpLN733kChMh0QiSK7Pm0jBzkifdhLjufOmLd0VC0zeE1SA27ieOcUCvtKz3F5UZdLSDSCg==" length="518356603" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.3/GlideMix-Beta-v1.2.3.dmg" length="518356603" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.2.2</title>
@@ -206,7 +223,7 @@
 <li><b>AIR plug-ins no longer crash GlideMix.</b> AIR Compressor, AIR Enhancer and other plug-ins that carry their own copy of Qt (Serato Hex FX too) closed GlideMix a few seconds after they opened (Mac).</li>
 <li><b>No crash when quitting</b> with plug-ins like TimeStop or Hyperlift loaded.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.2/GlideMix-Beta-v1.2.2.dmg" sparkle:edSignature="Vg9o+1w0bDowb6ZDFxg/aeTwSiU40pffTmlbQZR/6YR6I3GpsiytWI06eBh4f3CFGRyG2VdScD8mH+WaChneAg==" length="520181627" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.2/GlideMix-Beta-v1.2.2.dmg" length="520181627" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.2.1</title>
@@ -231,7 +248,7 @@
 <li><b>Color &gt; Intensity</b> in the track header menu did nothing. It opens its slider now.</li>
 <li><b>Buttons:</b> OK, Cancel and the other text buttons in popups and dialogs are pills, like the rest of 1.2.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.1/GlideMix-Beta-v1.2.1.dmg" sparkle:edSignature="Sr3lN2L+eq9pL5Q0c/U2BFiZerFzBmzIn+IlrHTGNkFue1Qk5CjG7uxOrlAXO7Qh5pxelouNDIs/UTfhnVhFAA==" length="523028132" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.1/GlideMix-Beta-v1.2.1.dmg" length="523028132" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.2.0</title>
@@ -252,7 +269,7 @@
 <li><b>Light theme in GlideMix purple</b>, instead of the pale lavender it had.</li>
 <li><b>Smaller touches:</b> rounded dialog buttons, ROOM/CUE as pills, the Workspace name above its picker, the LOW/MID/HIGH/COLOR buttons on each track as pills.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.0/GlideMix-Beta-v1.2.0.dmg" sparkle:edSignature="BwIU24FNR2uRl1a7+cW/9hbOcxXiBgVHqCDwUpqRHdaRsaBenXr9FgzSj7kY4purquoXc/7UdmNNrcodKg9gDw==" length="523318543" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.2.0/GlideMix-Beta-v1.2.0.dmg" length="523318543" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.33</title>
@@ -275,7 +292,7 @@
 <ul>
 <li>The pencil and plus icons in the Workspace menu were black on the dark menu.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.33/GlideMix-Beta-v1.1.33.dmg" sparkle:edSignature="5d7/tNkGhY7Wqxqxi6RtyDNjV+cSdYH27FrpnB13QspJl9mITTb6RqfhZiT5AYMY6SmLb5VrG0V/hNooKiu+Bg==" length="523121731" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.33/GlideMix-Beta-v1.1.33.dmg" length="523121731" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.32</title>
@@ -296,7 +313,7 @@
 <ul>
 <li>Mac: quitting during the first moments after start, while GlideMix was still reading your other DJ apps, could crash it.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.32/GlideMix-Beta-v1.1.32.dmg" sparkle:edSignature="V1qdTjPXQQk2R3CWaUgTRMDIk8evn8ua2of7BEXWc9y4FmswxPpP96h0UruOkuIEweSHxusTRVuijxo1rxnbBQ==" length="520052319" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.32/GlideMix-Beta-v1.1.32.dmg" length="520052319" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.31</title>
@@ -312,7 +329,7 @@
 <li>A DJ app library kept on a network share is still read: add its folder in Preferences &gt; Library &gt; Other DJ Apps.</li>
 </ul>
 <p>Thanks to the tester who sent a very precise report.</p>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.31/GlideMix-Beta-v1.1.31.dmg" sparkle:edSignature="3+rBqB2b3YScFbXKWEFhHjXEg1FixuKkDos4n0qO3jA48mMXVyMOLYpUWVpASNOClxo1T9h39V65CYHSspJ1BQ==" length="518357616" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.31/GlideMix-Beta-v1.1.31.dmg" length="518357616" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.30</title>
@@ -328,7 +345,7 @@
 <li>Pop-up tips whose control has just gone away (a track removed, a panel closed) are skipped instead of opened.</li>
 <li>Crash reports now show where a crash really happened, so the next one is quicker to find and fix.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.30/GlideMix-Beta-v1.1.30.dmg" sparkle:edSignature="Y8c9N97KDWBiRMUXHMb2ATYgNae8s5W1/90kQzBo/4ROqCqOEro+O339U5H6uRoutR0CZtwIRz5dhNsnahJTAg==" length="518648552" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.30/GlideMix-Beta-v1.1.30.dmg" length="518648552" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.29</title>
@@ -356,7 +373,7 @@
 <li>About: the VST Compatible logo, Ableton Link in the credits, and the DJ apps GlideMix works with.</li>
 <li>The library sidebar uses its own icon for other DJ apps.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.29/GlideMix-Beta-v1.1.29.dmg" sparkle:edSignature="Xjc8UStaTj03YbId4enY3TOCE1S/0PbZBwHivicEoft6KeYZDL211oW7sSbWGZZcv/8/jgbufK7etmvaNyXLDQ==" length="521831632" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.29/GlideMix-Beta-v1.1.29.dmg" length="521831632" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.28</title>
@@ -394,7 +411,7 @@
 <li>The + menu for closed tabs no longer overlaps the tabs.</li>
 <li>The song count above the list is right for smart playlists, Duplicates and other apps&#x27; lists.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.28/GlideMix-Beta-v1.1.28.dmg" sparkle:edSignature="Jf4FpvBfTxJhPFJJYInpelFN7uKL0nbyuLtKq747C3NtVAClQub6rTTL+6MltNXJC09JPgj2IW2vM/FXTQa/Cg==" length="522052819" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.28/GlideMix-Beta-v1.1.28.dmg" length="522052819" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.27</title>
@@ -440,7 +457,7 @@
 <li>Volume points sit above the phrase ribbon, where they can be clicked.</li>
 <li>The effects panel no longer shows a &quot;Watch video&quot; link.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.27/GlideMix-Beta-v1.1.27.dmg" sparkle:edSignature="0+XmusYFxHJY3vrGH+nvhikRJQTBC5ILg/cdwTXpTMiUZr2xAw51noNjpsd24Nhm1cyHWY1mw920bNEmZfZ+DQ==" length="516297693" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.27/GlideMix-Beta-v1.1.27.dmg" length="516297693" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.26</title>
@@ -478,7 +495,7 @@
 <li>Cleaner wording on the first-run screens and in messages (&quot;1 file&quot;, not &quot;1 file(s)&quot;).</li>
 </ul>
 <h3>On a Mac: macOS may ask for permission one last time after this update. After that it should remember your answer.</h3>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.26/GlideMix-Beta-v1.1.26.dmg" sparkle:edSignature="RNFs6ha25NPjoRlBBuwfuMqAh5FsGMRsTblXXWWyMKUWaWpstMLprBdRGZ5ByZpeD7dtqBa08ek0blBSKOh5Bg==" length="522320380" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.26/GlideMix-Beta-v1.1.26.dmg" length="522320380" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.25</title>
@@ -498,7 +515,7 @@
 <li><b>Search related Tracks:</b> no more stuck filters. The search shows on the key wheel or in the search box, and one click clears it.</li>
 <li><b>Drag preview:</b> dragging a song onto the timeline now shows artist and title.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.25/GlideMix-Beta-v1.1.25.dmg" sparkle:edSignature="Gmk6h6/U2J861f3sAHITsIn2f8krTU9Ftqj8wm6oBjkS19aUWMkyVQPUP21gJGtSvU71yu+TPO2uMVZRpX/MAA==" length="519557818" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.25/GlideMix-Beta-v1.1.25.dmg" length="519557818" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.24</title>
@@ -509,7 +526,7 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<h3>GlideMix Beta v1.1.24 (Mac and Windows)</h3>
 <p>We’ve polished the canvas and vaporized the bugs, making your GlideMix exports and artworks smoother than ever. Those glitches thought they were art, but we treated them like a bad sketch. Canvas cleared, bugs deleted. 🎨💥</p>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.24/GlideMix-Beta-v1.1.24.dmg" sparkle:edSignature="4FJlI7v0mIGnvC3Tt5jNPQZkE9QYTyOK3JA4aLmT7DEEB+MUfNXdF7dBeYM499iI7cla7qxOL1KxXCAvIsroCA==" length="520281183" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.24/GlideMix-Beta-v1.1.24.dmg" length="520281183" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.23</title>
@@ -545,7 +562,7 @@
 <li>GlideMix now tells you what changed the first time it starts after an update.</li>
 <li>Single wave is the default track view on a fresh install.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.23/GlideMix-Beta-v1.1.23.dmg" sparkle:edSignature="BIoGWlAyf+s9fXcSVQ7JHSYfIKiTi64tx1sLIxiXCglqldN281NpAy4ZK5/86J7Q1b9xHRyEBYKOCi7DBj/rCw==" length="517777130" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.23/GlideMix-Beta-v1.1.23.dmg" length="517777130" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.22</title>
@@ -575,7 +592,7 @@
 <li>GlideMix now tells you what changed the first time it starts after an update.</li>
 <li>Single wave is the default track view on a fresh install.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.22/GlideMix-Beta-v1.1.22.dmg" sparkle:edSignature="87EJ+Z4E5ddn39Zpiv++5Ev40UZv0ibYfyPXwQhfC6sxox1m7YDZcj9YE/r9Ro6w5fAgwXMEB2kFM6b4sTaAAA==" length="521064849" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.22/GlideMix-Beta-v1.1.22.dmg" length="521064849" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.21</title>
@@ -620,7 +637,7 @@
 <li>VST3 plugins now keep knob changes made while stopped, and plugin names with accents show correctly.</li>
 <li>Known issue: older AIR Music Technology plugins can still crash GlideMix. Please let us know which plugins misbehave for you.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.21/GlideMix-Beta-v1.1.21.dmg" sparkle:edSignature="aRqlVqRoiAjONj1anJku2b1kdurgqBVhEU0ZeGsg7aNbcJYdKlr2ufyLFYsYn10lSOtjMSI9Hw+DWczolpArDA==" length="522467353" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.21/GlideMix-Beta-v1.1.21.dmg" length="522467353" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.20</title>
@@ -646,7 +663,7 @@
 <ul>
 <li>AIR plugins (AIR Compressor and the rest of the AIR range) crash GlideMix when added. Please don&#x27;t use them for now.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.20/GlideMix-Beta-v1.1.20.dmg" sparkle:edSignature="+KFxR6+sDHozpFh6J8oxe9Kab6nUCCKS+7Za2K/mZgqtuVN62xxppvvMiYKbaFGWDh76I9gxC81Y2pp3bgTiCA==" length="521906645" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.20/GlideMix-Beta-v1.1.20.dmg" length="521906645" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.19</title>
@@ -694,7 +711,7 @@
 <ul>
 <li><b>Preferences &gt; Reset</b> no longer turns a Standard or Pro licence back into the demo.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.19/GlideMix-Beta-v1.1.19.dmg" sparkle:edSignature="PyhSLwu8leX/RDc5M1/pRZL4g+Lwd9CSgqJC9Gg/+HgG6kVYs2OF2b/aZvJ3yi1KlwQgI/lctwODDDDABh8OAA==" length="520030920" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.19/GlideMix-Beta-v1.1.19.dmg" length="520030920" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.18</title>
@@ -727,7 +744,7 @@
 <ul>
 <li>The stems engine download now just counts its steps (1/4 … 4/4) instead of listing technical package names.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.18/GlideMix-Beta-v1.1.18.dmg" sparkle:edSignature="by2anYg6IuK9YP7jLSTaLaTpISxL4aF9j0t4xCWpucIudwdeYh6Azw6aa2fQgCQ6BlPdRGwKzVxGzsBGOiCiDQ==" length="519854008" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.18/GlideMix-Beta-v1.1.18.dmg" length="519854008" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.17</title>
@@ -747,7 +764,7 @@
 <ul>
 <li>Double-clicking a song into an empty project, then Undo and Redo, no longer brings the song back off the bar.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.17/GlideMix-Beta-v1.1.17.dmg" sparkle:edSignature="HY/NqxNMlrRRSDg7jFPConMxh3yihe9J3RU3Jvz5YiNCnhsXONFKHUbkU+rjw1m2FnaLC4yq+qyO5XIXETvsAQ==" length="519563017" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.17/GlideMix-Beta-v1.1.17.dmg" length="519563017" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.16</title>
@@ -768,7 +785,7 @@
 <ul>
 <li>&quot;Connection to project file is null&quot; when pressing Play after starting a new project.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.16/GlideMix-Beta-v1.1.16.dmg" sparkle:edSignature="qWHWV0JX0e+BXnX0pGK6thbfK047DTJDG8bBHB0RnhFKlY0q2BvYo95DRrf/2dJuTi0i6kG2DseYhrfHTo2ABg==" length="521062258" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.16/GlideMix-Beta-v1.1.16.dmg" length="521062258" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.15</title>
@@ -787,7 +804,7 @@
 <li>Turn it on in <b>Preferences → Transitions → The transition pill opens: The DJ mixer</b>, then click the cog on a BEATMATCH / CROSSFADE pill. The classic transition window is still there.</li>
 <li>Controls shown dim (TRIM, meters, Dub Echo / Sweep / Noise, FX frequency, EQ curve, some effects) are coming in later updates.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.15/GlideMix-Beta-v1.1.15.dmg" sparkle:edSignature="wbXSIRVbjoGLPehMQfeUiymQ1t1eqkpaaJ9ZshTbkmBrYGLpwonuRtZOgTAWGjoCAhVD/W5188m7eMF4UXaKDA==" length="517052279" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.15/GlideMix-Beta-v1.1.15.dmg" length="517052279" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.14</title>
@@ -815,7 +832,7 @@
 <li><b>Track height slider</b> resizes all tracks in one smooth step.</li>
 <li>A quick <b>double right-click</b> on a song in the library no longer adds it to the mix.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.14/GlideMix-Beta-v1.1.14.dmg" sparkle:edSignature="sPe1HCIM4ukjxSG91W9O5KDULYZbbNI02eZCv3P17Z36/5yzRX5qPeu4whAfrf8fTcDqDhIkDKd4/D01ORBiDA==" length="517887181" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.14/GlideMix-Beta-v1.1.14.dmg" length="517887181" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.13</title>
@@ -842,7 +859,7 @@
 <li><b>Analysis uses: Performance / Normal / Power saving</b> (Preferences → Music library), like rekordbox.</li>
 <li>The status line shows a steady &quot;Analysing 7 of 20&quot; with a progress bar and time left; no more flicker between songs.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.13/GlideMix-Beta-v1.1.13.dmg" sparkle:edSignature="cQmM55EhQjhSOy3w31hOsL4dHCAWucvzu1TMVCAoyZALOmznKOn9M3Gyt8H3uNh1FdnfaKpWVnSOLCFmjURQDA==" length="517558071" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.13/GlideMix-Beta-v1.1.13.dmg" length="517558071" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.12</title>
@@ -874,7 +891,7 @@
 <li>About: Mixxx is thanked in one line instead of 400 names.</li>
 <li>&quot;1 song&quot; / &quot;2 songs&quot; instead of &quot;song(s)&quot;.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.12/GlideMix-Beta-v1.1.12.dmg" sparkle:edSignature="cPDlvicQ8CAW9FeyYVXpxFx52sBm+tByyTXIX3tf8uMVDNdjN6hDwZ3xyRj/3lNABhdyh4BcDY0+VU/dwYtbAA==" length="519060400" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.12/GlideMix-Beta-v1.1.12.dmg" length="519060400" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.11</title>
@@ -889,7 +906,7 @@
 <li>Songs without an energy rating (for example songs imported from rekordbox, which doesn&#x27;t rate energy) get one automatically a few seconds after you put them on the timeline. The rating shows in the library&#x27;s Energy column too. Their beat grid and key stay as they are.</li>
 <li>Songs from <b>Lexicon</b> now show how their energy rises and falls (intro, breakdowns, drops), instead of one flat block.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.11/GlideMix-Beta-v1.1.11.dmg" sparkle:edSignature="QKpm3nLY7y4zeddOzk6e5i/hbbN1gMdib4FjZw3zfEUzj4FwpYX2+JI1Ml/tyyU7LKtYmHtDN9T6Sy6zc7j2Bg==" length="441816702" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.11/GlideMix-Beta-v1.1.11.dmg" length="441816702" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.10</title>
@@ -904,7 +921,7 @@
 <li><b>Import from Rekordbox XML…</b> now opens the file chooser in your <b>Documents</b> folder (or the folder of the XML you used last). On Windows it used to open in a system folder.</li>
 </ul>
 <p>Also see v1.1.9: rekordbox XML opens like Lexicon, with a progress bar while it loads.</p>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.10/GlideMix-Beta-v1.1.10.dmg" sparkle:edSignature="M16JZI0VgU223jOt+58jg2G9lXwMM5F2KQGikyJwCo45QmEOGqdI/fBN/2yqWu/g5G9WfG3gCIrVe3rDsFz7Dw==" length="442807771" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.10/GlideMix-Beta-v1.1.10.dmg" length="442807771" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.9</title>
@@ -922,7 +939,7 @@
 <li>A file that isn&#x27;t a rekordbox XML gets a clear message.</li>
 <li>The old way, copying every rekordbox song into your Music Collection, is still there as <b>Copy Rekordbox XML into Music Collection…</b>.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.9/GlideMix-Beta-v1.1.9.dmg" sparkle:edSignature="No4vba7M64fvr3/6hc0y9FvH/4uJElJC1DQ7v8Rj2P3Yq9h6vC5yS3dZePSFCgp/wNO1BKFgfm3V01Z8f/+5Cw==" length="442169939" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.9/GlideMix-Beta-v1.1.9.dmg" length="442169939" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.8</title>
@@ -956,7 +973,7 @@
 <li>New <b>glidemix.com</b> website: <b>Help → Help and FAQ</b> and <b>Help → GlideMix website</b>.</li>
 <li>The licence window shows the Beta price: <b>€49</b> (normal price €89).</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.8/GlideMix-Beta-v1.1.8.dmg" sparkle:edSignature="lzEWYeRnC/6afle0wVLhlED5KiuKkV1Wwzdrzr9Cv8yiSI+O0k4NIbU1ZFe2a71jT4alu/iRCNhnvYhajQ4jCQ==" length="442962801" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.8/GlideMix-Beta-v1.1.8.dmg" length="442962801" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.7</title>
@@ -982,7 +999,7 @@
 <li>The waveforms in the library now show each song&#x27;s <b>cue points</b>, like rekordbox: hot cues A, B, C… in their colours and memory cues along the bottom.</li>
 <li><b>Export to rekordbox XML</b> gives songs without cue points <b>hot cues where their phrases start</b> (Intro, Up, Chorus, Down, Outro), on the beat grid, plus memory cues, so they arrive on CDJs ready to play.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.7/GlideMix-Beta-v1.1.7.dmg" sparkle:edSignature="ownewY0wPzQzHv29Zekn2Vlz+rfvLSdADvokzBfCFhwC8zht1ZG3biC+4M+ts3kHAqE8OxUMnmhWnbcigWfZDA==" length="443232032" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.7/GlideMix-Beta-v1.1.7.dmg" length="443232032" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.6</title>
@@ -1012,7 +1029,7 @@
 <ul>
 <li>Home → Learn has a link to the new <b>r/GlideMix</b> community on Reddit.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.6/GlideMix-Beta-v1.1.6.dmg" sparkle:edSignature="T+yqu+T0gBmfisV/ORiQb5XBHXq1pXJv8mPfMCPpWIcoTK5FhQzVkl2Z5/VltshKCsdeiTkXJRfFVPXKj5gRDA==" length="444725851" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.6/GlideMix-Beta-v1.1.6.dmg" length="444725851" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.5</title>
@@ -1032,7 +1049,7 @@
 <li>Demo exports are MP3 at 96 kbps, up to 20 minutes. The export window shows it.</li>
 <li>A licence (€49, one-time) removes all of it.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.5/GlideMix-Beta-v1.1.5.dmg" sparkle:edSignature="6Yji7Fa0keptlgCC1TorDQzAQSeBw50Xe3r/8siU/BjPCXmW7bMdq85XQ1z5NjVKr4EqgVbISfsHTNou00ODBQ==" length="439456207" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.5/GlideMix-Beta-v1.1.5.dmg" length="439456207" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.4</title>
@@ -1054,7 +1071,7 @@
 <ul>
 <li>New installs start with <b>gradient meters</b> (green, yellow, red). Change the style any time in the meter settings.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.4/GlideMix-Beta-v1.1.4.dmg" sparkle:edSignature="xivn4OnFFTJLbAob6pLi0Aow4c+voQOT9XS+7k6j4LmmvPWe+ltPCJuH08eVAAy7Pe3oHG9ZVHbVcYWr2YHxBA==" length="442220700" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.4/GlideMix-Beta-v1.1.4.dmg" length="442220700" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.3</title>
@@ -1084,7 +1101,7 @@
 <ul>
 <li>New <b>LATCH</b> button next to ARM. Off (Touch): when you let go of a knob, the line goes back to what it was. On: your last value keeps being written until you stop playback.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.3/GlideMix-Beta-v1.1.3.dmg" sparkle:edSignature="IgGEuzyLpcU4rFQcpW5TffADZJ7IaLWdFX4spDzzQxIBWcu8V2qX80ozgj/S3Ca9rizolePpHJdDTab4h1/ADw==" length="441916565" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.3/GlideMix-Beta-v1.1.3.dmg" length="441916565" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.2</title>
@@ -1099,7 +1116,7 @@
 <li><b>GlideMix – €49</b> unlocks everything, stems included. One-time payment, 3 computers, all 1.x updates: https://buy.polar.sh/polar_cl_4uiOdwpksKcRSApaB9BWrDJ0Scu1AFet9FgtC4ZQyQJ</li>
 <li>Help → Licence… shows the one Buy button; keys bought earlier keep working.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.2/GlideMix-Beta-v1.1.2.dmg" sparkle:edSignature="SuvMidFbY/Eq5j9ddzNaFgsyQWjTm/SMEEVFfnEr09Lt3XftCgIhTWz8lxHkZPZrjvVfQ6ABvFBkX7PJG5pXDw==" length="440282174" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.2/GlideMix-Beta-v1.1.2.dmg" length="440282174" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.1</title>
@@ -1114,7 +1131,7 @@
 <li>On computers with 2 cores (4 threads), GlideMix used a cheap sample-rate converter to avoid crackles. It dulled the highs: hi-hats and cymbals came out softer and gritty, in playback and in exports. It now uses a proper high-quality converter (windowed sinc), clean far below hearing, and still light enough for small PCs.</li>
 <li>Faster computers, and every Mac with more than 4 threads, were not affected.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.1/GlideMix-Beta-v1.1.1.dmg" sparkle:edSignature="s8QfMBTGVuJw3XrlUKyZcBWN/xIohpU/LXMbfcdNdyXBP/ISyPCGXNiXJ0WcyXrbBa9/dv4XSgnNW8ei+GtGAw==" length="441369226" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.1/GlideMix-Beta-v1.1.1.dmg" length="441369226" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.1.0</title>
@@ -1136,7 +1153,7 @@
 <ul>
 <li>The complete source code of this version is attached (`GlideMix-1.1.0-source.tar.xz`, GNU GPL). Building it yourself can be challenging; we don&#x27;t provide help for it.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.0/GlideMix-Beta-v1.1.0.dmg" sparkle:edSignature="aRwOtM9b8ocjoFg/HIcLWwZVANGuReVhbWPCEtuO91wG1591iTPrnDLan3o8J0luH0AOJ/wHgHBL7O/4oDKACQ==" length="435561641" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.1.0/GlideMix-Beta-v1.1.0.dmg" length="435561641" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.9</title>
@@ -1157,7 +1174,7 @@
 <ul>
 <li>About → credits: a <b>Works with</b> section for rekordbox and Lexicon.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.9/GlideMix-Alpha-v1.0.9-Early-Preview.dmg" sparkle:edSignature="Zs9wM6dNFoViTo6fcySYZwXUVURR3ohFFAW1NimwP6VlpGLVOJpzHque+rkwWReGXXeYnlky89+emrV3Uq0eCA==" length="442108374" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.9/GlideMix-Alpha-v1.0.9-Early-Preview.dmg" length="442108374" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.8</title>
@@ -1177,7 +1194,7 @@
 <ul>
 <li>A development history on the GitHub page: every change since the first build.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.8/GlideMix-Alpha-v1.0.8-Early-Preview.dmg" sparkle:edSignature="eBB2+pMINkmkXg733bx50HvOo33yPSsFSL0Y4xBHWePHinuD1JkOkTp81YQmBmUOVxmb9kZZBrVP3zIo1QsDBg==" length="440850012" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.8/GlideMix-Alpha-v1.0.8-Early-Preview.dmg" length="440850012" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.7</title>
@@ -1198,7 +1215,7 @@
 <li>Dragging songs from the library quickly no longer leaves a song stuck to the mouse.</li>
 <li>GlideMix&#x27;s own folder (new projects, exports) is now <b>Music → Glidemix</b> instead of Documents.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.7/GlideMix-Alpha-v1.0.7-Early-Preview.dmg" sparkle:edSignature="oOwDe+2voGv9hPGDoeoJoq8dhBd6iyTyP7/oH7Lsygyytra+UT6h4RyVuyYJYCfY8BKVxiOm7Wr1bBBBV1GxDQ==" length="435130295" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.7/GlideMix-Alpha-v1.0.7-Early-Preview.dmg" length="435130295" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.6</title>
@@ -1221,7 +1238,7 @@
 <li>Dragging songs from the library quickly no longer leaves a song stuck to the mouse.</li>
 <li>GlideMix&#x27;s own folder (new projects, exports) is now <b>Music → Glidemix</b> instead of Documents, and rekordbox.xml is read only once you pick it. GlideMix itself no longer asks for your Documents folder. (Some plugins keep their presets in Documents; macOS may still ask once when GlideMix first checks them, as it does for other music apps.)</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.6/GlideMix-Alpha-v1.0.6-Early-Preview.dmg" sparkle:edSignature="TolveUSb15U2qSypiQ53tXjce8Qo7Xtikc6OJHW5IyVGUYfmBGS231q27NOeKIZMlw+3tiUag25I/plIZIp4Dg==" length="433154155" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.6/GlideMix-Alpha-v1.0.6-Early-Preview.dmg" length="433154155" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.5</title>
@@ -1236,7 +1253,7 @@
 <li>New: <b>Single wave</b>. In a track&#x27;s <b>⋯</b> menu → <b>Track visualization</b> → <b>Single wave</b>, a stereo track is drawn as one waveform and its lane takes about half the height, so more of the mix fits on screen. Choose it again to get both channels and the full height back. It&#x27;s saved with the project. The beat grid editor is unchanged.</li>
 </ul>
 <p>Mac: this is the first update you can install from inside GlideMix: <b>Help → Check for update → Install Update</b>, then <b>Install and Relaunch</b>.</p>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.5/GlideMix-Alpha-v1.0.5-Early-Preview.dmg" sparkle:edSignature="kctDx00kJXRcg2oNp22gXdBDZ9maeiupTKDCAnHaXO8KPR89+ZF0kX8nqFr2Fvh2Fj3iLSJ2EDMjEX6tMb8UBQ==" length="442073111" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.5/GlideMix-Alpha-v1.0.5-Early-Preview.dmg" length="442073111" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.4</title>
@@ -1264,7 +1281,7 @@
 <ul>
 <li>Windows: GlideMix writes down every audio dropout during a performance, with the timings, to find the cause of crackles in transitions.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.4/GlideMix-Alpha-v1.0.4-Early-Preview.dmg" sparkle:edSignature="ntpAxL+I0fhhkbm4UW6BPADcovxlKqsJfCURHL2ZCDtJEq9XzAvlWpvnxc4/NV32B/HqulPDHFPUZoH0SgkRBA==" length="441250858" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.4/GlideMix-Alpha-v1.0.4-Early-Preview.dmg" length="441250858" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.3</title>
@@ -1298,7 +1315,7 @@
 <li>The turntable artwork moved from the Home page to the start-up screen.</li>
 <li>Folder pickers open in your Music folder.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.3/GlideMix-Alpha-v1.0.3-Early-Preview.dmg" sparkle:edSignature="BXmOKYDauatJxSOx6xbfknmrrSSFV4UlsKqqsyQuN0V8tYPWaQfwaBRjkZE6IkvjoUOw+Mlz3qtX+gfVizwBBA==" length="437994431" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.3/GlideMix-Alpha-v1.0.3-Early-Preview.dmg" length="437994431" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.2</title>
@@ -1325,7 +1342,7 @@
 <li>Windows: updates install by themselves and GlideMix reopens.</li>
 <li>The update window names the version it found.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.2/GlideMix-Alpha-v1.0.2-Early-Preview.dmg" sparkle:edSignature="90q1Kxl+nv2b5H2X8XvQey06Xd8zp36Y3eyGSX++PIAb2VB/YWqDUhMO2LpLP7F2LGqP4kub/OhKhlbyZHTjCA==" length="437009235" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.2/GlideMix-Alpha-v1.0.2-Early-Preview.dmg" length="437009235" type="application/octet-stream"/>
     </item>
     <item>
       <title>GlideMix 1.0.1</title>
@@ -1361,7 +1378,7 @@
 <li>The faint line across empty lanes is gone, so the grid looks even.</li>
 <li>Zooming out stops at the length of the mix.</li>
 </ul>]]></description>
-      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.1/GlideMix-Alpha-v1.0.1-Early-Preview.dmg" sparkle:edSignature="oGZAtCyu7zJMUjT6HfUxZ41VKlrK2tL3RsGLuxqbJfOckoshJ7B3CDl8WkVGhPMRakQTiSoQeT7L279q8mrVBg==" length="435334038" type="application/octet-stream"/>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.0.1/GlideMix-Alpha-v1.0.1-Early-Preview.dmg" length="434014625" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
