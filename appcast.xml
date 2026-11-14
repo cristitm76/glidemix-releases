@@ -6,6 +6,22 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.3.4</title>
+      <pubDate>Sat, 14 Nov 2026 14:31:34 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.4</link>
+      <sparkle:version>1.3.4</sparkle:version>
+      <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.3.4</p>
+<p>Fixes and small improvements.</p>
+<ul>
+<li><b>Fixed a crash</b> that could happen a few seconds after the first start following an update, while a window or popup was closing.</li>
+<li><b>Double-time songs: your choice.</b> A song matched double- or half-time (a 125 BPM song in a 174 BPM drum &amp; bass set) no longer turns <b>Follow tracks</b> on by itself. It plays on every other beat at the mix tempo; <b>Follow tracks</b> blinks for a few seconds and the bottom bar tells you that Follow tracks plays it at its own tempo. Other big tempo jumps still turn it on as before.</li>
+<li><b>The DJ clock makes room for your project&#x27;s name</b> at big interface sizes and on narrow screens: the least needed readouts step aside before the clock reaches the tab.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.3.4/GlideMix-Beta-v1.3.4.dmg" sparkle:edSignature="n+Ft8HuSHQJ7LUIhgL6WHMrDkgxYK7F5mgMRqy2PhBrpkcDR0X5iWZuOmJS9pVqHs8feufRRamu5OD/gam6oAg==" length="521424467" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.3.3</title>
       <pubDate>Sat, 14 Nov 2026 10:39:11 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.3</link>
