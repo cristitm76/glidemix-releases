@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.6 Beta · 15 Nov 2026
+- **Anchors per project:** IN/OUT edits are saved in the mix (`glidemix_anchors` project attribute), no longer in the library; a song's library anchors are copied into the mix on first use, so changing them later never moves old mixes. The IN/OUT flag menu has **Use these anchors in new mixes**; **Reset anchors** returns to the song's library anchors. Anchor moves and Reset are undo steps. Checked: a mix saved with 1.3.5 exports sample-for-sample identical in 1.3.6.
+- **Transition pills switch:** PILLS toolbar button and Preferences > Transitions "Show transition pills on the timeline" (default on). Off hides the pill and its lane lines only; the volume fade points stay. Toolbar buttons changed while a dialog is open now update when it closes.
+- **Toolbar:** right-click a button > Remove from Toolbar; Customize Toolbar lists every button (the ones in the toolbar dimmed), in a fixed order, with an "empty toolbar" start; an emptied toolbar keeps one row so Customize stays reachable.
+- **Stems install (Windows):** broken `cpython-*` folder links left by an earlier uv install are removed before installing.
+
 ### v1.3.5 Beta · 15 Nov 2026
 - **Beat warp:** a stretch of a song's beat map that runs at double or half the grid's tempo is evened out to it before the warp follows the map; a map still a third off after that is not followed (the song plays straight). Only songs the warp already followed are affected. The Beatgrid editor and the status line say where and how far off it was.
 - **Saved mixes unchanged:** projects saved before 1.3.5 keep the earlier warp for the songs they hold (a `glidemix_warp` project attribute lists them once saved); new projects and newly added songs get the repaired one. Checked: a mix exported with 1.3.4 and with 1.3.5 is sample-for-sample identical.

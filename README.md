@@ -66,6 +66,12 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.6: your anchors, your timeline, your toolbar**
+- **IN and OUT anchors belong to the mix.** Moving an IN or OUT in one mix no longer moves that song in your other mixes. Right-click an IN or OUT flag and choose **Use these anchors in new mixes** to make them the song's starting point; **Reset anchors** goes back to them. Saved mixes play exactly as before.
+- **Transition pills on or off.** The new **PILLS** toolbar button (or **Preferences > Transitions**) gives a clean, MixMeister-style timeline; transitions and their volume fades keep working.
+- **Your toolbar, your way.** Right-click a button > **Remove from Toolbar**; **Customize Toolbar** shows every button, in any order, or start from an empty toolbar.
+- **Stems engine on Windows:** the install no longer stops on a folder link left by an earlier install.
+
 **New in 1.3.5: fixes from your reports**
 - **No more slow-motion mixes.** A song whose beat map went double time in one spot (a breakdown) no longer plays that part at half speed: the bad stretch is evened out, and the Beatgrid editor tells you where and how far off it was. Mixes saved with an earlier version play exactly as before; new mixes, and songs you add to an old one, get the fix.
 - **Stems engine on Windows with OneDrive:** the install no longer stops at step 3 of 4.
