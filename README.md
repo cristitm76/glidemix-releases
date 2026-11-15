@@ -66,6 +66,12 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.5: fixes from your reports**
+- **No more slow-motion mixes.** A song whose beat map went double time in one spot (a breakdown) no longer plays that part at half speed: the bad stretch is evened out, and the Beatgrid editor tells you where and how far off it was. Mixes saved with an earlier version play exactly as before; new mixes, and songs you add to an old one, get the fix.
+- **Stems engine on Windows with OneDrive:** the install no longer stops at step 3 of 4.
+- **Samples stay on their sample line** when you drag them.
+- **Reverse on many clips:** no error per clip, Cancel stops at once and undoes it all, and with 4 or more whole songs it asks first.
+
 **New in 1.3.4: fixes and small improvements**
 - **Fixed a crash** that could happen a few seconds after the first start following an update.
 - **Double-time songs: your choice.** A song matched double-time (125 BPM in a 174 BPM set) no longer turns Follow tracks on by itself: Follow tracks blinks and the bottom bar explains how to play it at its own tempo.

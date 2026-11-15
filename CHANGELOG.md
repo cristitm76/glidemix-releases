@@ -8,6 +8,13 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.5 Beta · 15 Nov 2026
+- **Beat warp:** a stretch of a song's beat map that runs at double or half the grid's tempo is evened out to it before the warp follows the map; a map still a third off after that is not followed (the song plays straight). Only songs the warp already followed are affected. The Beatgrid editor and the status line say where and how far off it was.
+- **Saved mixes unchanged:** projects saved before 1.3.5 keep the earlier warp for the songs they hold (a `glidemix_warp` project attribute lists them once saved); new projects and newly added songs get the repaired one. Checked: a mix exported with 1.3.4 and with 1.3.5 is sample-for-sample identical.
+- **Stems install (Windows):** every uv call copies instead of linking (UV_LINK_MODE=copy), so OneDrive's file filter no longer blocks the venv's python.exe (os error 448).
+- **Drags:** a sample let go on a sample line stays there (sample lines counted as taken for every clip before).
+- **Effects on clips:** the processed clip is found again when the effect puts it on whole samples (Reverse); a multi-clip run stops at the first failure or Cancel and is undone; Reverse asks first with 4 or more whole songs selected.
+
 ### v1.3.4 Beta · 14 Nov 2026
 - **Crash:** the IoC lookup no longer dereferences a missing context when a QML popup is torn down after its engine has gone (NavigationSection's destructor crashed a few seconds after the first start following the 1.3.3 update).
 - **Tempo:** a track matched double- or half-time no longer switches Follow tracks on; the tempo lane's Follow tracks button blinks for 8 s and the status bar explains (other tracks more than 8 % off still switch it on).
