@@ -66,6 +66,13 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.7: loops, colours and your workspace**
+- **Cmd+D loops, Ableton style.** Drag over a beat, a bar or a phrase and press **Cmd+D** (**Ctrl+D** on Windows): it repeats right after itself and the rest of the mix moves later, so your next transitions stay in place. Inside a transition the next song moves with it.
+- **Workspace background:** Charcoal or Grey behind your songs, whatever the theme (**Preferences > Appearance**).
+- **Any colour:** a bright row on every palette, a **+** button for your computer's own colour picker, and palettes stay open so you can try colours one after another.
+- **Intensity works again,** also with Transparent clip background on: fade a song's colour box, the dark waveform stays. See-through works with the Color waveform.
+- A hidden sample line stays hidden when you zoom the lanes.
+
 **New in 1.3.6: your anchors, your timeline, your toolbar**
 - **IN and OUT anchors belong to the mix.** Moving an IN or OUT in one mix no longer moves that song in your other mixes. Right-click an IN or OUT flag and choose **Use these anchors in new mixes** to make them the song's starting point; **Reset anchors** goes back to them. Saved mixes play exactly as before.
 - **Transition pills on or off.** The new **PILLS** toolbar button (or **Preferences > Transitions**) gives a clean, MixMeister-style timeline; transitions and their volume fades keep working.

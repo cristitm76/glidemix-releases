@@ -8,6 +8,14 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.7 Beta · 16 Nov 2026
+- **Cmd+D on a range:** a dragged range wins over a clip that only has keyboard focus; on a song lane the copy is inserted and every clip starting at or after the insert point, on every lane, moves later by its length (the next song inside a transition too). A range on a sample line keeps overwriting. Each loop is an undo step.
+- **Continuation pieces:** the rest of a song after a loop or a split (same song, same lane, starting where its earlier piece ends) is no new song: no transition zone or pill comes in on it, and the SONG/MIX counters and harmonic flow count it once.
+- **Workspace background:** Charcoal and Grey lane backgrounds (Appearance + Waveforms); the colour waveform's clip body follows it, Color intensity tints it, See-through shows the lane.
+- **Colours:** a bright row on top of every palette, a Custom button for the system colour picker (clips, tracks, accent), clip and track palettes stay open after a pick.
+- **Intensity:** back in the clip and track Color menus; a track set below full keeps its strength while View > Transparent clip background is on.
+- **Sample lines:** a hidden sample line stays hidden on vertical zoom.
+
 ### v1.3.6 Beta · 15 Nov 2026
 - **Anchors per project:** IN/OUT edits are saved in the mix (`glidemix_anchors` project attribute), no longer in the library; a song's library anchors are copied into the mix on first use, so changing them later never moves old mixes. The IN/OUT flag menu has **Use these anchors in new mixes**; **Reset anchors** returns to the song's library anchors. Anchor moves and Reset are undo steps. Checked: a mix saved with 1.3.5 exports sample-for-sample identical in 1.3.6.
 - **Transition pills switch:** PILLS toolbar button and Preferences > Transitions "Show transition pills on the timeline" (default on). Off hides the pill and its lane lines only; the volume fade points stay. Toolbar buttons changed while a dialog is open now update when it closes.
