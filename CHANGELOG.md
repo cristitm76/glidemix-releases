@@ -8,6 +8,13 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.8 Beta · 16 Nov 2026
+- **Match keys:** per-mix toggle (TEMPO lane button left of Follow tracks + toolbar KEYS, saved as the `glidemix_keys` project attribute). After every edit, an incoming song with no transpose of its own whose key clashes with what the outgoing song sounds in at the transition's middle gets the shortest compatible transpose, if it is at most the Preferences maximum (1 or 2 semitones); it is part of that edit's undo step. Hand transposes are never touched; off puts only the matched songs back. While off, a new clash it would fix makes both buttons flash amber for 5 s.
+- **Rate mix:** library header button for a playlist or crate; each song is rated 1-5 into the next one (keys, tempo change with half/double time, energy, intro/outro length, vocal phrases at both ends), with reasons, in a "Mix into next" column, and an overall score.
+- **Auto-Keylock:** Preferences > Transitions; with Keylock off, a song whose tempo line is ever more than the set percent from its own tempo keeps its pitch, decided once per song (per-clip keylock in the engine; off by default).
+- **Effective key:** with Keylock off, the shown/matched key adds 12·log2(speed) semitones (clip label, key colours, harmonic flow, Match key, Match related); Keylock on unchanged.
+- **Beat window:** the preview loops in the player itself (no engine restart at the loop end; macOS swaps a new render in at the end of the current loop, Windows reloads in place); loading a pattern no longer stops playback.
+
 ### v1.3.7 Beta · 16 Nov 2026
 - **Cmd+D on a range:** a dragged range wins over a clip that only has keyboard focus; on a song lane the copy is inserted and every clip starting at or after the insert point, on every lane, moves later by its length (the next song inside a transition too). A range on a sample line keeps overwriting. Each loop is an undo step.
 - **Continuation pieces:** the rest of a song after a loop or a split (same song, same lane, starting where its earlier piece ends) is no new song: no transition zone or pill comes in on it, and the SONG/MIX counters and harmonic flow count it once.

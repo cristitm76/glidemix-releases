@@ -66,6 +66,13 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.8: keys that mix, and a mix you can rate**
+- **Match keys.** A button next to Follow tracks (and **KEYS** in the toolbar): a song whose key clashes with the song before it moves to a compatible key, at most 1 semitone (2 in **Preferences > Transitions**). It flashes amber when a song you place clashes. Songs you transposed yourself are left alone.
+- **Rate mix.** Open a playlist and click **Rate mix** in the library: every song gets stars for how well it flows into the next one (keys, tempo change, energy, intro and outro, vocals) and the reason why.
+- **Auto-Keylock:** with Keylock off, songs played far from their own tempo can keep their pitch (**Preferences > Transitions**, off by default).
+- **Honest keys with Keylock off:** a song sped up 6 % sounds a semitone higher, and the key on the clip now says so.
+- **Beat window:** the loop no longer crackles, and a new pattern or Random takes over at the end of the loop while it keeps playing.
+
 **New in 1.3.7: loops, colours and your workspace**
 - **Cmd+D loops, Ableton style.** Drag over a beat, a bar or a phrase and press **Cmd+D** (**Ctrl+D** on Windows): it repeats right after itself and the rest of the mix moves later, so your next transitions stay in place. Inside a transition the next song moves with it.
 - **Workspace background:** Charcoal or Grey behind your songs, whatever the theme (**Preferences > Appearance**).
