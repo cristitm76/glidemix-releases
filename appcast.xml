@@ -6,6 +6,23 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.3.8</title>
+      <pubDate>Mon, 16 Nov 2026 12:56:23 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.8</link>
+      <sparkle:version>1.3.8</sparkle:version>
+      <sparkle:shortVersionString>1.3.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix v1.3.8</p>
+<ul>
+<li><b>Match keys.</b> A new <b>Match keys</b> button sits next to Follow tracks in the TEMPO lane, and its twin <b>KEYS</b> is in the toolbar (for when the tempo lane is closed). Switch it on and every song whose key clashes with the song before it moves the shortest way to a compatible key: at most 1 semitone, or 2 if you choose so in <b>Preferences &gt; Transitions</b>. While it&#x27;s off it <b>flashes amber</b> when a song you place clashes, so you know. Songs you transposed yourself are never touched; switching it off puts the matched songs back in their own key. It&#x27;s saved with each mix.</li>
+<li><b>Rate mix.</b> Open a playlist (or crate) and click <b>Rate mix</b> in the library header: every song gets 1-5 stars for how well it flows into the next one, with the reason (keys clash, +9 % tempo, energy drops, no intro...), and the button shows the whole mix&#x27;s score. Built on how DJs actually mix: compatible keys, small tempo changes, energy that flows, an outro to blend into an intro, no vocals on top of vocals.</li>
+<li><b>Auto-Keylock.</b> With Keylock off, a song played far from its own tempo can sound chipmunky or dull. In <b>Preferences &gt; Transitions</b> you can now let songs played more than 4-12 % off their own tempo keep their pitch, decided once per song so the pitch never jumps. Off by default.</li>
+<li><b>Honest keys with Keylock off.</b> A song sped up 6 % sounds about a semitone higher; the key on the clip, the key colours, the harmonic flow and Match key now count that.</li>
+<li><b>Beat window, smoother.</b> The loop no longer crackles at its end, and choosing a new pattern, pressing Random or clicking steps while it plays takes over at the end of the current loop, in time, without stopping. No more Stop and Play.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.3.8/GlideMix-Beta-v1.3.8.dmg" sparkle:edSignature="mRRKKu1o2BjafgUJ4eFA0DLWkT1san0a2AFp7xS4sRkll1XQqbDQdsvkUhRZ2XHcviuJ5RXX0Enwk1RMDqdgDw==" length="523551484" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.3.7</title>
       <pubDate>Mon, 16 Nov 2026 00:11:24 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.7</link>
