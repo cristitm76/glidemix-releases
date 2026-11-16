@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.9 Beta · 16 Nov 2026
+- **Band knobs:** LOW / MID / HIGH / COLOR knobs in the song track header (TrackBandKnobsModel). A knob shows its band at the playhead; turning moves the band's whole line on the track by the same amount, keeping its shape and curves (Au3ClipGainInteraction begin/apply/endBandShift; COLOR recombines the Filter effect's low-pass and high-pass lines). Middle = no change, double-click resets, one undo step per turn; the wheel scrolls instead of turning. Knob rings in the line's colour; knobs grow with the track height.
+- **Band lines together:** a toggle (volume automation icon) in front of LOW shows all four lines on the song as editable lanes; a band with no line shows flat at "no change". A press goes to the nearest line among the volume, edited and band lines (BezierAutomationLane.nearestWins), so the volume line no longer takes a drag meant for a band.
+- **Shading:** fills from "no change" to the line, also for a line opened alone from its name; Preferences > Waveforms > "Shade what the Low, Mid, High and Color lines take away" (on by default). HIGH colour #4A9BFF (was yellow), also on the transition pill's High lane.
+- **Header:** the knob row shrinks with the header (SAMPLES icon-only when narrow), so the effects panel no longer pushes buttons under the meters.
+
 ### v1.3.8 Beta · 16 Nov 2026
 - **Match keys:** per-mix toggle (TEMPO lane button left of Follow tracks + toolbar KEYS, saved as the `glidemix_keys` project attribute). After every edit, an incoming song with no transpose of its own whose key clashes with what the outgoing song sounds in at the transition's middle gets the shortest compatible transpose, if it is at most the Preferences maximum (1 or 2 semitones); it is part of that edit's undo step. Hand transposes are never touched; off puts only the matched songs back. While off, a new clash it would fix makes both buttons flash amber for 5 s.
 - **Rate mix:** library header button for a playlist or crate; each song is rated 1-5 into the next one (keys, tempo change with half/double time, energy, intro/outro length, vocal phrases at both ends), with reasons, in a "Mix into next" column, and an overall score.

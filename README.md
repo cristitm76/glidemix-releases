@@ -66,6 +66,12 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.9: EQ knobs on every song**
+- **LOW, MID, HIGH and COLOR knobs** in every song's header, ringed in their line's colour. In the middle nothing changes; turn one and that band's whole line on the song moves, keeping its shape. COLOR: low-pass to the left, high-pass to the right. Double-click a knob to put it back in the middle.
+- **All four lines at once:** the automation button in front of LOW shows the Low, Mid, High and Color lines on the song together, and you drag any of them straight away, like the volume line. The line nearest your click is the one you grab.
+- The shading shows what each line takes away (**Preferences > Waveforms** turns it off). **HIGH is blue** now, so it never looks like the volume line.
+- With the effects panel open, the song header keeps every button visible.
+
 **New in 1.3.8: keys that mix, and a mix you can rate**
 - **Match keys.** A button next to Follow tracks (and **KEYS** in the toolbar): a song whose key clashes with the song before it moves to a compatible key, at most 1 semitone (2 in **Preferences > Transitions**). It flashes amber when a song you place clashes. Songs you transposed yourself are left alone.
 - **Rate mix.** Open a playlist and click **Rate mix** in the library: every song gets stars for how well it flows into the next one (keys, tempo change, energy, intro and outro, vocals) and the reason why.
