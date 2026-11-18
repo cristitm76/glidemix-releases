@@ -8,6 +8,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.12 Beta · 18 Nov 2026
+- **Second window (Mac):** opening another window could crash GlideMix in 1.3.10 and 1.3.11, because the text-expander check reused a list that had already been freed. The list now lives only as long as the check, and the check runs once per app start.
+- **Getting started:** the text-expander note waits until the wizard is closed.
+- **Library scan:** "Library scan finished" (and a scan error) shows once, not once per library panel.
+
 ### v1.3.11 Beta · 18 Nov 2026
 - **Line clicks:** with a time selection, a press on a line started "shelf" mode and a click without a drag added nothing (only the hover preview dot showed); on the band lines a press also started a segment drag. Now a line gesture needs a 4 px move before it starts, and a plain click adds a point at the clicked spot (volume and band lines, with or without a selection). Sub-pixel mouse moves on Windows no longer count as a drag.
 - **Volume points:** the volume line draws every point (`allPoints`), so a point clicked onto a flat stretch no longer vanishes once deselected.
