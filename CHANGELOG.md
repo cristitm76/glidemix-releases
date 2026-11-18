@@ -8,6 +8,10 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.11 Beta · 18 Nov 2026
+- **Line clicks:** with a time selection, a press on a line started "shelf" mode and a click without a drag added nothing (only the hover preview dot showed); on the band lines a press also started a segment drag. Now a line gesture needs a 4 px move before it starts, and a plain click adds a point at the clicked spot (volume and band lines, with or without a selection). Sub-pixel mouse moves on Windows no longer count as a drag.
+- **Volume points:** the volume line draws every point (`allPoints`), so a point clicked onto a flat stretch no longer vanishes once deselected.
+
 ### v1.3.10 Beta · 18 Nov 2026
 - **Band boost:** LOW / MID / HIGH run −50 dB .. +10 dB (MixMeister's range, measured on Fusion). The engine multiplies each band's cut line by a new boost line (`lowBoost` / `midBoost` / `highBoost`, 0..1 = 0..+10 dB, linear in dB); stored values stay 0..1, so older builds and transitions are unaffected. Knob and lines show both as one line (0.8 = 0 dB); knob tooltip in dB; point labels and Set value in dB. New engine check: a band's boost line raises its band only.
 - **Line keys:** V / B / M / T / C over a song put a point under the mouse (pointer read at key time) and bring that line to the front (others dim and take no clicks). From a line opened alone, V closes it, B/M/T/C open their own line alone. The band lines button resets the front line.

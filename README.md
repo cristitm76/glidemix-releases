@@ -66,6 +66,10 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.11: a click on a line adds a point again**
+- A click on the volume line or on the Low, Mid, High and Color lines adds a point, also when the song is selected (in 1.3.10 it often left only a tiny dot). Press and drag still moves the line; a small wobble of the mouse no longer counts as a drag.
+- Every volume point stays visible, also one on a flat stretch.
+
 **New in 1.3.10: EQ lines the MixMeister way**
 - **LOW, MID and HIGH boost too:** the knobs run from **−50 dB to +10 dB**, straight up = no change, and pointing at a knob shows its value. Old mixes sound exactly as before.
 - **Points with a key:** point at a song and press **B** (Low), **M** (Mid), **T** (High), **C** (Color) or **V** (Volume). The point lands under the mouse and that line comes to the front. With the mouse only: right-click the line > **Add point here**.
