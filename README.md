@@ -66,6 +66,13 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.10: EQ lines the MixMeister way**
+- **LOW, MID and HIGH boost too:** the knobs run from **−50 dB to +10 dB**, straight up = no change, and pointing at a knob shows its value. Old mixes sound exactly as before.
+- **Points with a key:** point at a song and press **B** (Low), **M** (Mid), **T** (High), **C** (Color) or **V** (Volume). The point lands under the mouse and that line comes to the front. With the mouse only: right-click the line > **Add point here**.
+- **Every point has its menu:** Set value in dB, straight or S-curve line, Delete. Drag the line between two points to move that stretch; Delete removes the point you just clicked. Click a name under a knob for that line alone.
+- **Text expanders** (Typinator and friends) can no longer delete a song with their Backspace on a Mac; GlideMix tells you once when one is running.
+- **Fixed:** Delete on a song header could quit GlideMix. New songs open a little taller, so the knob names fit.
+
 **New in 1.3.9: EQ knobs on every song**
 - **LOW, MID, HIGH and COLOR knobs** in every song's header, ringed in their line's colour. In the middle nothing changes; turn one and that band's whole line on the song moves, keeping its shape. COLOR: low-pass to the left, high-pass to the right. Double-click a knob to put it back in the middle.
 - **All four lines at once:** the automation button in front of LOW shows the Low, Mid, High and Color lines on the song together, and you drag any of them straight away, like the volume line. The line nearest your click is the one you grab.

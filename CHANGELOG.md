@@ -8,6 +8,13 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.10 Beta · 18 Nov 2026
+- **Band boost:** LOW / MID / HIGH run −50 dB .. +10 dB (MixMeister's range, measured on Fusion). The engine multiplies each band's cut line by a new boost line (`lowBoost` / `midBoost` / `highBoost`, 0..1 = 0..+10 dB, linear in dB); stored values stay 0..1, so older builds and transitions are unaffected. Knob and lines show both as one line (0.8 = 0 dB); knob tooltip in dB; point labels and Set value in dB. New engine check: a band's boost line raises its band only.
+- **Line keys:** V / B / M / T / C over a song put a point under the mouse (pointer read at key time) and bring that line to the front (others dim and take no clicks). From a line opened alone, V closes it, B/M/T/C open their own line alone. The band lines button resets the front line.
+- **Band points:** right-click menu (Set value, straight / S-curve, Delete) on every band point; right-click exactly on a band line = "Add point here" (song menu everywhere else); drag between two points moves that stretch (no point added); every band point is drawn; Delete/Backspace right after clicking or adding a point removes that point.
+- **Text-expander guard (macOS):** a Backspace/Delete posted by another app within 0.35 s of a typed key is dropped, plus that app's keys for 1 s; a one-time note per running expander (Typinator, TextExpander, aText, espanso, Keyboard Maestro, TypeIt4Me). Windows: not yet.
+- **Fixes:** Delete on a song header aborted the app (the header was destroyed inside its own key handler) and one key press could delete two songs. Default song height 116 → 128 px so the knob names fit.
+
 ### v1.3.9 Beta · 16 Nov 2026
 - **Band knobs:** LOW / MID / HIGH / COLOR knobs in the song track header (TrackBandKnobsModel). A knob shows its band at the playhead; turning moves the band's whole line on the track by the same amount, keeping its shape and curves (Au3ClipGainInteraction begin/apply/endBandShift; COLOR recombines the Filter effect's low-pass and high-pass lines). Middle = no change, double-click resets, one undo step per turn; the wheel scrolls instead of turning. Knob rings in the line's colour; knobs grow with the track height.
 - **Band lines together:** a toggle (volume automation icon) in front of LOW shows all four lines on the song as editable lanes; a band with no line shows flat at "no change". A press goes to the nearest line among the volume, edited and band lines (BezierAutomationLane.nearestWins), so the volume line no longer takes a drag meant for a band.
