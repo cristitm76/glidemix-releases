@@ -68,7 +68,8 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 
 **New in 1.3.14: big mixes load without freezing, lines like MixMeister**
 - Loading 100-200 songs at once comes in at a steady pace instead of freezing the app longer with every song.
-- Volume and EQ lines: no dot under the mouse; an up-down arrow with the value; drag moves the stretch between two points, a click moves the playhead, a double-click adds a point.
+- Volume, EQ and plug-in lines: no dot under the mouse; an up-down arrow with the value; drag moves the stretch between two points, a click moves the playhead, a double-click adds a point that stays.
+- Join no longer crashes; plug-ins work straight after Validate; removing an effect removes its lines; VST3 wet/dry lines ramp instead of stepping.
 - Deleting a piece of a song no longer shifts the rest of the mix; undo keeps your zoom and scroll.
 
 **New in 1.3.13: GlideMix Studio, fast editing and a new workspace look**
