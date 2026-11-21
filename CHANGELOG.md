@@ -8,6 +8,17 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.13 Beta · 21 Nov 2026
+- **Name:** GlideMix Studio (app title, window, About, texts); bundle id, data folders and file names unchanged.
+- **Per-edit stalls:** `MixHouseLibrary::tracks()` file-name lookups now go through the `track_locations` filename index (`IN` subquery) plus a new `library(location)` index; before, every lookup scanned the whole library (~37 ms on 108k songs, 150-300 per edit from the key-match, now-playing and transition passes). Reported and measured by a user: 10-15 s -> 0.3-0.6 s per edit.
+- **Backup:** the project autosave is written 1.5 s after the last edit (at most every 10 s) instead of after every history step; a stall watchdog logs UI-thread pauses over 300 ms.
+- **Covers:** read on a worker thread, "no cover" remembered; Samples no longer reload when a rescan found nothing.
+- **Grid:** one rule for lanes, clips and ruler (`gridplan.h`): bar lines doubled until 28 px apart, beat / half bar and 8th-64th levels only from 16 px, phrase shading 16 / 4 / 1 bar / 1 beat from 80 px, all on device pixels; clip widths rounded to device pixels (no more 3-px smear inside clips). Ruler numbers every 1/2/4/8 bars, beats as 1.2 / 1.3 close up.
+- **Look:** Charcoal canvas #131417 for rows and empty space (no row tint, selection +7), whole-row hover, ghost slot under the last track (click = new track), Creative set (colours 121-163) in clip/track picker and accent colours, new tracks walk that set round the hue wheel (Color by key off for new tracks), Inter bundled as the default font, hover brightens controls, white-dot faders with the track-colour line, knobs scale with track height.
+- **Waveform size:** toolbar button + vertical slider, 0.2-1.5 (setting `projectscene/waveformScale`), applied to the plain, HD and colour waveforms.
+- **Editing:** plug-in search in Add effect (`FilteredFlyoutModel`), Preferences search over every page's labels; a single click on an automation line no longer adds a point (double-click, menu, keys); tempo line in Undo/Redo (UndoStateExtension); volume/pan one undo step per move and typed dB values; Snap off = no bar lock and no magnet.
+- **Fixes:** deleting or restoring a soloed track refreshes the other tracks' audible state; exported tracklists start a song where its gain line leaves 0 and skip disabled clips; ratings set in the Related view repaint in every open list; accessibility crash on a destroyed item (muse).
+
 ### v1.3.12 Beta · 18 Nov 2026
 - **Second window (Mac):** opening another window could crash GlideMix in 1.3.10 and 1.3.11, because the text-expander check reused a list that had already been freed. The list now lives only as long as the check, and the check runs once per app start.
 - **Getting started:** the text-expander note waits until the wizard is closed.

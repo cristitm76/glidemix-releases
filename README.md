@@ -66,6 +66,15 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.13: GlideMix Studio, fast editing and a new workspace look**
+- GlideMix is now **GlideMix Studio**. Library, settings and licence stay as they are.
+- **Editing is fast again** in big libraries: a library lookup now uses an index (edits froze for seconds with 100k songs). Backups are written when you pause; covers load in the background.
+- **Studio grid:** bars, beats and finer lines in three strengths, phrase shading in 16 / 4 / 1 bar blocks (inside the songs too), a ruler in bars, one calm Charcoal canvas, rows that light up under the mouse.
+- **Waveform size** button next to Reset view (20-150 %, picture only).
+- **Creative set:** 43 new colours; new tracks get them round the colour wheel. Inter font, new faders, knobs that grow with the track.
+- **Search** in Add effect and in Preferences. **No stray points**: add with a double-click, right-click or V / B / M / T / C. **Undo** for tempo points, volume and pan. **Snap off** means free.
+- Fixes: solo after deleting a track, tracklist times after a muted intro, stars in Related.
+
 **New in 1.3.12: a second window no longer crashes GlideMix on the Mac**
 - Opening a second window on a Mac could close GlideMix without warning in 1.3.10 and 1.3.11. Fixed.
 - The note about text expanders now waits until Getting started is closed, and **Library scan finished** shows once after you add a folder.
