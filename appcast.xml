@@ -6,6 +6,32 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.3.14</title>
+      <pubDate>Sat, 21 Nov 2026 22:53:45 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.14</link>
+      <sparkle:version>1.3.14</sparkle:version>
+      <sparkle:shortVersionString>1.3.14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix Studio v1.3.14</p>
+<h3>Big mixes load without freezing. Loading 100 or 200 songs at once used to freeze the app for longer and longer with every song. Now they come in at a steady pace (200 songs in about 3½ minutes on our test Mac) and the app stays usable. Even faster loading is next.</h3>
+<h3>Volume, EQ and plug-in lines like MixMeister</h3>
+<ul>
+<li>No dot under the mouse any more. Over the volume line, the Low, Mid, High and Color lines or a plug-in&#x27;s line the cursor turns into an up-down arrow with the value beside it (&quot;Volume: -3.0 dB&quot;).</li>
+<li>Press and drag moves the whole stretch between two points up or down.</li>
+<li>A click on a line moves the playhead there; a double-click adds one point, and it stays (on plug-in lines it could vanish again, and later clicks added stray points).</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Join no longer crashes the app. It could, now and then, when the songs being joined had plug-in lines (often with short repeats of a song).</li>
+<li>Plug-ins can be added straight after Validate (they stayed grey until the app was restarted).</li>
+<li>Removing or replacing an effect also removes its lines from the songs; they were left behind with no way to delete them. Undo brings the effect and its lines back.</li>
+<li>A VST3 wet/dry line (and any 0-100 % control) ramps and takes S-curves instead of hard steps.</li>
+<li>Deleting a piece of a song no longer moves the other songs. Only deleting a whole song closes its gap.</li>
+<li>Undo (Cmd+Z / Ctrl+Z) keeps your zoom and scroll. A click in the History panel still shows that step where it happened.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.3.14/GlideMix-Beta-v1.3.14.dmg" sparkle:edSignature="wZepofxU7UyuXgEg2C/VqAxCr7LJDet1EkMIBvM9Y4bHkLbHyzCU7p2hX3A83Fnwatp8HkiceU8GK0tKwrJNBg==" length="522572328" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.3.13</title>
       <pubDate>Sat, 21 Nov 2026 13:27:16 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.13</link>
