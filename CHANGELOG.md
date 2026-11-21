@@ -8,6 +8,12 @@ Installers and detailed notes for every public version are on the [Releases](../
 
 ## Public versions
 
+### v1.3.14 Beta · 21 Nov 2026
+- **Big projects:** loading many songs slowed down with every song (minutes of UI freezes at 100-200 songs). Profiled and fixed: muse `Asyncable` looked connections up by walking all of them (the accessibility controller holds one per control of every track) -- now the set's own lookup; closed windows no longer walk all navigation sections on every focus change; transition pills insert rows for songs added at the end instead of rebuilding all; the Project tab works the transition list out once per refresh. 200 songs: ~3.5 min, longest freeze 15 s (was: 66 songs after 3 min, freezes up to 48 s).
+- **Lines:** hover on the volume / band lines shows an up-down cursor and the value, no dot; drag moves the stretch between two points (the volume line too); a plain click seeks; double-click adds a point.
+- **Delete:** a song's gap closes only when its whole lane is gone, and only that seam closes (everything after moves by one amount); a deleted piece never reflows the mix (it re-anchored every song, up to an hour of shifts). A song that lost its IN piece is matched by lane + IN.
+- **Undo view:** undo/redo keep the current zoom and scroll; a click in the History panel restores that step's view.
+
 ### v1.3.13 Beta · 21 Nov 2026
 - **Name:** GlideMix Studio (app title, window, About, texts); bundle id, data folders and file names unchanged.
 - **Per-edit stalls:** `MixHouseLibrary::tracks()` file-name lookups now go through the `track_locations` filename index (`IN` subquery) plus a new `library(location)` index; before, every lookup scanned the whole library (~37 ms on 108k songs, 150-300 per edit from the key-match, now-playing and transition passes). Reported and measured by a user: 10-15 s -> 0.3-0.6 s per edit.

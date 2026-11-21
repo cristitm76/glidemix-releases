@@ -66,6 +66,11 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.3.14: big mixes load without freezing, lines like MixMeister**
+- Loading 100-200 songs at once comes in at a steady pace instead of freezing the app longer with every song.
+- Volume and EQ lines: no dot under the mouse; an up-down arrow with the value; drag moves the stretch between two points, a click moves the playhead, a double-click adds a point.
+- Deleting a piece of a song no longer shifts the rest of the mix; undo keeps your zoom and scroll.
+
 **New in 1.3.13: GlideMix Studio, fast editing and a new workspace look**
 - GlideMix is now **GlideMix Studio**. Library, settings and licence stay as they are.
 - **Editing is fast again** in big libraries: a library lookup now uses an index (edits froze for seconds with 100k songs). Backups are written when you pause; covers load in the background.
