@@ -13,6 +13,11 @@ Installers and detailed notes for every public version are on the [Releases](../
 - **Lines:** hover on the volume / band lines shows an up-down cursor and the value, no dot; drag moves the stretch between two points (the volume line too); a plain click seeks; double-click adds a point.
 - **Delete:** a song's gap closes only when its whole lane is gone, and only that seam closes (everything after moves by one amount); a deleted piece never reflows the mix (it re-anchored every song, up to an hour of shifts). A song that lost its IN piece is matched by lane + IN.
 - **Undo view:** undo/redo keep the current zoom and scroll; a click in the History panel restores that step's view.
+- **Join crash:** `ClipParameterAutomation::Paste` spliced a clip's Bezier line at a point a hair past its end (clip-length rounding, typical with short repeats) and `Curve::Splice` threw `invalid_argument` ("Invalid automation splice"), uncaught -> `std::terminate` (seen in a user's Windows dump, ~1 in 4 joins). Splices / stretches now hold the line flat up to the paste point and fall back to the envelope if the curve maths refuses; `WaveTrack::Join` removes the old clips only after every paste succeeded, and the Join command catches and leaves the track unchanged.
+- **Plug-in lines:** every plug-in line takes the press like the volume line (a press used to fall through to the clip, so a double-click's clicks selected the song, the point could vanish and later clicks hit the selection's shelf -> point spam and huge undo stacks).
+- **Plug-ins after Validate:** the effect actions recompute their enabled state when the plug-in list changes (they stayed disabled until the next UI-context change).
+- **Removed effects:** removing or replacing an effect drops its curves from the track's clips and closes its open line (they stayed drawn with no way to reach them); undo restores both.
+- **VST3 stepped:** a parameter counts as stepped only with 1-24 steps (as for AU and the extractor path); 0-100 % controls with 100 steps (wet/dry) ramp and take S-curves.
 
 ### v1.3.13 Beta · 21 Nov 2026
 - **Name:** GlideMix Studio (app title, window, About, texts); bundle id, data folders and file names unchanged.
