@@ -66,6 +66,13 @@ disco, old records) are bent onto the grid beat by beat, so they stay locked all
 - 288 songs in **4 min 42 s** on our test Mac (rekordbox 7 on the same songs: about 20 minutes). The same tempo as rekordbox on 98% of 200 test songs.
 - A **status line** at the bottom shows what GlideMix is doing ("Analysing 7 of 20 · about 1 minute left", with a progress bar and Stop), explains any button you hover over, and tells you when a new version is out.
 
+**New in 1.4.0: the Legendary workspace, and a whole crate on the timeline in seconds**
+- **Legendary workspace** for everyone who misses MixMeister: half waveforms with beat stripes, songs dealt over 2-8 lanes (Lanes button), Snap from 8 measures to a sixteenth on the beats of the song under the mouse, and Fade and cue next while performing.
+- **Load to > Project** puts every song on the timeline at once; the sound fills in within moments. Each song is decoded once into the **song cache** (Preferences > Music library > Song cache, 10/30/100 GB), so loading it again is instant and project files stay small.
+- **Load to > 2-10 lanes**, every song joining the mix IN on the previous OUT, a Building your mix card with Cancel, and no long freezes on slower PCs.
+- **Project tab** works like a playlist (multi-select, drag, Delete closes the gap); rate with the number keys 1-5; transitions keep the lines you drew.
+- No click on stop or pause; messages open on GlideMix's screen; the microphone opens only for recording, input monitoring or the record meter.
+
 **New in 1.3.14: big mixes load without freezing, lines like MixMeister**
 - Loading 100-200 songs at once comes in at a steady pace instead of freezing the app longer with every song.
 - Volume, EQ and plug-in lines: no dot under the mouse; an up-down arrow with the value; drag moves the stretch between two points, a click moves the playhead, a double-click adds a point that stays.
