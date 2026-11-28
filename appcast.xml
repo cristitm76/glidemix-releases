@@ -6,6 +6,72 @@
     <description>GlideMix updates</description>
     <language>en</language>
     <item>
+      <title>GlideMix 1.4.0</title>
+      <pubDate>Sat, 28 Nov 2026 19:44:29 +0000</pubDate>
+      <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.4.0</link>
+      <sparkle:version>1.4.0</sparkle:version>
+      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p># GlideMix Studio v1.4.0</p>
+<h3>You asked, we listened! The Legendary workspace is now fully built into GlideMix. If you&#x27;ve missed</h3>
+<p>MixMeister, this is one of our biggest updates yet: it brings back the way you worked there, with half</p>
+<p>waveforms and beat stripes, songs dealt over 2 to 8 lanes and clicks that snap to the beat, and it puts a whole</p>
+<p>crate on the timeline in seconds.</p>
+<p>### The Legendary workspace</p>
+<ul>
+<li><b>Pick it on first start</b> (Studio or Legendary), or any time in the <b>Workspace</b> menu.</li>
+<li><b>Half waveform with beat stripes:</b> every song drawn as one loudness outline, every beat a stripe, every bar</li>
+</ul>
+<p>darker. Your other workspaces keep their own look.</p>
+<ul>
+<li><b>Lanes:</b> the new <b>Lanes</b> button deals your mix over 2, 4, 6 or 8 lanes, or Unlimited for a lane per song.</li>
+</ul>
+<p>Songs at another sample rate are converted in the background, so you always get the lanes you picked.</p>
+<ul>
+<li><b>Snap like you remember it:</b> 8 measures down to a sixteenth, and clicks land on the beats of the song under</li>
+</ul>
+<p>the mouse.</p>
+<ul>
+<li><b>Fade and cue next:</b> while you perform, fade the room out in 3 seconds and land on the next song, ready to go.</li>
+</ul>
+<p>### A whole crate on the timeline in seconds</p>
+<ul>
+<li><b>Load to &gt; Project</b> puts every song on the timeline at once; their sound fills in within moments. Songs you</li>
+</ul>
+<p>load again come straight from the new <b>song cache</b> (Preferences &gt; Music library &gt; Song cache: 10, 30 or</p>
+<p>100 GB, and Clear cache).</p>
+<ul>
+<li><b>Load to &gt; 2-10 lanes</b> deals a selection over lanes, MixMeister style.</li>
+<li><b>Every song joins the mix</b>, IN on the previous OUT, even songs with a long intro.</li>
+<li>The <b>Building your mix</b> card shows the song going in, the time left and a Cancel button.</li>
+<li><b>Smoother on slower computers:</b> no more long freezes while a big crate loads for the first time.</li>
+</ul>
+<p>### Mixing</p>
+<ul>
+<li><b>The Project tab works like a playlist:</b> select several songs, drag them to a new place together, press</li>
+</ul>
+<p>Delete and the gap closes. Works on lanes mixes too.</p>
+<ul>
+<li><b>Rate with the number keys:</b> select songs in the library and press 1-5; 0 clears the rating.</li>
+<li><b>Transitions keep your work:</b> moving an IN or OUT no longer wipes volume or EQ lines the transition didn&#x27;t</li>
+</ul>
+<p>make, and a line you drew by hand stays where you drew it.</p>
+<p>### Fixes</p>
+<ul>
+<li>No click when you stop or pause playback or Perform.</li>
+<li>Opening a project from Home with a double-click no longer leaves a stray volume edit.</li>
+<li>Zooming in an empty mix works; transition windows and wide zooms are faster on big mixes.</li>
+<li>The microphone opens only when you record, listen to your input or show the record meter. Clicking song</li>
+</ul>
+<p>tracks no longer switches it on and off, which could freeze GlideMix on some Macs.</p>
+<ul>
+<li>Messages open on the screen GlideMix is on, and File &gt; New and Open stay in the same window.</li>
+</ul>
+<h3>A big thank-you to Marc Mont for his help and support, including the number-key ratings and the transition</h3>
+<p>fixes in this update.</p>]]></description>
+      <enclosure url="https://github.com/cristitm76/glidemix-releases/releases/download/v1.4.0/GlideMix-Beta-v1.4.0.dmg" sparkle:edSignature="g+/scvTxfzyJIV190WmKv9M6rTXE8kpCJZf+9mwSSo45TraqCjhwAV4/9U19uAwNk7/alczf4gpIBaCMAcLjBw==" length="520479588" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>GlideMix 1.3.14</title>
       <pubDate>Sat, 21 Nov 2026 22:53:45 +0000</pubDate>
       <link>https://github.com/cristitm76/glidemix-releases/releases/tag/v1.3.14</link>
